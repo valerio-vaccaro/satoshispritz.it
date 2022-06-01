@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+# Satoshi Spritz
+I Satoshi Spritz sono una serie di gruppi a cui piace parlare di Bitcoin (e solo di Bitcoin) bevendo uno spritz a scadenze regolari (es. ogni settimana) in una città precisa al fine di costituire una comunità di Bitcoiner distribuita in Italia.
 
-You can use the [editor on GitHub](https://github.com/valerio-vaccaro/satoshispritz.it/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Cos'è un Satoshi Spritz?
+Un evento __pubblico__, aperto a tutti, in cui sia possibile partecipare __anonimamente__.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I Satoshi Spritz sono eventi Bitcoin-only ovvero in cui è possibile parlare __solo di Bitcoin__!
 
-### Markdown
+Il formato è libero ma si incoraggia la realizzazione di presentazioni per le tematiche più complesse.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Cosa non è un Satoshi Spritz?
+Un evento in cui parlare/sponsorizzare/promuovere scamcoin.
 
-```markdown
-Syntax highlighted code block
+Un evento in cui promuovere investimenti o piattaforme di investimento.
 
-# Header 1
-## Header 2
-### Header 3
+## Elenco dei Satoshi Spritz
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/valerio-vaccaro/satoshispritz.it/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+|Città/Regione        |Canale telegram                 |Profilo Twitter                                    |Sito web                 |
+|---------------------|--------------------------------|---------------------------------------------------|-------------------------|
+|Milano               |https://t.me/SatoshiSpritzMilano|[@satoshispritz](https://twitter.com/satoshispritz)|https://satoshispritz.com|
+|Torino               |https://t.me/SatoshiSpritzTorino|                                                   |                         |
+|Roma                 |https://t.me/SatoshiSpritzRoma  |                                                   |                         |
+|Veneto               |https://t.me/SatoshiSpritzVeneto|                                                   |                         |
+|Friuli Venezia Giulia|https://t.me/SatoshiSpritzFriuli|                                                   |                         |
