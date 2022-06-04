@@ -17,8 +17,8 @@ Un evento in cui promuovere investimenti o piattaforme di investimento.
 
 |Città/Regione        |Canale telegram                 |Profilo Twitter                                    |Sito web                 |
 |---------------------|--------------------------------|---------------------------------------------------|-------------------------|
-|Milano               |https://t.me/SatoshiSpritzMilano|[@satoshispritz](https://twitter.com/satoshispritz)|https://satoshispritz.com|
-|Torino               |https://t.me/SatoshiSpritzTorino|                                                   |                         |
-|Roma                 |https://t.me/SatoshiSpritzRoma  |                                                   |                         |
-|Veneto               |https://t.me/SatoshiSpritzVeneto|                                                   |                         |
-|Friuli Venezia Giulia|https://t.me/SatoshiSpritzFriuli|                                                   |                         |
+|Milano               |[SatoshiSpritzMilano](https://t.me/SatoshiSpritzMilano)|[@satoshispritz](https://twitter.com/satoshispritz)|[satoshispritz.com](https://satoshispritz.com)|
+|Torino               |[SatoshiSpritzTorino](https://t.me/SatoshiSpritzTorino)|||
+|Roma                 |[SatoshiSpritzRoma](https://t.me/SatoshiSpritzRoma)    |||
+|Veneto               |[SatoshiSpritzVeneto](https://t.me/SatoshiSpritzVeneto)|||
+|Friuli Venezia Giulia|[SatoshiSpritzFriuli](https://t.me/SatoshiSpritzFriuli)|||
