@@ -17,8 +17,37 @@ Un evento in cui promuovere investimenti o piattaforme di investimento.
 
 |Città/Regione        |Canale telegram                 |Profilo Twitter                                    |Sito web                 |
 |---------------------|--------------------------------|---------------------------------------------------|-------------------------|
+|Coordinamento - canale dove chiedere informazioni/annunciare nuovi gruppi|[SatoshiSpritzCoordinamento](https://t.me/SatoshiSpritz)||[satoshispritz.it](https://satoshispritz.it)|
+|Lombardia            ||||
 |Milano               |[SatoshiSpritzMilano](https://t.me/SatoshiSpritzMilano)|[@satoshispritz](https://twitter.com/satoshispritz)|[satoshispritz.com](https://satoshispritz.com)|
+|Varese               |[SatoshiSpritzVarese](https://t.me/satoshispritzvarese)|||
+|Bergamo              |[SatoshiSpritzBergamo](https://t.me/satoshispritzbergamo)|||
+|Brescia              ||||
+|Mantova              |[SatoshiSpritzMantova](https://t.me/satoshispritzmantova)|||
+|Piemonte||||
 |Torino               |[SatoshiSpritzTorino](https://t.me/SatoshiSpritzTorino)|||
-|Roma                 |[SatoshiSpritzRoma](https://t.me/SatoshiSpritzRoma)    |||
+|Lazio||||
+|Roma                 |[SatoshiSpritzRoma](https://t.me/SatoshiSpritzRoma)|||
 |Veneto               |[SatoshiSpritzVeneto](https://t.me/SatoshiSpritzVeneto)|||
+|Verona               |[SatoshiSpritzVerona](https://t.me/SatoshiSpritzVerona)|||
+|Vicenza              |[SatoshiSpritzVicenza](https://t.me/SatoshiSpritzVicenza)|||
+|Treviso              |[SatoshiSpritzTreviso](https://t.me/SatoshiSpritzTreviso)|||
+|Padova               |[SatoshiSpritzPadova](https://t.me/SatoshiSpritzPadova)|||
+|Venezia              |[SatoshiSpritzVenezia](https://t.me/SatoshiSpritzVenezia)|||
+|Rovigo               |[SatoshiSpritzRovigo](https://t.me/SatoshiSpritzRovigo)|||
+|Belluno              |[SatoshiSpritzBelluno](https://t.me/SatoshiSpritzBelluno)|||
 |Friuli Venezia Giulia|[SatoshiSpritzFriuli](https://t.me/SatoshiSpritzFriuli)|||
+|Emilia Romagna||||
+|Bologna              |[SatoshiSpritzBologna](https://t.me/SatoshiSpritzBologna)|||
+|Modena               |[SatoshiSpritzModena](https://t.me/SatoshiSpritzModena)|||
+|Ferrara              |[SatoshiSpritzFerrara](https://t.me/SatoshiSpritzFerrara)|||
+|Marche (abbandonato?)|[SatoshiSpritzMarche](https://t.me/SatoshiSpritzMarche)|||
+|Puglia               |[SatoshiSpritzVeneto](https://t.me/SatoshiSpritzVeneto)|||
+|Toscana              ||||
+|Prato                |[SatoshiSpritzPrato](https://t.me/SatoshiSpritzPrato)|||
+|Sardegna             ||||
+|Cagliari             |[SatoshiSpritzCagliari](https://t.me/SatoshiSpritzCagliari)|||
+|Sicilia              ||||
+|Palermo              |[SatoshiSpritzPalermo](https://t.me/SatoshiSpritzPalermo)|||
+|Trentino             ||||
+|Rovereto             |[SatoshiSpritzRovereto](https://t.me/SatoshiSpritzRovereto)|||
