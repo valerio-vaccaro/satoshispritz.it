@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<base target="_top">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Satoshi spritz map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+</head>
+<body>
+<div id="map" style="width: 400px; height: 600px;"></div>
+<script>
+	const map = L.map('map').setView([45.28, 9.11], 5);
+	L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		maxZoom: 19,
+		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+	}).addTo(map);
+
+	L.marker([45.28, 9.11]).addTo(map).bindPopup('<b>Satoshi Spritz Milano</b><br/><a target="_blank" href="https://t.me/SatoshiSpritzMilano">t.me/SatoshiSpritzMilano</a>');
+	L.marker([45.50, 8.49]).addTo(map).bindPopup('<b>Satoshi Spritz Varese</b><br/><a target="_blank" href="https://t.me/SatoshiSpritzVarese">t.me/SatoshiSpritzVarese</a>');
+	L.marker([45.42, 9.40]).addTo(map).bindPopup('<b>Satoshi Spritz Bergamo</b><br/><a target="_blank" href="https://t.me/SatoshiSpritzBergamo">t.me/SatoshiSpritzBergamo</a>');
+	L.marker([45.32, 10.12]).addTo(map).bindPopup('<b>Satoshi Spritz Brescia</b><br/><a target="_blank" href="https://t.me/SatoshiSpritzBrescia">t.me/SatoshiSpritzBrescia</a>');
+	L.marker([45.09, 10.47]).addTo(map).bindPopup('<b>Satoshi Spritz Mantova</b><br/><a target="_blank" href="https://t.me/SatoshiSpritzMantova">t.me/SatoshiSpritzMantova</a>');
+	L.marker([45.04, 7.42]).addTo(map).bindPopup('<b>Satoshi Spritz Torino</b><br/><a target="_blank" href="https://t.me/SatoshiSpritzTorino">t.me/SatoshiSpritzTorino</a>');
+	L.marker([41.54, 12.29]).addTo(map).bindPopup('<b>Satoshi Spritz Roma</b><br/><a target="_blank" href="https://t.me/SatoshiSpritzRoma">t.me/SatoshiSpritzRoma</a>');
+	L.marker([45.27, 11.00]).addTo(map).bindPopup('<b>Satoshi Spritz Verona</b><br/><a target="_blank" href="https://t.me/SatoshiSpritzVerona">t.me/SatoshiSpritzVerona</a>');
+	L.marker([45.33, 11.33]).addTo(map).bindPopup('<b>Satoshi Spritz Vicenza</b><br/><a target="_blank" href="https://t.me/SatoshiSpritzVicenza">t.me/SatoshiSpritzVicenza</a>');
+	L.marker([45.40, 12.15]).addTo(map).bindPopup('<b>Satoshi Spritz Treviso</b><br/><a target="_blank" href="https://t.me/SatoshiSpritzTreviso">t.me/SatoshiSpritzTreviso</a>');
+	L.marker([45.24, 11.53]).addTo(map).bindPopup('<b>Satoshi Spritz Padova</b><br/><a target="_blank" href="https://t.me/SatoshiSpritzPadova">t.me/SatoshiSpritzPadova</a>');
+	L.marker([45.26, 12.21]).addTo(map).bindPopup('<b>Satoshi Spritz Venezia</b><br/><a target="_blank" href="https://t.me/SatoshiSpritzVenezia">t.me/SatoshiSpritzVenezia</a>');
+	L.marker([45.04, 11.48]).addTo(map).bindPopup('<b>Satoshi Spritz Rovigo</b><br/><a target="_blank" href="https://t.me/SatoshiSpritzRovigo">t.me/SatoshiSpritzRovigo</a>');
+	L.marker([46.08, 12.13]).addTo(map).bindPopup('<b>Satoshi Spritz Belluno</b><br/><a target="_blank" href="https://t.me/SatoshiSpritzBelluno">t.me/SatoshiSpritzBelluno</a>');
+	L.marker([45.39, 13.46]).addTo(map).bindPopup('<b>Satoshi Spritz Friuli</b><br/><a target="_blank" href="https://t.me/SatoshiSpritzFriuli">t.me/SatoshiSpritzFriuli</a>');
+	L.marker([44.30, 11.21]).addTo(map).bindPopup('<b>Satoshi Spritz Bologna</b><br/><a target="_blank" href="https://t.me/SatoshiSpritzBologna">t.me/SatoshiSpritzBologna</a>');
+	L.marker([44.39, 10.55]).addTo(map).bindPopup('<b>Satoshi Spritz Modena</b><br/><a target="_blank" href="https://t.me/SatoshiSpritzModena">t.me/SatoshiSpritzModena</a>');
+	L.marker([44.50, 11.38]).addTo(map).bindPopup('<b>Satoshi Spritz Ferrara</b><br/><a target="_blank" href="https://t.me/SatoshiSpritzFerrara">t.me/SatoshiSpritzFerrara</a>');
+	L.marker([43.37, 13.31]).addTo(map).bindPopup('<b>Satoshi Spritz Marche</b><br/><a target="_blank" href="https://t.me/SatoshiSpritzMarche">t.me/SatoshiSpritzMarche</a>');
+	L.marker([41.07, 16.53]).addTo(map).bindPopup('<b>Satoshi Spritz Puglia</b><br/><a target="_blank" href="https://t.me/SatoshiSpritzPuglia">t.me/SatoshiSpritzPuglia</a>');
+	L.marker([43.53, 11.06]).addTo(map).bindPopup('<b>Satoshi Spritz Prato</b><br/><a target="_blank" href="https://t.me/SatoshiSpritzPrato">t.me/SatoshiSpritzPrato</a>');
+	L.marker([39.13, 09.07]).addTo(map).bindPopup('<b>Satoshi Spritz Cagliari</b><br/><a target="_blank" href="https://t.me/SatoshiSpritz">t.me/SatoshiSpritz</a>');
+	L.marker([38.07, 13.21]).addTo(map).bindPopup('<b>Satoshi Spritz Palermo</b><br/><a target="_blank" href="https://t.me/SatoshiSpritzCagliari">t.me/SatoshiSpritzCagliari</a>');
+	L.marker([45.53, 11.01]).addTo(map).bindPopup('<b>Satoshi Spritz Rovereto</b><br/><a target="_blank" href="https://t.me/SatoshiSpritzRovereto">t.me/SatoshiSpritzRovereto</a>');
+</script>
+</body>
+</html>
