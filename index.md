@@ -15,7 +15,7 @@ Un evento in cui promuovere investimenti o piattaforme di investimento.
 
 ## Mappa dei Satoshi Spritz
 
-<iframe src="./map.html"  width="420" height="620">
+<iframe src="./map.html"  width="420" height="620"></iframe>
 
 ## Elenco dei Satoshi Spritz
 
