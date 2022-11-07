@@ -15,13 +15,7 @@ Un evento in cui promuovere investimenti o piattaforme di investimento.
 
 ## Mappa dei Satoshi Spritz
 
-{% leaflet_map {"zoom" : 4 } %}
-
-    {% leaflet_marker { "latitude" : 45.28,
-                       "longitude" : 09.11,
-                       "popupContent" : "Satoshi Spritz Milano"} %}
-
-{% endleaflet_map %}
+<iframe src="./map.html"  width="420" height="620">
 
 ## Elenco dei Satoshi Spritz
 
@@ -32,7 +26,7 @@ Un evento in cui promuovere investimenti o piattaforme di investimento.
 |Milano               |[SatoshiSpritzMilano](https://t.me/SatoshiSpritzMilano)|[@satoshispritz](https://twitter.com/satoshispritz)|[satoshispritz.com](https://satoshispritz.com)|
 |Varese               |[SatoshiSpritzVarese](https://t.me/satoshispritzvarese)|||
 |Bergamo              |[SatoshiSpritzBergamo](https://t.me/satoshispritzbergamo)|||
-|Brescia              ||||
+|Brescia              |[SatoshiSpritzBrescia](https://t.me/satoshispritzbrescia)|||
 |Mantova              |[SatoshiSpritzMantova](https://t.me/satoshispritzmantova)|||
 |Piemonte||||
 |Torino               |[SatoshiSpritzTorino](https://t.me/SatoshiSpritzTorino)|||
@@ -52,7 +46,7 @@ Un evento in cui promuovere investimenti o piattaforme di investimento.
 |Modena               |[SatoshiSpritzModena](https://t.me/SatoshiSpritzModena)|||
 |Ferrara              |[SatoshiSpritzFerrara](https://t.me/SatoshiSpritzFerrara)|||
 |Marche (abbandonato?)|[SatoshiSpritzMarche](https://t.me/SatoshiSpritzMarche)|||
-|Puglia               |[SatoshiSpritzVeneto](https://t.me/SatoshiSpritzVeneto)|||
+|Puglia               |[SatoshiSpritzPuglia](https://t.me/SatoshiSpritzPuglia)|||
 |Toscana              ||||
 |Prato                |[SatoshiSpritzPrato](https://t.me/SatoshiSpritzPrato)|||
 |Sardegna             ||||
