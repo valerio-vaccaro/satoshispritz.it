@@ -13,6 +13,16 @@ Un evento in cui parlare/sponsorizzare/promuovere scamcoin.
 
 Un evento in cui promuovere investimenti o piattaforme di investimento.
 
+## Mappa dei Satoshi Spritz
+
+{% leaflet_map {"zoom" : 4 } %}
+
+    {% leaflet_marker { "latitude" : 45.28,
+                       "longitude" : 09.11,
+                       "popupContent" : "Satoshi Spritz Milano"} %}
+
+{% endleaflet_map %}
+
 ## Elenco dei Satoshi Spritz
 
 |Città/Regione        |Canale telegram                 |Profilo Twitter                                    |Sito web                 |
