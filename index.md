@@ -54,3 +54,14 @@ I Satoshi Spritz sono una serie di gruppi a cui piace parlare di Bitcoin (e solo
 |Palermo              |[SatoshiSpritzPalermo](https://t.me/SatoshiSpritzPalermo)|||
 |Trentino             ||||
 |Rovereto             |[SatoshiSpritzRovereto](https://t.me/SatoshiSpritzRovereto)|||
+
+## Presentazioni
+
+|Data              |Autore             |Titolo|
+|10 Dicembre 2020  |Leonardo Comandini |[Reducing the size of multisig backups](https://satoshispritz.com/presentazioni/201210-reducing_the_size_of_multisig_backups.pdf)|
+|17 Dicembre 2020  |Daniela Brozzoni   |[Stratum V2 general overview](https://satoshispritz.com/presentazioni/201217-stratum_v2.pdf)|
+|18 Dicembre 2020  |Alekos Filini      |[Random BDK Stuff](https://satoshispritz.com/presentazioni/201218-random_bdk_stuff.pdf)|
+|31 Dicembre 2020  |Valerio Vaccaro    |[Bitcoin e reti mesh](https://satoshispritz.com/presentazioni/201231-bitcoin_e_reti_mesh.pdf)|
+|3 Gennaio 2021    |Valerio Vaccaro    |[Single use seal](https://satoshispritz.com/presentazioni/210103-single_use_seal.pdf)|
+|18 Marzo 2021     |Leonardo Comandini |[How DLC-bets work?](https://satoshispritz.com/presentazioni/210318-how_dlc-bets_work.pdf)|
+|25 Marzo 2021     |Valerio Vaccaro    |[SFYL Wallet](https://satoshispritz.com/presentazioni/210325-sfyl.pdf)|
