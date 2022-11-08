@@ -66,3 +66,16 @@ I Satoshi Spritz sono una serie di gruppi a cui piace parlare di Bitcoin (e solo
 |3 Gennaio 2021    |Valerio Vaccaro    |[Single use seal](https://satoshispritz.com/presentazioni/210103-single_use_seal.pdf)|
 |18 Marzo 2021     |Leonardo Comandini |[How DLC-bets work?](https://satoshispritz.com/presentazioni/210318-how_dlc-bets_work.pdf)|
 |25 Marzo 2021     |Valerio Vaccaro    |[SFYL Wallet](https://satoshispritz.com/presentazioni/210325-sfyl.pdf)|
+
+## Gadget e dispositivi hardware
+
+|Descrizione       |Link|
+|------------------|----|
+|HAN: ANother solominer - solominer basato su ESP32 |[https://github.com/valerio-vaccaro/HAN](https://github.com/valerio-vaccaro/HAN)|
+|SEEDENGRAVER3000 - kit per safu.ninja backup|[https://github.com/CYPHERGIAN/SEEDENGRAVER3000](https://github.com/CYPHERGIAN/SEEDENGRAVER3000)|
+|SFYL wallet - hardware wallet wifi |[https://sfyl.info/](https://sfyl.info/)|
+|TI-89 Diceware - generazioni indirizzi con dadi e calcolatrice |[https://github.com/RCasatta/diceware](https://github.com/RCasatta/diceware)|
+|Raspberry Pinserver - pinserver casaling per Jade |[https://github.com/valerio-vaccaro/raspberrypi_pinserver](https://github.com/valerio-vaccaro/raspberrypi_pinserver)|
+|Bitcoin price broadcaster - mostra il prezzo di Bitcoin tra le reti wifi disponibili |[https://github.com/valerio-vaccaro/BTC-PB](https://github.com/valerio-vaccaro/BTC-PB)|
+|Pagami - scheda per il monitoraggio di indirizzi |[https://pagami.org/](https://pagami.org/)|
+|Trentanove - creazione guidata di mnemoniche con dadi |[https://pagami.org/trentanove/](https://pagami.org/trentanove/)|
