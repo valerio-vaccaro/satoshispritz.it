@@ -25,7 +25,7 @@ I Satoshi Spritz sono una serie di gruppi a cui piace parlare di Bitcoin (e solo
 |Milano               |[SatoshiSpritzMilano](https://t.me/SatoshiSpritzMilano)|[@satoshispritz](https://twitter.com/satoshispritz)|[satoshispritz.com](https://satoshispritz.com)|
 |Varese               |[SatoshiSpritzVarese](https://t.me/satoshispritzvarese)|||
 |Bergamo              |[SatoshiSpritzBergamo](https://t.me/satoshispritzbergamo)|||
-|Brescia              |[SatoshiSpritzBrescia](https://t.me/satoshispritzbrescia)|||
+|Brescia              |[BitcoinBrescia](http://telegram.me/joinchat/AMVfUj_VLGlWoZTRMlQw-A)|||
 |Mantova              |[SatoshiSpritzMantova](https://t.me/satoshispritzmantova)|||
 |Piemonte||||
 |Torino               |[SatoshiSpritzTorino](https://t.me/SatoshiSpritzTorino)|||
