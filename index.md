@@ -58,6 +58,7 @@ I Satoshi Spritz sono una serie di gruppi a cui piace parlare di Bitcoin (e solo
 ## Presentazioni
 
 |Data              |Autore             |Titolo|
+|------------------|-------------------|------|
 |10 Dicembre 2020  |Leonardo Comandini |[Reducing the size of multisig backups](https://satoshispritz.com/presentazioni/201210-reducing_the_size_of_multisig_backups.pdf)|
 |17 Dicembre 2020  |Daniela Brozzoni   |[Stratum V2 general overview](https://satoshispritz.com/presentazioni/201217-stratum_v2.pdf)|
 |18 Dicembre 2020  |Alekos Filini      |[Random BDK Stuff](https://satoshispritz.com/presentazioni/201218-random_bdk_stuff.pdf)|
