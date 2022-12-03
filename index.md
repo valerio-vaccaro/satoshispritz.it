@@ -45,6 +45,7 @@ I Satoshi Spritz sono una serie di gruppi a cui piace parlare di Bitcoin (e solo
 |Bologna              |[SatoshiSpritzBologna](https://t.me/SatoshiSpritzBologna)|||
 |Modena               |[SatoshiSpritzModena](https://t.me/SatoshiSpritzModena)|||
 |Ferrara              |[SatoshiSpritzFerrara](https://t.me/SatoshiSpritzFerrara)|||
+|Rimini               |[SatoshiSpritzRimini](https://t.me/SatoshiSpritzRimini)|||
 |Marche (abbandonato?)|[SatoshiSpritzMarche](https://t.me/SatoshiSpritzMarche)|||
 |Puglia               |[SatoshiSpritzPuglia](https://t.me/SatoshiSpritzPuglia)|||
 |Toscana              ||||
