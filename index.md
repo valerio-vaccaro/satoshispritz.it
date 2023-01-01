@@ -87,3 +87,4 @@ I Satoshi Spritz sono una serie di gruppi a cui piace parlare di Bitcoin (e solo
 |Seedsigner - Hardware wallet basato su Raspberry Pi Zero|[https://github.com/SeedSigner/seedsigner](https://github.com/SeedSigner/seedsigner)|
 |Specter-DIY - Hardware wallet di Specter|[https://github.com/cryptoadvance/specter-diy](https://github.com/cryptoadvance/specter-diy)|
 |Krux - Hardware wallet per SoC Risc-V|[https://github.com/selfcustody/krux](https://github.com/selfcustody/krux)|
+|MONOPOLY-BITCOIN-EDITION|[https://github.com/Cmod777/MONOPOLY-BITCOIN-EDITION](https://github.com/Cmod777/MONOPOLY-BITCOIN-EDITION)|
