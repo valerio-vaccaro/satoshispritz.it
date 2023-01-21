@@ -52,6 +52,8 @@ I Satoshi Spritz sono una serie di gruppi a cui piace parlare di Bitcoin (e solo
 |Toscana              ||||
 |Prato                |[SatoshiSpritzPrato](https://t.me/SatoshiSpritzPrato)|||
 |Lucca                |[SatoshiSpritzLucca](https://t.me/SatoshiSpritzLucca)|||
+|Grosseto             |[SatoshiSpritzToscanaSud](https://t.me/SatoshiSpritzToscanaSud)|||
+|Siena                |[SatoshiSpritzToscanaSud](https://t.me/SatoshiSpritzToscanaSud)|||
 |Sardegna             ||||
 |Cagliari             |[SatoshiSpritzCagliari](https://t.me/SatoshiSpritzCagliari)|||
 |Sicilia              ||||
