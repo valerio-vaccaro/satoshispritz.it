@@ -50,9 +50,10 @@ I Satoshi Spritz sono una serie di gruppi a cui piace parlare di Bitcoin (e solo
 |Marche               |[SatoshiSpritzMarche](https://t.me/SatoshiSpritzMarche)|||
 |Puglia               |[SatoshiSpritzPuglia](https://t.me/SatoshiSpritzPuglia)|||
 |Toscana              ||||
-|Prato (ormai shitcoin only :()||||
-|Lucca                |[SatoshiSpritzLucca](https://t.me/SatoshiSpritzLucca)|||
+|Firenze              |[SatoshiSpritzFirenze](https://t.me/SatoshiSpritzFirenze)|||
 |Grosseto             |[SatoshiSpritzToscanaSud](https://t.me/SatoshiSpritzToscanaSud)|||
+|Lucca                |[SatoshiSpritzLucca](https://t.me/SatoshiSpritzLucca)|||
+|Prato (ormai shitcoin only :()||||
 |Siena                |[SatoshiSpritzToscanaSud](https://t.me/SatoshiSpritzToscanaSud)|||
 |Sardegna             ||||
 |Cagliari             |[SatoshiSpritzCagliari](https://t.me/SatoshiSpritzCagliari)|||
