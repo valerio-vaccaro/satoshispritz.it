@@ -76,7 +76,7 @@ I Satoshi Spritz sono una serie di gruppi a cui piace parlare di Bitcoin (e solo
 |18 Marzo 2021     |Leonardo Comandini |[How DLC-bets work?](https://satoshispritz.com/presentazioni/210318-how_dlc-bets_work.pdf)|
 |25 Marzo 2021     |Valerio Vaccaro    |[SFYL Wallet](https://satoshispritz.com/presentazioni/210325-sfyl.pdf)|
 |25 Gennaio 2023   |Daniela Brozzoni   |[Il funzionamento interno della rete Bitcoin: il protocollo P2P al lavoro](https://slides.com/danielabrozzoni/deck)|
-|22 Febbraio 2023  |Leonardo Comandini |[Wen Taproot](https://satoshispritz.com/presentazioni/230222-taproot.pdf)|
+|22 Febbraio 2023  |Leonardo Comandini |[Wen Taproot](https://drive.google.com/file/d/19sFMm_6Nx321-3XQLHTz_L7AAnFuSJnB/view)|
 
 ## Gadget e dispositivi hardware visti al Satoshi Spritz
 
