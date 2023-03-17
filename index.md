@@ -30,6 +30,7 @@ I Satoshi Spritz sono una serie di gruppi a cui piace parlare di Bitcoin (e solo
 |Mantova              |[SatoshiSpritzMantova](https://t.me/satoshispritzmantova)|||
 |Piemonte||||
 |Torino               |[SatoshiSpritzTorino](https://t.me/SatoshiSpritzTorino)|||
+|Cuneo               |[SatoshiSpritzCuneo](https://t.me/SatoshiSpritzCuneo)|||
 |Lazio||||
 |Roma                 |[SatoshiSpritzRoma](https://t.me/SatoshiSpritzRoma)|||
 |Veneto               |[SatoshiSpritzVeneto](https://t.me/SatoshiSpritzVeneto)|||
