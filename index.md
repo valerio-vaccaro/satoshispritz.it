@@ -22,16 +22,16 @@ I Satoshi Spritz sono una serie di gruppi a cui piace parlare di Bitcoin (e solo
 |---------------------|--------------------------------|---------------------------------------------------|-------------------------|
 |Coordinamento - canale dove chiedere informazioni/annunciare nuovi gruppi|[SatoshiSpritzCoordinamento](https://t.me/SatoshiSpritz)||[satoshispritz.it](https://satoshispritz.it)|
 |Lombardia            ||||
+|Bergamo              |[SatoshiSpritzBergamo](https://t.me/satoshispritzbergamo)|||
+|Brescia              |[BitcoinBrescia](http://telegram.me/joinchat/AMVfUj_VLGlWoZTRMlQw-A)|||
 |Crema                |[SatoshiSpritzCrema](https://t.me/satoshispritzcrema)|||
+|Mantova              |[SatoshiSpritzMantova](https://t.me/satoshispritzmantova)|||
 |Milano               |[SatoshiSpritzMilano](https://t.me/SatoshiSpritzMilano)|[@satoshispritz](https://twitter.com/satoshispritz)|[satoshispritz.com](https://satoshispritz.com)|
 |Monza                |[SatoshiSpritzMonza](https://t.me/SatoshiSpritzMonza)|||
 |Varese               |[SatoshiSpritzVarese](https://t.me/satoshispritzvarese)|||
-|Bergamo              |[SatoshiSpritzBergamo](https://t.me/satoshispritzbergamo)|||
-|Brescia              |[BitcoinBrescia](http://telegram.me/joinchat/AMVfUj_VLGlWoZTRMlQw-A)|||
-|Mantova              |[SatoshiSpritzMantova](https://t.me/satoshispritzmantova)|||
 |Piemonte||||
+|Cuneo                |[SatoshiSpritzCuneo](https://t.me/SatoshiSpritzCuneo)|||
 |Torino               |[SatoshiSpritzTorino](https://t.me/SatoshiSpritzTorino)|||
-|Cuneo               |[SatoshiSpritzCuneo](https://t.me/SatoshiSpritzCuneo)|||
 |Lazio||||
 |Roma                 |[SatoshiSpritzRoma](https://t.me/SatoshiSpritzRoma)|||
 |Veneto               |[SatoshiSpritzVeneto](https://t.me/SatoshiSpritzVeneto)|||
