@@ -30,7 +30,6 @@ I Satoshi Spritz sono una serie di gruppi a cui piace parlare di Bitcoin (e solo
 |Monza                |[SatoshiSpritzMonza](https://t.me/SatoshiSpritzMonza)|||
 |Varese               |[SatoshiSpritzVarese](https://t.me/satoshispritzvarese)|||
 |Piemonte||||
-|Arquata Scrivia      |[SatoshiSpritzArquata](https://t.me/SatoshiSpritzArquata)|||
 |Cuneo                |[SatoshiSpritzCuneo](https://t.me/SatoshiSpritzCuneo)|||
 |Torino               |[SatoshiSpritzTorino](https://t.me/SatoshiSpritzTorino)|||
 |Lazio||||
