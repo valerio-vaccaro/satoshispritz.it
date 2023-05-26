@@ -11,6 +11,10 @@ I Satoshi Spritz sono una serie di gruppi a cui piace parlare di Bitcoin (e solo
 
 - Un evento in cui parlare/sponsorizzare/promuovere scamcoin.
 - Un evento in cui promuovere investimenti o piattaforme di investimento.
+- Un evento in cui publicizzare altri canali ed eventi al di fuori di quelli organizzati dai gruppi stessi.
+
+## Raccolte fondi
+I Satoshi Spritz sono eventi senza fini di lucro, non organizzeranno mai raccolte fondi ne chiedereanno oboli o donazioni.
 
 ## Mappa dei Satoshi Spritz
 
