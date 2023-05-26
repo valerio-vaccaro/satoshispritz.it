@@ -67,6 +67,7 @@ I Satoshi Spritz sono una serie di gruppi a cui piace parlare di Bitcoin (e solo
 |Rovereto             |[SatoshiSpritzRovereto](https://t.me/SatoshiSpritzRovereto)|||
 |Campania             ||||
 |Napoli               |[SatoshiSpritzNapoli](https://t.me/SatoshiSpritzNapoli)|||
+|Umbria               |[SatoshiSpritzUmbria](https://t.me/satoshispritzumbria)|||
 
 ## Presentazioni
 
