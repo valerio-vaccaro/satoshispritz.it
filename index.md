@@ -1,5 +1,5 @@
 # Satoshi Spritz
-I Satoshi Spritz sono una serie di gruppi a cui piace parlare di Bitcoin (e solo di Bitcoin) bevendo uno spritz a scadenze regolari (es. ogni settimana) in una città precisa al fine di costituire una comunità di Bitcoiner distribuita in Italia.
+I Satoshi Spritz sono una serie di gruppi a cui piace parlare di Bitcoin (e solo di Bitcoin) bevendo uno spritz a cadenze regolari (es. ogni settimana) in una città precisa al fine di costituire una comunità di Bitcoiner distribuita in Italia.
 
 ## Cos'è un Satoshi Spritz?
 
@@ -14,7 +14,7 @@ I Satoshi Spritz sono una serie di gruppi a cui piace parlare di Bitcoin (e solo
 - Un evento in cui publicizzare altri canali ed eventi al di fuori di quelli organizzati dai gruppi stessi.
 
 ## Raccolte fondi
-I Satoshi Spritz sono eventi senza fini di lucro, non organizzeranno mai raccolte fondi ne chiedereanno oboli o donazioni.
+I Satoshi Spritz sono eventi senza fini di lucro, non organizzeranno mai raccolte fondi né chiedereanno oboli o donazioni.
 
 ## Mappa dei Satoshi Spritz
 
@@ -71,7 +71,7 @@ I Satoshi Spritz sono eventi senza fini di lucro, non organizzeranno mai raccolt
 |Rovereto             |[SatoshiSpritzRoveretoeTrento](https://t.me/SatoshiSpritzRovereto)|||
 |Campania             ||||
 |Napoli               |[SatoshiSpritzNapoli](https://t.me/SatoshiSpritzNapoli)|||
-|Umbria               |[SatoshiSpritzUmbria](https://t.me/satoshispritzumbria)|||
+|Umbria               |[SatoshiSpritzUmbria](https://t.me/satoshispritzumbria)|[@satoshiumbria](https://twitter.com/satoshiumbria)||
 
 ## Presentazioni
 
