@@ -77,13 +77,13 @@ I Satoshi Spritz sono eventi senza fini di lucro, non organizzeranno mai raccolt
 
 |Data              |Autore             |Titolo|
 |------------------|-------------------|------|
-|10 Dicembre 2020  |Leonardo Comandini |[Reducing the size of multisig backups](https://satoshispritz.com/presentazioni/201210-reducing_the_size_of_multisig_backups.pdf)|
-|17 Dicembre 2020  |Daniela Brozzoni   |[Stratum V2 general overview](https://satoshispritz.com/presentazioni/201217-stratum_v2.pdf)|
-|18 Dicembre 2020  |Alekos Filini      |[Random BDK Stuff](https://satoshispritz.com/presentazioni/201218-random_bdk_stuff.pdf)|
-|31 Dicembre 2020  |Valerio Vaccaro    |[Bitcoin e reti mesh](https://satoshispritz.com/presentazioni/201231-bitcoin_e_reti_mesh.pdf)|
-|3 Gennaio 2021    |Valerio Vaccaro    |[Single use seal](https://satoshispritz.com/presentazioni/210103-single_use_seal.pdf)|
-|18 Marzo 2021     |Leonardo Comandini |[How DLC-bets work?](https://satoshispritz.com/presentazioni/210318-how_dlc-bets_work.pdf)|
-|25 Marzo 2021     |Valerio Vaccaro    |[SFYL Wallet](https://satoshispritz.com/presentazioni/210325-sfyl.pdf)|
+|10 Dicembre 2020  |Leonardo Comandini |[Reducing the size of multisig backups](https://satoshispritz.it/presentazioni/201210-reducing_the_size_of_multisig_backups.pdf)|
+|17 Dicembre 2020  |Daniela Brozzoni   |[Stratum V2 general overview](https://satoshispritz.it/presentazioni/201217-stratum_v2.pdf)|
+|18 Dicembre 2020  |Alekos Filini      |[Random BDK Stuff](https://satoshispritz.it/presentazioni/201218-random_bdk_stuff.pdf)|
+|31 Dicembre 2020  |Valerio Vaccaro    |[Bitcoin e reti mesh](https://satoshispritz.it/presentazioni/201231-bitcoin_e_reti_mesh.pdf)|
+|3 Gennaio 2021    |Valerio Vaccaro    |[Single use seal](https://satoshispritz.it/presentazioni/210103-single_use_seal.pdf)|
+|18 Marzo 2021     |Leonardo Comandini |[How DLC-bets work?](https://satoshispritz.it/presentazioni/210318-how_dlc-bets_work.pdf)|
+|25 Marzo 2021     |Valerio Vaccaro    |[SFYL Wallet](https://satoshispritz.it/presentazioni/210325-sfyl.pdf)|
 |25 Gennaio 2023   |Daniela Brozzoni   |[Il funzionamento interno della rete Bitcoin: il protocollo P2P al lavoro](https://slides.com/danielabrozzoni/deck)|
 |22 Febbraio 2023  |Leonardo Comandini |[Wen Taproot](https://satoshispritz.it/presentazioni/230222-taproot.pdf)|
 
