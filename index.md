@@ -72,6 +72,8 @@ I Satoshi Spritz sono eventi senza fini di lucro, non organizzeranno mai raccolt
 |Campania             ||||
 |Napoli               |[SatoshiSpritzNapoli](https://t.me/SatoshiSpritzNapoli)|||
 |Umbria               |[SatoshiSpritzUmbria](https://t.me/satoshispritzumbria)|[@satoshiumbria](https://twitter.com/satoshiumbria)||
+|Liguria||||
+|Savona               |[SatoshiSpritzSavona](https://t.me/satoshispritzsavona)|||
 
 ## Presentazioni
 
