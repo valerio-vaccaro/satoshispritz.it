@@ -47,6 +47,7 @@ I Satoshi Spritz sono eventi senza fini di lucro, non organizzeranno mai raccolt
 |Rovigo               |[SatoshiSpritzRovigo](https://t.me/SatoshiSpritzRovigo)|||
 |Belluno              |[SatoshiSpritzBelluno](https://t.me/SatoshiSpritzBelluno)|||
 |Friuli Venezia Giulia|[SatoshiSpritzFriuli](https://t.me/SatoshiSpritzFriuli)|||
+|Monfalcone           |[SatoshiSpritzMonfalcone](https://t.me/SatoshiSpritzMonfalcone)|||
 |Emilia Romagna||||
 |Bologna              |[SatoshiSpritzBologna](https://t.me/SatoshiSpritzBologna)|||
 |Parma                |[SatoshiSpritzParmaePiacenza](https://t.me/SatoshiSpritzParmaePiacenza)|||
