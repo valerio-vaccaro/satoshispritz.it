@@ -1,2 +1,2 @@
 # satoshispritz.it
-Lista dei Satoshi Spritz italiani
+Lista dei Satoshi Spritz
