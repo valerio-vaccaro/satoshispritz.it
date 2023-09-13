@@ -79,6 +79,9 @@ I Satoshi Spritz sono eventi senza fini di lucro, non organizzeranno mai raccolt
 |Liguria||||
 |Albenga              |[SatoshiSpritzAlbenga](https://t.me/satoshispritzalbenga)|||
 |Savona               |[SatoshiSpritzSavona](https://t.me/satoshispritzsavona)|||
+|ESTERO||||
+|Svizzera||||
+|Lugano               |[SatoshiSpritzLugano](https://t.me/satoshispritzlugano)|||
 
 ## Presentazioni
 
