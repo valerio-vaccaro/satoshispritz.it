@@ -13,6 +13,13 @@ I Satoshi Spritz sono una serie di gruppi a cui piace parlare di Bitcoin (e solo
 - Un evento in cui promuovere investimenti o piattaforme di investimento.
 - Un evento in cui publicizzare altri canali ed eventi al di fuori di quelli organizzati dai gruppi stessi.
 
+## Acquisto, vendita e scambio
+La vendita, l'acquisto e lo scambio di Bitcoin per beni e servizi, moneta fiat inclusa, sono attività accettate ai Satoshi Spritz con le seguenti limitazioni:
+
+- Piattaforme di acquisto sono proibile, se siete al Satoshi Spritz meglio scambiare di persona senza informare terzi incomodi o pagare fee non dovute. E' altresì proibita l'indicizzazione e l'iserimento dei Satoshi Spritz all'interno delle piattaforme di scambio.
+- Acquirente e venditore sono responsabili delle loro transazioni, non fidatevi di chi entra in canale solo per comprare o vendere ma fate transazioni solo con persone che avete avuto modo di conoscere accuratamente. I Satoshi Spritz NON sono responsabili per truffe/mancati pagamenti/vedite di prodotti non funzionanti o di qualsiasi altra problematica.
+- Le shitcoin rimangono assolutamente proibite ad eccezione delle valute fiat usate per acquistare Bitcoin.
+
 ## Raccolte fondi
 I Satoshi Spritz sono eventi senza fini di lucro, non organizzeranno mai raccolte fondi né chiedereanno oboli o donazioni. La richiesta di fondi per eventi organizzati o partocinati da uno o più Satoshi Spritz è espressamente proibita!
 
