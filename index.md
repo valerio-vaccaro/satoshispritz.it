@@ -58,7 +58,6 @@ I Satoshi Spritz sono eventi senza fini di lucro, non organizzeranno mai raccolt
 |Bologna              |[SatoshiSpritzBologna](https://t.me/SatoshiSpritzBologna)|||
 |Parma                |[SatoshiSpritzParmaePiacenza](https://t.me/SatoshiSpritzParmaePiacenza)|||
 |Piacenza             |[SatoshiSpritzParmaePiacenza](https://t.me/SatoshiSpritzParmaePiacenza)|||
-|Ravenna              |[SatoshiSpritzRavenna](https://t.me/SatoshiSpritzRavenna)|||
 |Faenza               |[SatoshiSpritzFaenza](https://t.me/satoshiSpritzFaenza)|||
 |Ferrara              |[SatoshiSpritzFerrara](https://t.me/SatoshiSpritzFerrara)|||
 |Modena               |[SatoshiSpritzModena](https://t.me/SatoshiSpritzModena)|||
