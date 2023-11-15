@@ -39,7 +39,6 @@ I Satoshi Spritz sono eventi senza fini di lucro, non organizzeranno mai raccolt
 |Mantova              |[SatoshiSpritzMantova](https://t.me/satoshispritzmantova)|||
 |Milano               |[SatoshiSpritzMilano](https://t.me/SatoshiSpritzMilano)|[@satoshispritz](https://twitter.com/satoshispritz)|[satoshispritz.com](https://satoshispritz.com)|
 |Monza                |[SatoshiSpritzMonza](https://t.me/SatoshiSpritzMonza)|||
-|Varese               |[SatoshiSpritzVarese](https://t.me/satoshispritzvarese)|||
 |Piemonte||||
 |Cuneo                |[SatoshiSpritzCuneo](https://t.me/SatoshiSpritzCuneo)|||
 |Torino               |[SatoshiSpritzTorino](https://t.me/SatoshiSpritzTorino)|||
