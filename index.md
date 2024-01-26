@@ -35,11 +35,15 @@ I Satoshi Spritz sono eventi senza fini di lucro, non organizzeranno mai raccolt
 |Lombardia            ||||
 |Bergamo              |[SatoshiSpritzBergamo](https://t.me/satoshispritzbergamo)|||
 |Brescia              |[BitcoinBrescia](http://telegram.me/joinchat/AMVfUj_VLGlWoZTRMlQw-A)|||
-|Crema                |[SatoshiSpritzCrema](https://t.me/satoshispritzcrema)|||
+|Crema (abbandonato?) |[SatoshiSpritzCrema](https://t.me/satoshispritzcrema)|||
+|Crema                |[SatoshiSpritzCremaCremonaLodi](https://t.me/SatoshiSpritzCremaCremonaLodi)|||
+|Cremona              |[SatoshiSpritzCremaCremonaLodi](https://t.me/SatoshiSpritzCremaCremonaLodi)|||
+|Lodi                 |[SatoshiSpritzCremaCremonaLodi](https://t.me/SatoshiSpritzCremaCremonaLodi)|||
 |Mantova              |[SatoshiSpritzMantova](https://t.me/satoshispritzmantova)|||
 |Milano               |[SatoshiSpritzMilano](https://t.me/SatoshiSpritzMilano)|[@satoshispritz](https://twitter.com/satoshispritz)|[satoshispritz.com](https://satoshispritz.com)|
 |Monza                |[SatoshiSpritzMonza](https://t.me/SatoshiSpritzMonza)|||
 |Piemonte||||
+|Bardonecchia         |[SatoshiSpritzBardonecchia](https://t.me/satoshispritzbardonecchia)|||
 |Cuneo                |[SatoshiSpritzCuneo](https://t.me/SatoshiSpritzCuneo)|||
 |Torino               |[SatoshiSpritzTorino](https://t.me/SatoshiSpritzTorino)|||
 |Lazio||||
@@ -74,6 +78,7 @@ I Satoshi Spritz sono eventi senza fini di lucro, non organizzeranno mai raccolt
 |Siena                |[SatoshiSpritzToscanaSud](https://t.me/SatoshiSpritzToscanaSud)|||
 |Sardegna             ||||
 |Cagliari             |[SatoshiSpritzCagliari](https://t.me/SatoshiSpritzCagliari)|||
+|Nuoro                |[SatoshiSpritzNuoro](https://t.me/satoshispritznuoro)|||
 |Sicilia              ||||
 |Palermo              |[SatoshiSpritzPalermo](https://t.me/SatoshiSpritzPalermo)|||
 |Trentino             ||||
