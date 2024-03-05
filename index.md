@@ -32,6 +32,7 @@ I Satoshi Spritz sono eventi senza fini di lucro, non organizzeranno mai raccolt
 |Città/Regione        |Canale telegram                 |Profilo Twitter                                    |Sito web                 |
 |---------------------|--------------------------------|---------------------------------------------------|-------------------------|
 |Coordinamento - canale dove chiedere informazioni/annunciare nuovi gruppi|[SatoshiSpritzCoordinamento](https://t.me/SatoshiSpritz)||[satoshispritz.it](https://satoshispritz.it)|
+|Italia - canale per eventi legati a tutta italia|[Satoshi Spritz Italia](https://t.me/SatoshiSpritzIta)|||
 |Lombardia            ||||
 |Bergamo              |[SatoshiSpritzBergamo](https://t.me/satoshispritzbergamo)|||
 |Brescia              |[BitcoinBrescia](http://telegram.me/joinchat/AMVfUj_VLGlWoZTRMlQw-A)|||
