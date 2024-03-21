@@ -83,6 +83,8 @@ I Satoshi Spritz sono eventi senza fini di lucro, non organizzeranno mai raccolt
 |Palermo              |[SatoshiSpritzPalermo](https://t.me/SatoshiSpritzPalermo)|||
 |Trentino             ||||
 |Rovereto             |[SatoshiSpritzRoveretoeTrento](https://t.me/SatoshiSpritzRovereto)|||
+|Trento               |[SatoshiSpritzRoveretoeTrento](https://t.me/SatoshiSpritzRovereto)|||
+|Cles                 |[SatoshiSpritzCles](https://t.me/SatoshiSpritzCles)|||
 |Campania             ||||
 |Napoli               |[SatoshiSpritzNapoli](https://t.me/SatoshiSpritzNapoli)|||
 |Umbria               |[SatoshiSpritzUmbria](https://t.me/satoshispritzumbria)|[@satoshiumbria](https://twitter.com/satoshiumbria)||
