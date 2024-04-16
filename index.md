@@ -6,11 +6,13 @@ I Satoshi Spritz sono una serie di gruppi a cui piace parlare di Bitcoin (e solo
 - Un evento __pubblico__, aperto a tutti, in cui sia possibile partecipare __anonimamente__.
 - I Satoshi Spritz sono eventi Bitcoin-only ovvero in cui è possibile parlare __solo di Bitcoin__!
 - Il formato è libero ma si incoraggia la realizzazione di presentazioni per le tematiche più complesse.
+- Nei Satoshi spritz il prezzo di bitcoin non è un aspetto importante, perciò sono considerati fuori contesto tutti i discorsi inerenti la speculazione finanziaria.
 
 ## Cosa non è un Satoshi Spritz?
 
 - Un evento in cui parlare/sponsorizzare/promuovere scamcoin.
 - Un evento in cui promuovere investimenti o piattaforme di investimento.
+- Un evento per parlare di prezzo e speculazione finanziaria.
 - Un evento in cui publicizzare altri canali ed eventi al di fuori di quelli organizzati dai gruppi stessi.
 
 ## Acquisto, vendita e scambio
