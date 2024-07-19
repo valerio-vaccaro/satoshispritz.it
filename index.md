@@ -95,7 +95,7 @@ I Satoshi Spritz sono eventi senza fini di lucro, non organizzeranno mai raccolt
 |Savona               |[SatoshiSpritzSavona](https://t.me/satoshispritzsavona)|||
 |ESTERO||||
 |Svizzera||||
-|Lugano               |[SatoshiSpritzLugano](https://t.me/satoshispritzlugano)|@satoshispritzlugano](https://x.com/satoshispritzlugano)||
+|Lugano               |[SatoshiSpritzLugano](https://t.me/satoshispritzlugano)|@SatoshiLugano](https://x.com/SatoshiLugano)||
 
 ## Presentazioni
 
