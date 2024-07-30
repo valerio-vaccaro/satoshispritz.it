@@ -89,7 +89,7 @@ I Satoshi Spritz sono eventi senza fini di lucro, non organizzeranno mai raccolt
 |Cles                 |[SatoshiSpritzCles](https://t.me/SatoshiSpritzCles)|||
 |Campania             ||||
 |Napoli               |[SatoshiSpritzNapoli](https://t.me/SatoshiSpritzNapoli)|||
-|Umbria               |[SatoshiSpritzUmbria](https://t.me/satoshispritzumbria)|[@satoshiumbria](https://twitter.com/satoshiumbria)||
+|Umbria               |[SatoshiSpritzUmbria](https://t.me/satoshispritzumbria)|[@satoshiumbria](https://x.com/satoshiumbria)||
 |Liguria||||
 |Albenga              |[SatoshiSpritzAlbenga](https://t.me/satoshispritzalbenga)|||
 |Savona               |[SatoshiSpritzSavona](https://t.me/satoshispritzsavona)|||
