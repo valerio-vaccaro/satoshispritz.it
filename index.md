@@ -75,7 +75,6 @@ I Satoshi Spritz sono eventi senza fini di lucro, non organizzeranno mai raccolt
 |Taranto              |[SatoshiSpritzTaranto](https://t.me/SatoshiSpritzTaranto)|||
 |Toscana              ||||
 |Firenze              |[SatoshiSpritzFirenze](https://t.me/SatoshiSpritzFirenze)|||
-|Grosseto             |[SatoshiSpritzToscanaSud](https://t.me/SatoshiSpritzToscanaSud)|||
 |Lucca                |[SatoshiSpritzLucca](https://t.me/SatoshiSpritzLucca)|||
 |Siena                |[SatoshiSpritzToscanaSud](https://t.me/SatoshiSpritzToscanaSud)|||
 |Sardegna             ||||
