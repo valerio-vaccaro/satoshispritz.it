@@ -25,6 +25,22 @@ La vendita, l'acquisto e lo scambio di Bitcoin per beni e servizi, moneta fiat i
 ## Raccolte fondi
 I Satoshi Spritz sono eventi senza fini di lucro, non organizzeranno mai raccolte fondi né chiedereanno oboli o donazioni. La richiesta di fondi per eventi organizzati o partocinati da uno o più Satoshi Spritz è espressamente proibita!
 
+## Satoshi Spritz Connect
+Satoshi Spritz Connect è il primo Satoshi Spritz virtuale su Twitter Space.
+
+Satoshi Spritz Connect vuole essere un evento utile a chi voglia sentire le voci degli altri Satoshi Spritz senza spostarsi da casa. 
+
+Satoshi Spritz Connect vuole anche essere anche un modo per vivacizzare i Satoshi Spritz (magari quelli più piccoli), se qualcuno segue il Satoshi Spritz virtuale poi può riproporre gli stessi argomenti all'interno dei Satoshi Spritz reali.
+
+Le regole sono le solite dei Satoshi Spritz e di Officine Bitcoin.
+
+## Officine Bitcoin
+Una serie di eventi online, gratuiti e a scadenza regolare su tematiche riguardanti Bitcoin o affini ad esso.
+
+Gli eventi sono organizzati per occupare un massimo di 30 minuti di cui, una prima parte è destinata alla lezione (ad esempio 10 minuti iniziali) e la restante parte è destinata a domande e supporto ai partecipanti.
+
+Le lezioni verranno tenute su telegram nel gruppo di [Officine Bitcoin](https://officinebitcoin.it/).
+
 ## Mappa dei Satoshi Spritz
 
 <iframe src="./map.html"  width="420" height="620"></iframe>
@@ -34,6 +50,7 @@ I Satoshi Spritz sono eventi senza fini di lucro, non organizzeranno mai raccolt
 |Città/Regione        |Canale telegram                 |Profilo Twitter                                    |Sito web                 |
 |---------------------|--------------------------------|---------------------------------------------------|-------------------------|
 |Coordinamento - canale dove chiedere informazioni/annunciare nuovi gruppi|[SatoshiSpritzCoordinamento](https://t.me/SatoshiSpritz)||[satoshispritz.it](https://satoshispritz.it)|
+|Connect - canale per Satoshi Spritz virtuali|[SatoshiSpritzConnect](https://t.me/satoshispritzconnect)|[@satoshispritz](https://twitter.com/satoshispritz)||
 |Italia - canale per eventi legati a tutta italia|[Satoshi Spritz Italia](https://t.me/SatoshiSpritzIta)|||
 |Lombardia            ||||
 |Bergamo              |[SatoshiSpritzBergamo](https://t.me/satoshispritzbergamo)|||
@@ -43,7 +60,7 @@ I Satoshi Spritz sono eventi senza fini di lucro, non organizzeranno mai raccolt
 |Cremona              |[SatoshiSpritzCremaCremonaLodi](https://t.me/SatoshiSpritzCremaCremonaLodi)|||
 |Lodi                 |[SatoshiSpritzCremaCremonaLodi](https://t.me/SatoshiSpritzCremaCremonaLodi)|||
 |Mantova              |[SatoshiSpritzMantova](https://t.me/satoshispritzmantova)|||
-|Milano               |[SatoshiSpritzMilano](https://t.me/SatoshiSpritzMilano)|[@satoshispritz](https://twitter.com/satoshispritz)|[satoshispritz.com](https://satoshispritz.com)|
+|Milano               |[SatoshiSpritzMilano](https://t.me/SatoshiSpritzMilano)||[satoshispritz.com](https://satoshispritz.com)|
 |Monza                |[SatoshiSpritzMonza](https://t.me/SatoshiSpritzMonza)|||
 |Piemonte||||
 |Bardonecchia         |[SatoshiSpritzBardonecchia](https://t.me/satoshispritzbardonecchia)|||
