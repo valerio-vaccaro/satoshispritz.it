@@ -79,6 +79,7 @@ Le lezioni verranno tenute su telegram nel gruppo di [Officine Bitcoin](https://
 |Friuli Venezia Giulia|[SatoshiSpritzFriuli](https://t.me/SatoshiSpritzFriuli)|||
 |Emilia Romagna||||
 |Bologna              |[SatoshiSpritzBologna](https://t.me/SatoshiSpritzBologna)|||
+|Carpi                |[SatoshiSpritzCarpi](https://t.me/SatoshiSpritzCarpi)|||
 |Parma                |[SatoshiSpritzParmaePiacenza](https://t.me/SatoshiSpritzParmaePiacenza)|||
 |Piacenza             |[SatoshiSpritzParmaePiacenza](https://t.me/SatoshiSpritzParmaePiacenza)|||
 |Ferrara              |[SatoshiSpritzFerrara](https://t.me/SatoshiSpritzFerrara)|||
