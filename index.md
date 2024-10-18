@@ -87,7 +87,6 @@ Le lezioni verranno tenute su telegram nel gruppo di [Officine Bitcoin](https://
 |Reggio Emilia        |[SatoshiSpritzReggioEmilia](https://t.me/satoshispritzreggioemilia)|||
 |Rimini               |[SatoshiSpritzRimini](https://t.me/SatoshiSpritzRimini)|||
 |Vignola              |[SatoshiSpritzVignola](https://t.me/SatoshiSpritzVignola)|||
-|Marche               |[SatoshiSpritzMarche](https://t.me/SatoshiSpritzMarche)|||
 |Pesaro               |[SatoshiSpritzPesaro](https://t.me/SatoshiSpritzPesaro)|||
 |Puglia               |[SatoshiSpritzPuglia](https://t.me/SatoshiSpritzPuglia)|||
 |Taranto              |[SatoshiSpritzTaranto](https://t.me/SatoshiSpritzTaranto)|||
