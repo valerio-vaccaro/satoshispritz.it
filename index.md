@@ -11,6 +11,7 @@ I Satoshi Spritz sono una serie di gruppi a cui piace parlare di Bitcoin (e solo
 ## Cosa non è un Satoshi Spritz?
 
 - Un evento in cui parlare/sponsorizzare/promuovere scamcoin.
+- Un evebto in cui parlare di soluzioni custodial, protocolli custodial e similari.
 - Un evento in cui promuovere investimenti o piattaforme di investimento.
 - Un evento per parlare di prezzo e speculazione finanziaria.
 - Un evento in cui publicizzare altri canali ed eventi al di fuori di quelli organizzati dai gruppi stessi.
@@ -37,7 +38,7 @@ Le regole sono le solite dei Satoshi Spritz e di Officine Bitcoin.
 ## Licenze ed attribuzioni
 Il materiale prodotto durante i Satoshi Spritz, se non differentemente, specificato si intendepubblicato con licenza Creative Commons CC BY-SA 4.0.
 
-Il [logo ufficiale dei Satoshi Spritz](https://satoshispritz.it/logo/) è anch’esso coperto dalla medesima licenza.
+Il [logo ufficiale dei Satoshi Spritz](https://satoshispritz.it/loghi/) è anch’esso coperto dalla medesima licenza.
 
 ## Officine Bitcoin
 Una serie di eventi online, gratuiti e a scadenza regolare su tematiche riguardanti Bitcoin o affini ad esso.

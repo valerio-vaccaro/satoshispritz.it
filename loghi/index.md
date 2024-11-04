@@ -5,8 +5,8 @@ Il logo è stato creato da [S₿AM](https://t.me/sbbbam) ed è distribuito secon
 
 File disponibili:
 
-- [SSLogo.png](https://satoshispritz.it/logo/SSLogo.png)
-- [SSLogo.svg](https://satoshispritz.it/logo/SSLogo.svg)
-- [SSLogoEsteso.png](https://satoshispritz.it/logo/SSLogoEsteso.png)
-- [SSLogoEsteso.svg](https://satoshispritz.it/logo/SSLogoEsteso.svg)
-- [SSL Template.fig](https://satoshispritz.it/logo/SSL Template.fig)
+- [SSLogo.png](https://satoshispritz.it/loghi/SSLogo.png)
+- [SSLogo.svg](https://satoshispritz.it/loghi/SSLogo.svg)
+- [SSLogoEsteso.png](https://satoshispritz.it/loghi/SSLogoEsteso.png)
+- [SSLogoEsteso.svg](https://satoshispritz.it/loghi/SSLogoEsteso.svg)
+- [SSL Template.fig](https://satoshispritz.it/loghi/SSL Template.fig)
