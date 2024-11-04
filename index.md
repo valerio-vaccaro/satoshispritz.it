@@ -114,6 +114,7 @@ Le lezioni verranno tenute su telegram nel gruppo di [Officine Bitcoin](https://
 |Umbria               |[SatoshiSpritzUmbria](https://t.me/satoshispritzumbria)|[@satoshiumbria](https://x.com/satoshiumbria)||
 |Liguria||||
 |Albenga              |[SatoshiSpritzAlbenga](https://t.me/satoshispritzalbenga)|||
+|Genova               |[SatoshiSpritzGenova](https://t.me/satoshispritzgenova)|||
 |Savona               |[SatoshiSpritzSavona](https://t.me/satoshispritzsavona)|||
 |ESTERO||||
 |Svizzera||||
