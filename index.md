@@ -72,6 +72,7 @@ Le lezioni verranno tenute su telegram nel gruppo di [Officine Bitcoin](https://
 |Bardonecchia         |[SatoshiSpritzBardonecchia](https://t.me/satoshispritzbardonecchia)|||
 |Cuneo                |[SatoshiSpritzCuneo](https://t.me/SatoshiSpritzCuneo)|||
 |Torino               |[SatoshiSpritzTorino](https://t.me/SatoshiSpritzTorino)|||
+|Val di Susa          |[SatoshiSpritzValSusa](https://t.me/SatoshiSpritzValSusa)|||
 |Lazio||||
 |Roma                 |[SatoshiSpritzRoma](https://t.me/SatoshiSpritzRoma)|||
 |Veneto               |[SatoshiSpritzVeneto](https://t.me/SatoshiSpritzVeneto)|||
