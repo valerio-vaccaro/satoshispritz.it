@@ -17,13 +17,10 @@ I Satoshi Spritz sono una serie di gruppi a cui piace parlare di Bitcoin (e solo
 - Un evento in cui publicizzare altri canali ed eventi al di fuori di quelli organizzati dai gruppi stessi.
 
 ## Acquisto, vendita e scambio
-Sebbene i Satoshi Spritz non siano gruppi in cui si fanno operazioni in Bitcoin la vendita, l'acquisto e lo scambio di Bitcoin per beni e servizi, sono attività possibili tra i singoli partecipanti ai Satoshi Spritz (e non organizzate dai grupoi stessi), si consiglia di seguire le seguenti regole:
+I Satoshi Spritz sono gruppi di divulgazione e non canali di acquisto e vendita.
 
-- Piattaforme di acquisto sono proibile, se siete al Satoshi Spritz meglio scambiare di persona senza informare terzi incomodi (leggi exchange e piattaforme già famose per la perdita di informazioni) o pagare fee non dovute (maggiori delle fee di rete necesarie alla registrazione della transazione).
-- E' altresì proibita l'indicizzazione e l'inserimento dei Satoshi Spritz all'interno delle piattaforme di scambio al fine di evitare l'ingresso di dubbi profil al'interno dei camali (Satoshi Spritz sono eventi per la discussione sulle tecnologie e sui risvolti dell'uso di Bitcoin).
-- Acquirente e venditore sono responsabili delle loro transazioni, non fidatevi di chi entra in canale solo per comprare o vendere ma fate transazioni solo con persone che avete avuto modo di conoscere accuratamente. I Satoshi Spritz NON sono responsabili per truffe/mancati pagamenti/vedite di prodotti non funzionanti o di qualsiasi altra problematica.
-- Le shitcoin rimangono assolutamente proibite ad eccezione delle valute fiat usate per acquistare Bitcoin.
-- I partecipanti agli scambi sono responsbili per il pagamento di eventuali tasse, imposte ed altri contributi dovuti.
+- Transazioni di acquisto, vendita e scambio sono proibite agli eventi.
+- E' altresì proibita l'indicizzazione e l'inserimento dei Satoshi Spritz all'interno delle piattaforme di scambio al fine di evitare l'ingresso di dubbi profil al'interno dei canali.
 
 ## Raccolte fondi
 I Satoshi Spritz sono eventi senza fini di lucro, non organizzeranno mai raccolte fondi né chiedereanno oboli o donazioni. La richiesta di fondi per eventi organizzati o patrocinati da uno o più Satoshi Spritz è espressamente proibita!
