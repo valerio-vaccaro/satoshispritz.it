@@ -132,8 +132,10 @@ Le lezioni verranno tenute su telegram nel gruppo di [Officine Bitcoin](https://
 |25 Marzo 2021     |Valerio Vaccaro    |[SFYL Wallet](https://satoshispritz.it/presentazioni/210325-sfyl.pdf)|
 |25 Gennaio 2023   |Daniela Brozzoni   |[Il funzionamento interno della rete Bitcoin: il protocollo P2P al lavoro](https://slides.com/danielabrozzoni/deck)|
 |22 Febbraio 2023  |Leonardo Comandini |[Wen Taproot](https://satoshispritz.it/presentazioni/230222-taproot.pdf)|
-|31 Ottobre 2024   |                   |[Nodo ODROID M1 - Parte 1](https://satoshispritz.it/presentazioni/241031-odroid.pdf)|
-|31 Ottobre 2024   |                   |[Nodo ODROID M1 - Parte 2](https://satoshispritz.it/presentazioni/241031-odroid2.pdf)|
+|29 Ottobre 2024   |                   |[Nodo ODROID M1 - Parte 1](https://satoshispritz.it/presentazioni/241031-odroid.pdf)|
+|19 Novembre 2024  |                   |[Nodo ODROID M1 - Parte 2](https://satoshispritz.it/presentazioni/241031-odroid2.pdf)|
+|14 Gennaio 2025   |                   |[Nodo Bitcoin sotto rete Tor](https://satoshispritz.it/presentazioni/241031-tor.pdf)|
+|11 Febbraio 2025  |                   |[Electrum Server: Electrs](https://satoshispritz.it/presentazioni/241031-electrs.pdf)|
 
 ## Gadget e dispositivi hardware visti al Satoshi Spritz
 
