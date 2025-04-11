@@ -59,7 +59,6 @@ Le lezioni verranno tenute su telegram nel gruppo di [Officine Bitcoin](https://
 |Italia - canale per eventi legati a tutta italia|[Satoshi Spritz Italia](https://t.me/SatoshiSpritzIta)|||
 |Lombardia            ||||
 |Bergamo              |[SatoshiSpritzBergamo](https://t.me/satoshispritzbergamo)|||
-|Brescia              |[BitcoinBrescia](http://telegram.me/joinchat/AMVfUj_VLGlWoZTRMlQw-A)|||
 |Crema                |[SatoshiSpritzCremaCremonaLodi](https://t.me/SatoshiSpritzCremaCremonaLodi)|||
 |Cremona              |[SatoshiSpritzCremaCremonaLodi](https://t.me/SatoshiSpritzCremaCremonaLodi)|||
 |Lodi                 |[SatoshiSpritzCremaCremonaLodi](https://t.me/SatoshiSpritzCremaCremonaLodi)|||
@@ -87,7 +86,6 @@ Le lezioni verranno tenute su telegram nel gruppo di [Officine Bitcoin](https://
 |Carpi                |[SatoshiSpritzCarpi](https://t.me/SatoshiSpritzCarpi)|||
 |Parma                |[SatoshiSpritzParmaePiacenza](https://t.me/SatoshiSpritzParmaePiacenza)|||
 |Piacenza             |[SatoshiSpritzParmaePiacenza](https://t.me/SatoshiSpritzParmaePiacenza)|||
-|Ferrara              |[SatoshiSpritzFerrara](https://t.me/SatoshiSpritzFerrara)|||
 |Modena               |[SatoshiSpritzModena](https://t.me/SatoshiSpritzModena)|||
 |Reggio Emilia        |[SatoshiSpritzReggioEmilia](https://t.me/satoshispritzreggioemilia)|||
 |Rimini               |[SatoshiSpritzRimini](https://t.me/SatoshiSpritzRimini)|||
