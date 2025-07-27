@@ -1,6 +1,8 @@
 # Satoshi Spritz
 I Satoshi Spritz sono una serie di gruppi a cui piace parlare di Bitcoin (e solo di Bitcoin) bevendo uno spritz a cadenze regolari (es. ogni settimana) in una città precisa al fine di costituire una comunità di Bitcoiner distribuita in Italia.
 
+I Satoshi Spritz qui riportati sono quelli che rispettano (o che dovrebbero farlo) questo regolamento. 
+
 ## Cos'è un Satoshi Spritz?
 
 - Un evento __pubblico__, aperto a tutti, in cui sia possibile partecipare __anonimamente__.
@@ -68,7 +70,6 @@ Le lezioni verranno tenute su telegram nel gruppo di [Officine Bitcoin](https://
 |Piemonte||||
 |Bardonecchia         |[SatoshiSpritzBardonecchia](https://t.me/satoshispritzbardonecchia)|||
 |Cuneo                |[SatoshiSpritzCuneo](https://t.me/SatoshiSpritzCuneo)|||
-|Torino               |[SatoshiSpritzTorino](https://t.me/SatoshiSpritzTorino)|||
 |Val di Susa          |[SatoshiSpritzValSusa](https://t.me/SatoshiSpritzValSusa)|||
 |Lazio||||
 |Roma                 |[SatoshiSpritzRoma](https://t.me/SatoshiSpritzRoma)|||
