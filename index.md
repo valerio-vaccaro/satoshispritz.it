@@ -65,7 +65,6 @@ Le lezioni verranno tenute su telegram nel gruppo di [Officine Bitcoin](https://
 |Cremona              |[SatoshiSpritzCremaCremonaLodi](https://t.me/SatoshiSpritzCremaCremonaLodi)|||
 |Lodi                 |[SatoshiSpritzCremaCremonaLodi](https://t.me/SatoshiSpritzCremaCremonaLodi)|||
 |Mantova              |[SatoshiSpritzMantova](https://t.me/satoshispritzmantova)|||
-|Milano               |[SatoshiSpritzMilano](https://t.me/SatoshiSpritzMilano)||[satoshispritz.com](https://satoshispritz.com)|
 |Monza                |[SatoshiSpritzMonza](https://t.me/SatoshiSpritzMonza)|||
 |Piemonte||||
 |Bardonecchia         |[SatoshiSpritzBardonecchia](https://t.me/satoshispritzbardonecchia)|||
