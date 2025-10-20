@@ -70,7 +70,7 @@ Le lezioni verranno tenute su telegram nel gruppo di [Officine Bitcoin](https://
 |Piemonte||||
 |Bardonecchia         |[SatoshiSpritzBardonecchia](https://t.me/satoshispritzbardonecchia)|||
 |Cuneo                |[SatoshiSpritzCuneo](https://t.me/SatoshiSpritzCuneo)|||
-|Val di Susa          |[SatoshiSpritzValSusa](https://t.me/SatoshiSpritzValSusa)|||
+|Val di Susa          |[SatoshiSpritzValSusa](https://t.me/SatoshiSpritzIta)|||
 |Lazio||||
 |Roma                 |[SatoshiSpritzRoma](https://t.me/SatoshiSpritzRoma)|||
 |Veneto               |[SatoshiSpritzVeneto](https://t.me/SatoshiSpritzVeneto)|||
@@ -83,7 +83,7 @@ Le lezioni verranno tenute su telegram nel gruppo di [Officine Bitcoin](https://
 |Belluno              |[SatoshiSpritzBelluno](https://t.me/SatoshiSpritzBelluno)|||
 |Friuli Venezia Giulia|[SatoshiSpritzFriuli](https://t.me/SatoshiSpritzFriuli)|||
 |Emilia Romagna||||
-|Bologna              |[SatoshiSpritzBologna](https://t.me/SatoshiSpritzBologna)|||
+|Bologna              |[SatoshiSpritzBologna](https://t.me/SatoshiSpritzIta)|||
 |Carpi                |[SatoshiSpritzCarpi](https://t.me/SatoshiSpritzCarpi)|||
 |Parma                |[SatoshiSpritzParmaePiacenza](https://t.me/SatoshiSpritzParmaePiacenza)|||
 |Piacenza             |[SatoshiSpritzParmaePiacenza](https://t.me/SatoshiSpritzParmaePiacenza)|||
