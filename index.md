@@ -81,7 +81,6 @@ Le lezioni verranno tenute su telegram nel gruppo di [Officine Bitcoin](https://
 |Rovigo               |[SatoshiSpritzRovigo](https://t.me/SatoshiSpritzRovigo)|||
 |Belluno              |[SatoshiSpritzBelluno](https://t.me/SatoshiSpritzBelluno)|||
 |Emilia Romagna||||
-|Carpi                |[SatoshiSpritzCarpi](https://t.me/SatoshiSpritzCarpi)|||
 |Parma                |[SatoshiSpritzParmaePiacenza](https://t.me/SatoshiSpritzParmaePiacenza)|||
 |Piacenza             |[SatoshiSpritzParmaePiacenza](https://t.me/SatoshiSpritzParmaePiacenza)|||
 |Modena               |[SatoshiSpritzModena](https://t.me/SatoshiSpritzModena)|||
@@ -93,12 +92,11 @@ Le lezioni verranno tenute su telegram nel gruppo di [Officine Bitcoin](https://
 |Toscana              ||||
 |Firenze              |[SatoshiSpritzFirenze](https://t.me/SatoshiSpritzFirenze)|||
 |Lucca                |[SatoshiSpritzLucca](https://t.me/SatoshiSpritzLucca)|||
+|Prato                |[SatoshiSpritzPrato](https://t.me/SatoshiSpritzPrato)|||
 |Siena                |[SatoshiSpritzToscanaSud](https://t.me/SatoshiSpritzToscanaSud)|||
 |Sardegna             ||||
 |Cagliari             |[SatoshiSpritzCagliari](https://t.me/SatoshiSpritzCagliari)|||
 |Nuoro                |[SatoshiSpritzNuoro](https://t.me/satoshispritznuoro)|||
-|Sicilia              ||||
-|Palermo              |[SatoshiSpritzPalermo](https://t.me/SatoshiSpritzPalermo)|||
 |Trentino             ||||
 |Rovereto             |[SatoshiSpritzRoveretoeTrento](https://t.me/SatoshiSpritzRovereto)|||
 |Trento               |[SatoshiSpritzRoveretoeTrento](https://t.me/SatoshiSpritzRovereto)|||
