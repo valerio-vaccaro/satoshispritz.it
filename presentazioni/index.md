@@ -25,3 +25,8 @@ Qui una selezione delle presentazioni viste ai Satoshi Spritz.
 |24 Ottobre 2025   |Valerio Vaccaro    |[Jade DIY](https://satoshispritz.it/presentazioni/251024-Spazio21-Jade-Ottobre2025.pdf)|
 |24 Ottobre 2025   |Valerio Vaccaro    |[Mining & Sha256](https://satoshispritz.it/presentazioni/251024-Spazio21-Mining-Ottobre2025.pdf)|
 |25 Ottobre 2025   |Riccardo Casatta, Valerio Vaccaro|[Simple Multisig with Hardware Wallets](https://satoshispritz.it/presentazioni/251025-PlanBForum-Multisig-October2025.pdf)|
+|28 Ottobre 2025   |Valerio Vaccaro    |[Protocollo Diffie-Hellman](https://satoshispritz.it/presentazioni/251028-diffie-hellman-protocol.pdf)|
+|11 Ottobre 2025   |Valerio Vaccaro    |[Taproot e MAST in Bitcoin](https://satoshispritz.it/presentazioni/251111-taproot-mast-bitcoin.pdf)|
+|13 Ottobre 2025   |                   |[UTXO](https://satoshispritz.it/presentazioni/251113-UTXO.pdf)|
+|18 Ottobre 2025   |Valerio Vaccaro    |[Bitcoin Transaction Lifecycle](https://satoshispritz.it/presentazioni/251118-bitcoin-transaction-lifecycle.pdf)|
+|26 Ottobre 2025   |Valerio Vaccaro    |[BDK e Descriptors](https://satoshispritz.it/presentazioni/251126-bdk-descriptors.pdf)|
