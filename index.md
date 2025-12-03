@@ -36,17 +36,18 @@ Satoshi Spritz Connect vuole anche essere anche un modo per vivacizzare i Satosh
 
 Le regole sono le solite dei Satoshi Spritz e di Officine Bitcoin.
 
-## Presentzioni 
+## Presentazioni 
 La lista delle [presentazioni](https://satoshispritz.it/presentazioni/) usate nei satoshi spritz.
 
 ## Gadget
 I [gadget](https://satoshispritz.it/gadget.html) presentati nei satoshi spritz.
 
-
 ## Licenze ed attribuzioni
 Il materiale prodotto durante i Satoshi Spritz, se non differentemente, specificato si intendepubblicato con licenza Creative Commons CC BY-SA 4.0.
 
 Il [logo ufficiale dei Satoshi Spritz](https://satoshispritz.it/loghi/) è anch’esso coperto dalla medesima licenza.
+
+I templete per le [locandine](https://satoshispritz.it/locandine/) sono disponibili per la personalizzazione.
 
 ## Officine Bitcoin
 Una serie di eventi online, gratuiti e a scadenza regolare su tematiche riguardanti Bitcoin o affini ad esso.
