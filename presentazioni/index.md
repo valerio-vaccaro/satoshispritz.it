@@ -26,7 +26,9 @@ Qui una selezione delle presentazioni viste ai Satoshi Spritz.
 |24 Ottobre 2025   |Valerio Vaccaro    |[Mining & Sha256](https://satoshispritz.it/presentazioni/251024-Spazio21-Mining-Ottobre2025.pdf)|
 |25 Ottobre 2025   |Riccardo Casatta, Valerio Vaccaro|[Simple Multisig with Hardware Wallets](https://satoshispritz.it/presentazioni/251025-PlanBForum-Multisig-October2025.pdf)|
 |28 Ottobre 2025   |Valerio Vaccaro    |[Protocollo Diffie-Hellman](https://satoshispritz.it/presentazioni/251028-diffie-hellman-protocol.pdf)|
-|11 Ottobre 2025   |Valerio Vaccaro    |[Taproot e MAST in Bitcoin](https://satoshispritz.it/presentazioni/251111-taproot-mast-bitcoin.pdf)|
-|13 Ottobre 2025   |                   |[UTXO](https://satoshispritz.it/presentazioni/251113-UTXO.pdf)|
-|18 Ottobre 2025   |Valerio Vaccaro    |[Bitcoin Transaction Lifecycle](https://satoshispritz.it/presentazioni/251118-bitcoin-transaction-lifecycle.pdf)|
-|26 Ottobre 2025   |Valerio Vaccaro    |[BDK e Descriptors](https://satoshispritz.it/presentazioni/251126-bdk-descriptors.pdf)|
+|29 Ottobre 2025   |                   |[Wallet personali](https://satoshispritz.it/presentazioni/251029-wallet-personali.pdf)|
+|11 Novembre 2025  |Valerio Vaccaro    |[Taproot e MAST in Bitcoin](https://satoshispritz.it/presentazioni/251111-taproot-mast-bitcoin.pdf)|
+|13 Novembre 2025  |                   |[UTXO](https://satoshispritz.it/presentazioni/251113-UTXO.pdf)|
+|18 Novembre 2025  |Valerio Vaccaro    |[Bitcoin Transaction Lifecycle](https://satoshispritz.it/presentazioni/251118-bitcoin-transaction-lifecycle.pdf)|
+|19 Novembre 2025  |                   |[La struttura delle transazione](https://satoshispritz.it/presentazioni/251119-transazione.pdf)|
+|26 Novembre 2025  |Valerio Vaccaro    |[BDK e Descriptors](https://satoshispritz.it/presentazioni/251126-bdk-descriptors.pdf)|
