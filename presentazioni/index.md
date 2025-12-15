@@ -4,6 +4,7 @@ Qui una selezione delle presentazioni viste ai Satoshi Spritz.
 
 |Data              |Autore             |Titolo|
 |------------------|-------------------|------|
+|25 Dicembre 2025  |                   |[Chaos Is Ssecurity](https://satoshispritz.it/presentazioni/251215_entropia.pdf)|
 |26 Novembre 2025  |Valerio Vaccaro    |[BDK e Descriptors](https://satoshispritz.it/presentazioni/251126-bdk-descriptors.pdf)|
 |19 Novembre 2025  |                   |[La struttura delle transazione](https://satoshispritz.it/presentazioni/251119-transazione.pdf)|
 |18 Novembre 2025  |Valerio Vaccaro    |[Bitcoin Transaction Lifecycle](https://satoshispritz.it/presentazioni/251118-bitcoin-transaction-lifecycle.pdf)|
