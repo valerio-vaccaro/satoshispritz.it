@@ -6,6 +6,7 @@ Qui una selezione delle presentazioni viste ai Satoshi Spritz.
 |------------------|-------------------|------|
 |25 Marzo 2026     |                   |[Secure Element](https://satoshispritz.it/presentazioni/260325-secure_element.pdf)|
 |25 Marzo 2026     |                   |[Bitcoin Supply](https://satoshispritz.it/presentazioni/260325-supply.pdf)|
+|24 Marzo 2026     |Valerio Vaccaro    |[LLM](https://satoshispritz.it/presentazioni/260324-ai_llm_it.pdf) [EN](https://satoshispritz.it/presentazioni/260324-ai_llm_en.pdf)|
 |18 Marzo 2026     |Valerio Vaccaro    |[Opentimestamps](https://satoshispritz.it/presentazioni/260311-bitcoin-node.pdf) [EN](https://satoshispritz.it/presentazioni/260311-bitcoin-node_en.pdf)|
 |17 Marzo 2026     |Valerio Vaccaro    |[Bitcoin Whitepaper](https://satoshispritz.it/presentazioni/260318-opentimestamps_it.pdf) [EN](https://satoshispritz.it/presentazioni/260318-opentimestamps_en.pdf)|
 |11 Marzo 2026     |Valerio Vaccaro    |[Bitcoin Node](https://satoshispritz.it/presentazioni/260311-bitcoin-node.pdf) [EN](https://satoshispritz.it/presentazioni/260311-bitcoin-node_en.pdf)|
