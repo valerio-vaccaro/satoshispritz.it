@@ -10,6 +10,7 @@ Qui una selezione delle presentazioni viste ai Satoshi Spritz.
 |11 Marzo 2026     |Valerio Vaccaro    |[Bitcoin Node](https://satoshispritz.it/presentazioni/260223-yubikey-tpm2-linux.pdf) [EN](https://satoshispritz.it/presentazioni/260223-yubikey-tpm2-linux_en.pdf)|
 |10 Marzo 2026     |Valerio Vaccaro    |[Bitcoinissimo](https://satoshispritz.it/presentazioni/260310-bitcoinissimo.pdf) [EN](https://satoshispritz.it/presentazioni/260310-bitcoinissimo_en.pdf)|
 |23 Febbraio 2026  |Valerio Vaccaro    |[Yubikey TPM2 Linux](https://satoshispritz.it/presentazioni/260223-yubikey-tpm2-linux.pdf) [EN](https://satoshispritz.it/presentazioni/260223-yubikey-tpm2-linux_en.pdf)|
+|21 Febbraio 2026  |Satoshi Spritz Piacenza|[Prepararsi al backup del wallet](https://satoshispritz.it/presentazioni/260211-recupero-wallet.pdf)
 |11 Febbraio 2026  |Valerio Vaccaro    |[Open Source](https://satoshispritz.it/presentazioni/260211-opensource.pdf)|
 |12 Gennaio 2026   |                   |[Il Vero Capodanno di Bitcoin](https://satoshispritz.it/presentazioni/260112-capodanno_bitcoin.pdf)|
 |9 Gennaio 2026    |Valerio Vaccaro    |[Il Vero Capodanno di Bitcoin](https://satoshispritz.it/presentazioni/260109-nuovo-anno.pdf)|
