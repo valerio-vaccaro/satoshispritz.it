@@ -1,10 +1,17 @@
-# 🍹 Satoshi Spritz
+---
+layout: default
+title: Satoshi Spritz
+---
+
+<p class="site-kicker"><strong>Satoshi Spritz</strong> <span>Incontri pubblici Bitcoin-only</span> <span>This project is maintained by valerio-vaccaro</span></p>
+
+# Satoshi Spritz
 
 ## 🌍 Fordítások
 
 [🇨🇳 中文](index.zh.html) [🇬🇧 English](index.en.html) [🇪🇸 Español](index.es.html) [🇵🇹 Português](index.pt.html) [🇷🇺 Русский](index.ru.html) [🇫🇷 Français](index.fr.html) [🇩🇪 Deutsch](index.de.html) [🇮🇹 Italiano](index.html) [🇭🇺 Magyar](index.hu.html) [🏳️ Milanés](index.lmo.html)
 
-A Satoshi Spritz nyilvános, Bitcoinnal foglalkozó találkozók sorozata, amelyeket rendszeresen szerveznek különböző városokban. Céljuk helyi bitcoiner közösségek építése Olaszországban és külföldön: az emberek találkoznak, isznak valamit együtt, és Bitcoinról beszélgetnek, szponzorok, pénzügyi termékek értékesítése és altcoin-promóció nélkül.
+A Satoshi Spritz nyilvános, Bitcoinnal foglalkozó találkozók sorozata, amelyeket rendszeresen szerveznek különböző városokban. Céljuk helyi bitcoiner közösségek építése Olaszországban és külföldön: az emberek találkoznak, isznak valamit együtt, és Bitcoinról beszélgetnek, szponzorok, pénzügyi termékek értékesítése és <s>altcoin</s> <span class="bitcoin-orange">shitcoin</span>-promóció nélkül.
 
 Az ezen az oldalon felsorolt csoportok követik, vagy elvárt, hogy kövessék, a Satoshi Spritz közös szabályait.
 
@@ -24,7 +31,7 @@ A bitcoin ára és a pénzügyi spekuláció nem központi téma. A tradingről,
 
 A Satoshi Spritz nem:
 
-- altcoinok, tokenek vagy scamcoinok megbeszélésének, szponzorálásának vagy népszerűsítésének helye;
+- <s>altcoinok</s> <span class="bitcoin-orange">shitcoin</span>, tokenek vagy scamcoinok megbeszélésének, szponzorálásának vagy népszerűsítésének helye;
 - custodial megoldások, custodial protokollok vagy hasonló szolgáltatások reklámfelülete;
 - befektetések, befektetési platformok vagy hozamok ajánlására szolgáló csatorna;
 - árfolyamról, tradingről vagy pénzügyi spekulációról szóló találkozó;

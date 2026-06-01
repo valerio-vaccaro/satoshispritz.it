@@ -1,10 +1,17 @@
-# 🍹 Satoshi Spritz
+---
+layout: default
+title: Satoshi Spritz
+---
+
+<p class="site-kicker"><strong>Satoshi Spritz</strong> <span>Incontri pubblici Bitcoin-only</span> <span>This project is maintained by valerio-vaccaro</span></p>
+
+# Satoshi Spritz
 
 ## 🌍 Переводы
 
 [🇨🇳 中文](index.zh.html) [🇬🇧 English](index.en.html) [🇪🇸 Español](index.es.html) [🇵🇹 Português](index.pt.html) [🇷🇺 Русский](index.ru.html) [🇫🇷 Français](index.fr.html) [🇩🇪 Deutsch](index.de.html) [🇮🇹 Italiano](index.html) [🇭🇺 Magyar](index.hu.html) [🏳️ Milanés](index.lmo.html)
 
-Satoshi Spritz — это публичные встречи, посвященные Bitcoin, которые регулярно проходят в разных городах. Их цель — создавать локальные сообщества bitcoiners в Италии и за ее пределами: люди встречаются, вместе выпивают что-то и говорят о Bitcoin без спонсоров, продажи финансовых продуктов и продвижения altcoin.
+Satoshi Spritz — это публичные встречи, посвященные Bitcoin, которые регулярно проходят в разных городах. Их цель — создавать локальные сообщества bitcoiners в Италии и за ее пределами: люди встречаются, вместе выпивают что-то и говорят о Bitcoin без спонсоров, продажи финансовых продуктов и продвижения <s>altcoin</s> <span class="bitcoin-orange">shitcoin</span>.
 
 Группы, перечисленные на этой странице, соблюдают или должны соблюдать общие правила Satoshi Spritz.
 
@@ -24,7 +31,7 @@ Satoshi Spritz — это:
 
 Satoshi Spritz не является:
 
-- мероприятием для обсуждения, спонсирования или продвижения altcoin, token или scamcoin;
+- мероприятием для обсуждения, спонсирования или продвижения <s>altcoin</s> <span class="bitcoin-orange">shitcoin</span>, token или scamcoin;
 - местом для продвижения custodial-решений, custodial-протоколов или похожих сервисов;
 - каналом для предложения инвестиций, инвестиционных платформ или доходности;
 - встречей о цене, trading или финансовой спекуляции;

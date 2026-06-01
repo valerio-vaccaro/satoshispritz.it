@@ -1,10 +1,17 @@
-# 🍹 Satoshi Spritz
+---
+layout: default
+title: Satoshi Spritz
+---
+
+<p class="site-kicker"><strong>Satoshi Spritz</strong> <span>Incontri pubblici Bitcoin-only</span> <span>This project is maintained by valerio-vaccaro</span></p>
+
+# Satoshi Spritz
 
 ## 🌍 Traduzzion
 
 [🇨🇳 中文](index.zh.html) [🇬🇧 English](index.en.html) [🇪🇸 Español](index.es.html) [🇵🇹 Português](index.pt.html) [🇷🇺 Русский](index.ru.html) [🇫🇷 Français](index.fr.html) [🇩🇪 Deutsch](index.de.html) [🇮🇹 Italiano](index.html) [🇭🇺 Magyar](index.hu.html) [🏳️ Milanés](index.lmo.html)
 
-I Satoshi Spritz hinn incontr publich dedicad a Bitcoin, organizzad con regolarità in divèrs città. Nassen per creà comunità local de bitcoiner in Italia e foeura: se se troeuva, se beev quaicoss insèma e se parla de Bitcoin, senza sponsor, senza vend de prodott finanziari e senza promozion de altcoin.
+I Satoshi Spritz hinn incontr publich dedicad a Bitcoin, organizzad con regolarità in divèrs città. Nassen per creà comunità local de bitcoiner in Italia e foeura: se se troeuva, se beev quaicoss insèma e se parla de Bitcoin, senza sponsor, senza vend de prodott finanziari e senza promozion de <s>altcoin</s> <span class="bitcoin-orange">shitcoin</span>.
 
 I grupp metüü in sta pagina seguissen, o hinn invitad a seguì, i regol comun di Satoshi Spritz.
 
@@ -24,7 +31,7 @@ El prezi de bitcoin e la speculazion finanziaria no hinn el tema principal di Sa
 
 On Satoshi Spritz no l'è:
 
-- on event per parlà, sponsorizà o promoeuv altcoin, token o scamcoin;
+- on event per parlà, sponsorizà o promoeuv <s>altcoin</s> <span class="bitcoin-orange">shitcoin</span>, token o scamcoin;
 - on post per promoeuv soluzion custodial, protocoll custodial o servizzi simili;
 - on canal per propon investiment, piattaform d'investiment o rendiment;
 - on incontr dedicad a prezi, trading o speculazion finanziaria;

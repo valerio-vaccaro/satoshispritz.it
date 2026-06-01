@@ -1,10 +1,17 @@
-# 🍹 Satoshi Spritz
+---
+layout: default
+title: Satoshi Spritz
+---
+
+<p class="site-kicker"><strong>Satoshi Spritz</strong> <span>Incontri pubblici Bitcoin-only</span> <span>This project is maintained by valerio-vaccaro</span></p>
+
+# Satoshi Spritz
 
 ## 🌍 翻译
 
 [🇨🇳 中文](index.zh.html) [🇬🇧 English](index.en.html) [🇪🇸 Español](index.es.html) [🇵🇹 Português](index.pt.html) [🇷🇺 Русский](index.ru.html) [🇫🇷 Français](index.fr.html) [🇩🇪 Deutsch](index.de.html) [🇮🇹 Italiano](index.html) [🇭🇺 Magyar](index.hu.html) [🏳️ Milanés](index.lmo.html)
 
-Satoshi Spritz 是定期在不同城市举办的 Bitcoin 公共聚会。它的目标是在意大利和海外建立本地 bitcoiner 社群：大家见面、一起喝一杯，并讨论 Bitcoin，不接受赞助，不销售金融产品，也不推广 altcoin。
+Satoshi Spritz 是定期在不同城市举办的 Bitcoin 公共聚会。它的目标是在意大利和海外建立本地 bitcoiner 社群：大家见面、一起喝一杯，并讨论 Bitcoin，不接受赞助，不销售金融产品，也不推广 <s>altcoin</s> <span class="bitcoin-orange">shitcoin</span>。
 
 本页列出的群组遵守，或应当遵守，Satoshi Spritz 的共同规则。
 
@@ -24,7 +31,7 @@ bitcoin 的价格和金融投机不是 Satoshi Spritz 的核心主题。关于 t
 
 Satoshi Spritz 不是：
 
-- 讨论、赞助或推广 altcoin、token 或 scamcoin 的活动；
+- 讨论、赞助或推广 <s>altcoin</s> <span class="bitcoin-orange">shitcoin</span>、token 或 scamcoin 的活动；
 - 推广 custodial 方案、custodial 协议或类似服务的地方；
 - 提供投资、投资平台或收益承诺的渠道；
 - 关于价格、trading 或金融投机的聚会；

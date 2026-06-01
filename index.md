@@ -1,12 +1,21 @@
-# 🍹 Satoshi Spritz
+---
+layout: default
+title: Satoshi Spritz
+---
+
+<p class="site-kicker"><strong>Satoshi Spritz</strong> <span>Incontri pubblici Bitcoin-only</span> <span>This project is maintained by valerio-vaccaro</span></p>
+
+# Satoshi Spritz
 
 ## 🌍 Traduzioni
 
 [🇨🇳 中文](index.zh.html) [🇬🇧 English](index.en.html) [🇪🇸 Español](index.es.html) [🇵🇹 Português](index.pt.html) [🇷🇺 Русский](index.ru.html) [🇫🇷 Français](index.fr.html) [🇩🇪 Deutsch](index.de.html) [🇮🇹 Italiano](index.html) [🇭🇺 Magyar](index.hu.html) [🏳️ Milanés](index.lmo.html)
 
-I Satoshi Spritz sono incontri pubblici dedicati a Bitcoin, organizzati con cadenza regolare in diverse città. Nascono per creare comunità locali di bitcoiner in Italia e all'estero: ci si incontra, si beve qualcosa insieme e si parla di Bitcoin, senza sponsor, senza vendita di prodotti finanziari e senza promozione di altcoin.
+I Satoshi Spritz sono incontri pubblici dedicati a Bitcoin, organizzati con cadenza regolare in diverse città. Nascono per creare comunità locali di bitcoiner in Italia e all'estero: ci si incontra, si beve qualcosa insieme e si parla di Bitcoin, senza sponsor, senza vendita di prodotti finanziari e senza promozione di <s>altcoin</s> <span class="bitcoin-orange">shitcoin</span>.
 
 I gruppi elencati in questa pagina aderiscono, o sono invitati ad aderire, alle regole comuni dei Satoshi Spritz.
+
+![Satoshi Spritz](img/splash.png){: .splash-image }
 
 ## ₿ Cos'è un Satoshi Spritz
 
@@ -24,7 +33,7 @@ Il prezzo di bitcoin e la speculazione finanziaria non sono temi centrali dei Sa
 
 Un Satoshi Spritz non è:
 
-- un evento in cui parlare, sponsorizzare o promuovere altcoin, token o scamcoin;
+- un evento in cui parlare, sponsorizzare o promuovere <s>altcoin</s> <span class="bitcoin-orange">shitcoin</span>, token o scamcoin;
 - un luogo in cui promuovere soluzioni custodial, protocolli custodial o servizi assimilabili;
 - un canale per proporre investimenti, piattaforme di investimento o rendimenti;
 - un incontro dedicato a prezzo, trading o speculazione finanziaria;

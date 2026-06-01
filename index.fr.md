@@ -1,10 +1,17 @@
-# 🍹 Satoshi Spritz
+---
+layout: default
+title: Satoshi Spritz
+---
+
+<p class="site-kicker"><strong>Satoshi Spritz</strong> <span>Incontri pubblici Bitcoin-only</span> <span>This project is maintained by valerio-vaccaro</span></p>
+
+# Satoshi Spritz
 
 ## 🌍 Traductions
 
 [🇨🇳 中文](index.zh.html) [🇬🇧 English](index.en.html) [🇪🇸 Español](index.es.html) [🇵🇹 Português](index.pt.html) [🇷🇺 Русский](index.ru.html) [🇫🇷 Français](index.fr.html) [🇩🇪 Deutsch](index.de.html) [🇮🇹 Italiano](index.html) [🇭🇺 Magyar](index.hu.html) [🏳️ Milanés](index.lmo.html)
 
-Les Satoshi Spritz sont des rencontres publiques consacrées à Bitcoin, organisées régulièrement dans différentes villes. Elles servent à créer des communautés locales de bitcoiners en Italie et à l'étranger: on se rencontre, on boit quelque chose ensemble et on parle de Bitcoin, sans sponsors, sans vente de produits financiers et sans promotion d'altcoins.
+Les Satoshi Spritz sont des rencontres publiques consacrées à Bitcoin, organisées régulièrement dans différentes villes. Elles servent à créer des communautés locales de bitcoiners en Italie et à l'étranger: on se rencontre, on boit quelque chose ensemble et on parle de Bitcoin, sans sponsors, sans vente de produits financiers et sans promotion d'<s>altcoins</s> <span class="bitcoin-orange">shitcoin</span>.
 
 Les groupes indiqués sur cette page respectent, ou sont invités à respecter, les règles communes des Satoshi Spritz.
 
@@ -24,7 +31,7 @@ Le prix du bitcoin et la spéculation financière ne sont pas des thèmes centra
 
 Un Satoshi Spritz n'est pas:
 
-- un événement pour parler de, sponsoriser ou promouvoir des altcoins, tokens ou scamcoins;
+- un événement pour parler de, sponsoriser ou promouvoir des <s>altcoins</s> <span class="bitcoin-orange">shitcoin</span>, tokens ou scamcoins;
 - un lieu pour promouvoir des solutions custodial, des protocoles custodial ou des services similaires;
 - un canal pour proposer des investissements, des plateformes d'investissement ou des rendements;
 - une rencontre consacrée au prix, au trading ou à la spéculation financière;
