@@ -2,7 +2,7 @@
 
 ## 🌍 Translations
 
-[🇨🇳 中文](index.zh.html) | 🇬🇧 English | [🇪🇸 Español](index.es.html) | [🇵🇹 Português](index.pt.html) | [🇷🇺 Русский](index.ru.html) | [🇫🇷 Français](index.fr.html) | [🇩🇪 Deutsch](index.de.html) | [🇮🇹 Italiano](index.html) | [🇭🇺 Magyar](index.hu.html) | [🏳️ Milanés](index.lmo.html)
+[🇨🇳 中文](index.zh.html) [🇬🇧 English](index.en.html) [🇪🇸 Español](index.es.html) [🇵🇹 Português](index.pt.html) [🇷🇺 Русский](index.ru.html) [🇫🇷 Français](index.fr.html) [🇩🇪 Deutsch](index.de.html) [🇮🇹 Italiano](index.html) [🇭🇺 Magyar](index.hu.html) [🏳️ Milanés](index.lmo.html)
 
 Satoshi Spritz events are public meetups dedicated to Bitcoin, held regularly in different cities. They exist to build local communities of bitcoiners in Italy and abroad: people meet, have a drink together and talk about Bitcoin, without sponsors, financial product sales or altcoin promotion.
 

@@ -2,7 +2,7 @@
 
 ## 🌍 Traduzzion
 
-[🇨🇳 中文](index.zh.html) | [🇬🇧 English](index.en.html) | [🇪🇸 Español](index.es.html) | [🇵🇹 Português](index.pt.html) | [🇷🇺 Русский](index.ru.html) | [🇫🇷 Français](index.fr.html) | [🇩🇪 Deutsch](index.de.html) | [🇮🇹 Italiano](index.html) | [🇭🇺 Magyar](index.hu.html) | 🏳️ Milanés
+[🇨🇳 中文](index.zh.html) [🇬🇧 English](index.en.html) [🇪🇸 Español](index.es.html) [🇵🇹 Português](index.pt.html) [🇷🇺 Русский](index.ru.html) [🇫🇷 Français](index.fr.html) [🇩🇪 Deutsch](index.de.html) [🇮🇹 Italiano](index.html) [🇭🇺 Magyar](index.hu.html) [🏳️ Milanés](index.lmo.html)
 
 I Satoshi Spritz hinn incontr publich dedicad a Bitcoin, organizzad con regolarità in divèrs città. Nassen per creà comunità local de bitcoiner in Italia e foeura: se se troeuva, se beev quaicoss insèma e se parla de Bitcoin, senza sponsor, senza vend de prodott finanziari e senza promozion de altcoin.
 
