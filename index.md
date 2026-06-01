@@ -1,67 +1,63 @@
-# Satoshi Spritz
-I Satoshi Spritz sono una serie di gruppi a cui piace parlare di Bitcoin (e solo di Bitcoin) bevendo uno spritz a cadenze regolari (es. ogni settimana) in una città precisa al fine di costituire una comunità di Bitcoiner distribuita in Italia.
+# 🍹 Satoshi Spritz
 
-I Satoshi Spritz qui riportati sono quelli che rispettano (o che dovrebbero farlo) questo regolamento. 
+I Satoshi Spritz sono incontri pubblici dedicati a Bitcoin, organizzati con cadenza regolare in diverse città. Nascono per creare comunità locali di bitcoiner in Italia e all'estero: ci si incontra, si beve qualcosa insieme e si parla di Bitcoin, senza sponsor, senza vendita di prodotti finanziari e senza promozione di altcoin.
 
-## Cos'è un Satoshi Spritz?
+I gruppi elencati in questa pagina aderiscono, o sono invitati ad aderire, alle regole comuni dei Satoshi Spritz.
 
-- Un evento __pubblico__, aperto a tutti, in cui sia possibile partecipare __anonimamente__.
-- I Satoshi Spritz sono eventi Bitcoin-only ovvero in cui è possibile parlare __solo di Bitcoin__!
-- Il formato è libero ma si incoraggia la realizzazione di presentazioni per le tematiche più complesse.
-- Nei Satoshi spritz il prezzo di bitcoin non è un aspetto importante, perciò sono considerati fuori contesto tutti i discorsi inerenti la speculazione finanziaria.
+## ₿ Cos'è un Satoshi Spritz
 
-## Cosa non è un Satoshi Spritz?
+Un Satoshi Spritz è:
 
-- Un evento in cui parlare/sponsorizzare/promuovere scamcoin.
-- Un evebto in cui parlare di soluzioni custodial, protocolli custodial e similari.
-- Un evento in cui promuovere investimenti o piattaforme di investimento.
-- Un evento per parlare di prezzo e speculazione finanziaria.
-- Un evento in cui publicizzare altri canali ed eventi al di fuori di quelli organizzati dai gruppi stessi.
+- un evento pubblico, aperto a tutti;
+- un incontro a cui sia possibile partecipare anche in forma anonima;
+- uno spazio Bitcoin-only, in cui si parla esclusivamente di Bitcoin;
+- un momento di divulgazione, confronto e supporto reciproco tra persone interessate a Bitcoin;
+- un evento dal formato libero, con la possibilità di organizzare presentazioni quando gli argomenti richiedono un approfondimento.
 
-## Acquisto, vendita e scambio
-I Satoshi Spritz sono gruppi di divulgazione e non canali di acquisto e vendita.
+Il prezzo di bitcoin e la speculazione finanziaria non sono temi centrali dei Satoshi Spritz. Le discussioni orientate al trading, al guadagno rapido o alla previsione del prezzo sono considerate fuori contesto.
 
-- Transazioni di acquisto, vendita e scambio sono proibite agli eventi.
-- E' altresì proibita l'indicizzazione e l'inserimento dei Satoshi Spritz all'interno delle piattaforme di scambio al fine di evitare l'ingresso di dubbi profil al'interno dei canali.
+## 🚫 Cosa non è un Satoshi Spritz
 
-## Raccolte fondi
-I Satoshi Spritz sono eventi senza fini di lucro, non organizzeranno mai raccolte fondi né chiedereanno oboli o donazioni. La richiesta di fondi per eventi organizzati o patrocinati da uno o più Satoshi Spritz è espressamente proibita!
+Un Satoshi Spritz non è:
 
-## Satoshi Spritz Connect
-Satoshi Spritz Connect è il primo Satoshi Spritz virtuale su Twitter Space.
+- un evento in cui parlare, sponsorizzare o promuovere altcoin, token o scamcoin;
+- un luogo in cui promuovere soluzioni custodial, protocolli custodial o servizi assimilabili;
+- un canale per proporre investimenti, piattaforme di investimento o rendimenti;
+- un incontro dedicato a prezzo, trading o speculazione finanziaria;
+- uno spazio pubblicitario per canali, progetti o eventi non collegati ai gruppi Satoshi Spritz.
 
-Satoshi Spritz Connect vuole essere un evento utile a chi voglia sentire le voci degli altri Satoshi Spritz senza spostarsi da casa. 
+## 🕶️ Privacy
 
-Satoshi Spritz Connect vuole anche essere anche un modo per vivacizzare i Satoshi Spritz (magari quelli più piccoli), se qualcuno segue il Satoshi Spritz virtuale poi può riproporre gli stessi argomenti all'interno dei Satoshi Spritz reali.
+Per tutelare la privacy di tutti, durante e dopo gli eventi è sempre vietato condividere foto, video o registrazioni audio degli incontri e dei partecipanti.
 
-Le regole sono le solite dei Satoshi Spritz e di Officine Bitcoin.
+## ⚠️ Sicurezza e truffe
 
-## Presentazioni 
-La lista delle [presentazioni](https://satoshispritz.it/presentazioni/) usate nei satoshi spritz.
+La crescita della community può attirare malintenzionati. Per proteggere i propri fondi e la propria identità digitale è importante prestare attenzione a profili falsi, messaggi privati sospetti e promesse di guadagno.
 
-## Gadget
-I [gadget](https://satoshispritz.it/gadget.html) presentati nei satoshi spritz.
+### 👤 Profili clonati e canali falsi
 
-## Licenze ed attribuzioni
-Il materiale prodotto durante i Satoshi Spritz, se non differentemente, specificato si intendepubblicato con licenza Creative Commons CC BY-SA 4.0.
+Su Telegram è facile clonare un account copiando foto profilo, nome, bio e informazioni pubbliche di amministratori o membri della community. A volte cambia solo un carattere dell'username, per esempio una `l` sostituita da un `1`.
 
-Il [logo ufficiale dei Satoshi Spritz](https://satoshispritz.it/loghi/) è anch’esso coperto dalla medesima licenza.
+Nessun amministratore del Satoshi Spritz contatterà mai per primo in chat privata per proporre servizi, supporto non richiesto, investimenti o opportunità finanziarie. Se ricevete un messaggio privato sospetto da un presunto admin, bloccate e segnalate il profilo.
 
-I templete per le [locandine](https://satoshispritz.it/locandine/) sono disponibili per la personalizzazione.
+### 💬 Richieste private e ingegneria sociale
 
-## Officine Bitcoin
-Una serie di eventi online, gratuiti e a scadenza regolare su tematiche riguardanti Bitcoin o affini ad esso.
+Diffidate da chiunque, anche se si presenta come amministratore o membro storico della community, vi contatti in privato per:
 
-Gli eventi sono organizzati per occupare un massimo di 30 minuti di cui, una prima parte è destinata alla lezione (ad esempio 10 minuti iniziali) e la restante parte è destinata a domande e supporto ai partecipanti.
+- chiedere prestiti in euro, bitcoin o altre forme di denaro;
+- raccontare emergenze personali con promessa di restituzione immediata;
+- chiedere informazioni personali, finanziarie o patrimoniali;
+- sapere quanti fondi possedete, dove li custodite o quali wallet utilizzate.
 
-Le lezioni verranno tenute su telegram nel gruppo di [Officine Bitcoin](https://officinebitcoin.it/).
+Nessuno dello staff del Satoshi Spritz indagherà mai sul vostro patrimonio, sulla vostra privacy o sulla custodia dei vostri fondi. Nessuno dello staff vi chiederà mai aiuto economico o prestiti privati.
 
-## Mappa dei Satoshi Spritz
+### 🔐 Chiavi, wallet e fondi
 
-<iframe src="./map.html"  width="420" height="620"></iframe>
+Non condividete mai la vostra seed phrase, cioè la frase mnemonica da 12 o 24 parole del vostro wallet. Chiunque la chieda, con qualsiasi pretesto, sta cercando di rubare i vostri fondi.
 
-## Elenco dei Satoshi Spritz
+Nessun amministratore del Satoshi Spritz vi chiederà mai di inviare bitcoin, crypto o altri fondi per test, investimenti comuni, presunte verifiche tecniche, raccolte fondi o iniziative riservate.
 
+<<<<<<< Updated upstream
 |Città/Regione        |Canale telegram                 |Profilo Twitter                                    |Sito web                 |Nostr |
 |---------------------|--------------------------------|---------------------------------------------------|-------------------------|
 |Coordinamento - canale dove chiedere informazioni/annunciare nuovi gruppi|[SatoshiSpritzCoordinamento](https://t.me/SatoshiSpritz)||[satoshispritz.it](https://satoshispritz.it)||
@@ -120,3 +116,124 @@ Le lezioni verranno tenute su telegram nel gruppo di [Officine Bitcoin](https://
 |ESTERO|||||
 |Svizzera|||||
 |Lugano               |[SatoshiSpritzLugano](https://t.me/satoshispritzlugano)|[@satoshilugano](https://x.com/SatoshiLugano)|||
+=======
+### 📈 Promesse di guadagno e piattaforme scam
+
+Non fate investimenti tramite Telegram e non registratevi a link sospetti o piattaforme che promettono rendimenti garantiti, guadagni passivi o profitti rapidi.
+
+Nel mondo Bitcoin, se una proposta sembra troppo bella per essere vera, probabilmente è una truffa. Più la promessa di guadagno è alta e veloce, più è probabile che si tratti di uno schema Ponzi, di un rug pull o di un'altra forma di scam.
+
+### ❓ In caso di dubbio
+
+Lo spirito dei Satoshi Spritz è divulgativo, educativo e sociale. Gli incontri nascono per parlare di Bitcoin come tecnologia, protocollo e rivoluzione monetaria, senza promesse di ricchezza a breve termine.
+
+I Satoshi Spritz non offrono consulenza finanziaria, non vendono corsi e non propongono pacchetti di investimento. La conoscenza, lo studio e la comprensione della tecnologia sono l'unico percorso sostenibile.
+
+Verificate sempre le fonti e, prima di compiere qualsiasi azione dubbia, chiedete pubblicamente nel gruppo ufficiale.
+
+## 🤝 Acquisto, vendita e scambio
+
+I Satoshi Spritz sono gruppi di divulgazione e comunità, non canali di compravendita.
+
+- Acquisti, vendite e scambi sono proibiti durante gli eventi.
+- È proibito indicizzare o inserire i Satoshi Spritz all'interno di piattaforme di scambio, per evitare che i canali vengano usati con finalità estranee alla divulgazione e alla vita della comunità.
+
+## 💸 Raccolte fondi
+
+I Satoshi Spritz sono eventi senza fini di lucro. Non organizzano raccolte fondi, non chiedono oboli e non sollecitano donazioni.
+
+La richiesta di fondi per eventi organizzati, ospitati o patrocinati da uno o più Satoshi Spritz è espressamente proibita.
+
+## 🌐 Satoshi Spritz Connect
+
+Satoshi Spritz Connect è il Satoshi Spritz virtuale che si svolge nel relativo canale Telegram.
+
+Serve a far incontrare le voci dei diversi gruppi anche a distanza, senza doversi spostare dalla propria città. Può essere utile anche per vivacizzare i gruppi locali più piccoli: chi segue l'incontro virtuale può riprendere gli stessi temi durante gli appuntamenti dal vivo.
+
+Satoshi Spritz Connect segue le stesse regole dei Satoshi Spritz e di Officine Bitcoin.
+
+## 📚 Risorse
+
+- [Presentazioni](https://satoshispritz.it/presentazioni/): materiali usati durante gli incontri.
+- [Gadget](https://satoshispritz.it/gadget.html): gadget presentati o realizzati per i Satoshi Spritz.
+- [Loghi](https://satoshispritz.it/loghi/): logo ufficiale e materiali grafici.
+- [Locandine](https://satoshispritz.it/locandine/): template disponibili per la personalizzazione.
+
+## 📄 Licenze e attribuzioni
+
+Salvo diversa indicazione, il materiale prodotto durante i Satoshi Spritz è pubblicato con licenza Creative Commons CC BY-SA 4.0.
+
+Il logo ufficiale dei Satoshi Spritz è coperto dalla stessa licenza.
+
+## 🛠️ Officine Bitcoin
+
+Officine Bitcoin organizza eventi online gratuiti e ricorrenti su Bitcoin e temi affini.
+
+Ogni incontro dura al massimo 30 minuti: una prima parte è dedicata alla lezione, mentre il tempo restante è riservato a domande e supporto ai partecipanti.
+
+Le lezioni si tengono su Telegram nel gruppo di [Officine Bitcoin](https://officinebitcoin.it/).
+
+## 🗺️ Mappa dei Satoshi Spritz
+
+<iframe src="./map.html" width="420" height="620"></iframe>
+
+## 📍 Elenco dei Satoshi Spritz
+
+| Città/Regione | Canale Telegram | Profilo X/Twitter | Sito web | Nostr |
+| --- | --- | --- | --- | --- |
+| Coordinamento - canale per informazioni e nuovi gruppi | [SatoshiSpritzCoordinamento](https://t.me/SatoshiSpritz) |  | [satoshispritz.it](https://satoshispritz.it) |  |
+| Connect - canale per i Satoshi Spritz virtuali | [SatoshiSpritzConnect](https://t.me/satoshispritzconnect) | [@satoshispritz](https://twitter.com/satoshispritz) |  |  |
+| Italia - canale per eventi nazionali | [Satoshi Spritz Italia](https://t.me/SatoshiSpritzIta) |  |  |  |
+| **Lombardia** |  |  |  |  |
+| Bergamo | [SatoshiSpritzBergamo](https://t.me/satoshispritzbergamo) |  |  |  |
+| Crema | [SatoshiSpritzCremaCremonaLodi](https://t.me/satoshispritzlodi) |  |  |  |
+| Cremona | [SatoshiSpritzCremaCremonaLodi](https://t.me/satoshispritzlodi) |  |  |  |
+| Lodi | [SatoshiSpritzCremaCremonaLodi](https://t.me/satoshispritzlodi) |  |  |  |
+| Mantova | [SatoshiSpritzMantova](https://t.me/satoshispritzmantova) |  |  |  |
+| Milano | [SatoshiSpritzMilano](https://t.me/SatoshiSpritzMilano) |  | [satoshispritz.com](https://satoshispritz.com) |  |
+| Monza | [SatoshiSpritzMonza](https://t.me/SatoshiSpritzMonza) |  |  |  |
+| **Piemonte** |  |  |  |  |
+| Bardonecchia | [SatoshiSpritzBardonecchia](https://t.me/satoshispritzbardonecchia) |  |  |  |
+| Cuneo | [SatoshiSpritzCuneo](https://t.me/SatoshiSpritzCuneo) |  |  |  |
+| **Lazio** |  |  |  |  |
+| Roma | [SatoshiSpritzRoma](https://t.me/SatoshiSpritzRoma) |  |  |  |
+| **Veneto** | [SatoshiSpritzVeneto](https://t.me/SatoshiSpritzVeneto) |  |  |  |
+| Verona | [SatoshiSpritzVerona](https://t.me/SatoshiSpritzVerona) |  |  |  |
+| Vicenza | [SatoshiSpritzVicenza](https://t.me/SatoshiSpritzVicenza) |  |  |  |
+| Treviso | [SatoshiSpritzTreviso](https://t.me/SatoshiSpritzTreviso) |  |  |  |
+| Padova | [SatoshiSpritzPadova](https://t.me/SatoshiSpritzPadova) |  |  |  |
+| Venezia | [SatoshiSpritzVenezia](https://t.me/SatoshiSpritzVenezia) |  |  |  |
+| Rovigo | [SatoshiSpritzRovigo](https://t.me/SatoshiSpritzRovigo) |  |  |  |
+| Belluno | [SatoshiSpritzBelluno](https://t.me/SatoshiSpritzBelluno) |  |  |  |
+| **Emilia-Romagna** |  |  |  |  |
+| Parma | [SatoshiSpritzParmaePiacenza](https://t.me/SatoshiSpritzParmaePiacenza) |  |  |  |
+| Piacenza | [SatoshiSpritzParmaePiacenza](https://t.me/SatoshiSpritzParmaePiacenza) |  |  |  |
+| Modena | [SatoshiSpritzModena](https://t.me/SatoshiSpritzModena) |  |  |  |
+| Reggio Emilia | [SatoshiSpritzReggioEmilia](https://t.me/satoshispritzreggioemilia) |  |  |  |
+| Rimini | [SatoshiSpritzRimini](https://t.me/SatoshiSpritzRimini) |  |  |  |
+| Vignola | [SatoshiSpritzVignola](https://t.me/SatoshiSpritzVignola) |  |  |  |
+| **Puglia** | [SatoshiSpritzPuglia](https://t.me/SatoshiSpritzPuglia) |  |  |  |
+| Taranto | [SatoshiSpritzTaranto](https://t.me/SatoshiSpritzTaranto) |  |  |  |
+| **Toscana** |  |  |  |  |
+| Firenze | [SatoshiSpritzFirenze](https://t.me/SatoshiSpritzFirenze) |  |  |  |
+| Lucca | [SatoshiSpritzLucca](https://t.me/SatoshiSpritzLucca) |  |  |  |
+| Prato | [SatoshiSpritzPrato](https://t.me/SatoshiSpritzPrato) |  |  |  |
+| Siena | [SatoshiSpritzToscanaSud](https://t.me/SatoshiSpritzToscanaSud) |  |  |  |
+| **Sardegna** |  |  |  |  |
+| Cagliari | [SatoshiSpritzCagliari](https://t.me/SatoshiSpritzCagliari) |  |  |  |
+| Nuoro | [SatoshiSpritzNuoro](https://t.me/satoshispritznuoro) |  |  |  |
+| **Trentino** |  |  |  |  |
+| Rovereto | [SatoshiSpritzRoveretoeTrento](https://t.me/SatoshiSpritzRovereto) |  |  |  |
+| Trento | [SatoshiSpritzRoveretoeTrento](https://t.me/SatoshiSpritzRovereto) |  |  |  |
+| Cles | [SatoshiSpritzCles](https://t.me/SatoshiSpritzCles) |  |  |  |
+| **Campania** |  |  |  |  |
+| Napoli | [SatoshiSpritzNapoli](https://t.me/SatoshiSpritzNapoli) |  |  |  |
+| **Umbria** | [SatoshiSpritzUmbria](https://t.me/satoshispritzumbria) | [@satoshiumbria](https://x.com/satoshiumbria) |  |  |
+| **Liguria** |  |  |  |  |
+| Albenga | [SatoshiSpritzAlbenga](https://t.me/satoshispritzalbenga) |  |  |  |
+| Genova | [SatoshiSpritzGenova](https://t.me/satoshispritzgenova) |  |  |  |
+| Savona | [SatoshiSpritzSavona](https://t.me/satoshispritzsavona) |  |  |  |
+| **Estero** |  |  |  |  |
+| **Svizzera** |  |  |  |  |
+| Lugano | [SatoshiSpritzLugano](https://t.me/satoshispritzlugano) | [@satoshilugano](https://x.com/SatoshiLugano) |  |  |
+>>>>>>> Stashed changes
