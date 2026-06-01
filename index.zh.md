@@ -2,7 +2,7 @@
 
 ## 🌍 翻译
 
-[🇮🇹 Italiano](index.html) | [🇬🇧 English](index.en.html) | [🇫🇷 Français](index.fr.html) | [🇩🇪 Deutsch](index.de.html) | [🏳️ Milanés](index.lmo.html) | [🇭🇺 Magyar](index.hu.html) | [🇵🇹 Português](index.pt.html) | [🇷🇺 Русский](index.ru.html) | [🇪🇸 Español](index.es.html) | 🇨🇳 中文
+🇨🇳 中文 | [🇬🇧 English](index.en.html) | [🇪🇸 Español](index.es.html) | [🇵🇹 Português](index.pt.html) | [🇷🇺 Русский](index.ru.html) | [🇫🇷 Français](index.fr.html) | [🇩🇪 Deutsch](index.de.html) | [🇮🇹 Italiano](index.html) | [🇭🇺 Magyar](index.hu.html) | [🏳️ Milanés](index.lmo.html)
 
 Satoshi Spritz 是定期在不同城市举办的 Bitcoin 公共聚会。它的目标是在意大利和海外建立本地 bitcoiner 社群：大家见面、一起喝一杯，并讨论 Bitcoin，不接受赞助，不销售金融产品，也不推广 altcoin。
 

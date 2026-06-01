@@ -2,7 +2,7 @@
 
 ## 🌍 Fordítások
 
-[🇮🇹 Italiano](index.html) | [🇬🇧 English](index.en.html) | [🇫🇷 Français](index.fr.html) | [🇩🇪 Deutsch](index.de.html) | [🏳️ Milanés](index.lmo.html) | 🇭🇺 Magyar | [🇵🇹 Português](index.pt.html) | [🇷🇺 Русский](index.ru.html) | [🇪🇸 Español](index.es.html) | [🇨🇳 中文](index.zh.html)
+[🇨🇳 中文](index.zh.html) | [🇬🇧 English](index.en.html) | [🇪🇸 Español](index.es.html) | [🇵🇹 Português](index.pt.html) | [🇷🇺 Русский](index.ru.html) | [🇫🇷 Français](index.fr.html) | [🇩🇪 Deutsch](index.de.html) | [🇮🇹 Italiano](index.html) | 🇭🇺 Magyar | [🏳️ Milanés](index.lmo.html)
 
 A Satoshi Spritz nyilvános, Bitcoinnal foglalkozó találkozók sorozata, amelyeket rendszeresen szerveznek különböző városokban. Céljuk helyi bitcoiner közösségek építése Olaszországban és külföldön: az emberek találkoznak, isznak valamit együtt, és Bitcoinról beszélgetnek, szponzorok, pénzügyi termékek értékesítése és altcoin-promóció nélkül.
 

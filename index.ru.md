@@ -2,7 +2,7 @@
 
 ## 🌍 Переводы
 
-[🇮🇹 Italiano](index.html) | [🇬🇧 English](index.en.html) | [🇫🇷 Français](index.fr.html) | [🇩🇪 Deutsch](index.de.html) | [🏳️ Milanés](index.lmo.html) | [🇭🇺 Magyar](index.hu.html) | [🇵🇹 Português](index.pt.html) | 🇷🇺 Русский | [🇪🇸 Español](index.es.html) | [🇨🇳 中文](index.zh.html)
+[🇨🇳 中文](index.zh.html) | [🇬🇧 English](index.en.html) | [🇪🇸 Español](index.es.html) | [🇵🇹 Português](index.pt.html) | 🇷🇺 Русский | [🇫🇷 Français](index.fr.html) | [🇩🇪 Deutsch](index.de.html) | [🇮🇹 Italiano](index.html) | [🇭🇺 Magyar](index.hu.html) | [🏳️ Milanés](index.lmo.html)
 
 Satoshi Spritz — это публичные встречи, посвященные Bitcoin, которые регулярно проходят в разных городах. Их цель — создавать локальные сообщества bitcoiners в Италии и за ее пределами: люди встречаются, вместе выпивают что-то и говорят о Bitcoin без спонсоров, продажи финансовых продуктов и продвижения altcoin.
 
