@@ -1,5 +1,9 @@
 # 🍹 Satoshi Spritz
 
+## 🌍 Traduzioni
+
+🇮🇹 Italiano | [🇬🇧 English](index.en.html) | [🇫🇷 Français](index.fr.html) | [🇩🇪 Deutsch](index.de.html) | [🏳️ Milanés](index.lmo.html) | [🇭🇺 Magyar](index.hu.html) | [🇵🇹 Português](index.pt.html) | [🇷🇺 Русский](index.ru.html) | [🇪🇸 Español](index.es.html) | [🇨🇳 中文](index.zh.html)
+
 I Satoshi Spritz sono incontri pubblici dedicati a Bitcoin, organizzati con cadenza regolare in diverse città. Nascono per creare comunità locali di bitcoiner in Italia e all'estero: ci si incontra, si beve qualcosa insieme e si parla di Bitcoin, senza sponsor, senza vendita di prodotti finanziari e senza promozione di altcoin.
 
 I gruppi elencati in questa pagina aderiscono, o sono invitati ad aderire, alle regole comuni dei Satoshi Spritz.
@@ -57,66 +61,6 @@ Non condividete mai la vostra seed phrase, cioè la frase mnemonica da 12 o 24 p
 
 Nessun amministratore del Satoshi Spritz vi chiederà mai di inviare bitcoin, crypto o altri fondi per test, investimenti comuni, presunte verifiche tecniche, raccolte fondi o iniziative riservate.
 
-<<<<<<< Updated upstream
-|Città/Regione        |Canale telegram                 |Profilo Twitter                                    |Sito web                 |Nostr |
-|---------------------|--------------------------------|---------------------------------------------------|-------------------------|
-|Coordinamento - canale dove chiedere informazioni/annunciare nuovi gruppi|[SatoshiSpritzCoordinamento](https://t.me/SatoshiSpritz)||[satoshispritz.it](https://satoshispritz.it)||
-|Connect - canale per Satoshi Spritz virtuali|[SatoshiSpritzConnect](https://t.me/satoshispritzconnect)|[@satoshispritz](https://twitter.com/satoshispritz)|||
-|Italia - canale per eventi legati a tutta italia|[Satoshi Spritz Italia](https://t.me/SatoshiSpritzIta)|||
-|Lombardia            |||||
-|Bergamo              |[SatoshiSpritzBergamo](https://t.me/satoshispritzbergamo)||||
-|Crema                |[SatoshiSpritzCremaCremonaLodi](https://t.me/satoshispritzlodi)||||
-|Cremona              |[SatoshiSpritzCremaCremonaLodi](https://t.me/satoshispritzlodi)||||
-|Lodi                 |[SatoshiSpritzCremaCremonaLodi](https://t.me/satoshispritzlodi)||||
-|Mantova              |[SatoshiSpritzMantova](https://t.me/satoshispritzmantova)||||
-|Milano               |[SatoshiSpritzMilano](https://t.me/SatoshiSpritzMilano)||[satoshispritz.com](https://satoshispritz.com)||
-|Monza                |[SatoshiSpritzMonza](https://t.me/SatoshiSpritzMonza)||||
-|Piemonte|||||
-|Bardonecchia         |[SatoshiSpritzBardonecchia](https://t.me/satoshispritzbardonecchia)||||
-|Cuneo                |[SatoshiSpritzCuneo](https://t.me/SatoshiSpritzCuneo)||||
-|Torino               |[SatoshiSpritzTorino](https://t.me/SatoshiSpritzTorino)||||
-|Lazio|||||
-|Roma                 |[SatoshiSpritzRoma](https://t.me/SatoshiSpritzRoma)||||
-|Veneto               |[SatoshiSpritzVeneto](https://t.me/SatoshiSpritzVeneto)||||
-|Verona               |[SatoshiSpritzVerona](https://t.me/SatoshiSpritzVerona)||||
-|Vicenza              |[SatoshiSpritzVicenza](https://t.me/SatoshiSpritzVicenza)||||
-|Treviso              |[SatoshiSpritzTreviso](https://t.me/SatoshiSpritzTreviso)||||
-|Padova               |[SatoshiSpritzPadova](https://t.me/SatoshiSpritzPadova)||||
-|Venezia              |[SatoshiSpritzVenezia](https://t.me/SatoshiSpritzVenezia)||||
-|Rovigo               |[SatoshiSpritzRovigo](https://t.me/SatoshiSpritzRovigo)||||
-|Belluno              |[SatoshiSpritzBelluno](https://t.me/SatoshiSpritzBelluno)||||
-|Emilia Romagna|||||
-|Parma                |[SatoshiSpritzParmaePiacenza](https://t.me/SatoshiSpritzParmaePiacenza)||||
-|Piacenza             |[SatoshiSpritzParmaePiacenza](https://t.me/SatoshiSpritzParmaePiacenza)||||
-|Modena               |[SatoshiSpritzModena](https://t.me/SatoshiSpritzModena)||||
-|Reggio Emilia        |[SatoshiSpritzReggioEmilia](https://t.me/satoshispritzreggioemilia)||||
-|Rimini               |[SatoshiSpritzRimini](https://t.me/SatoshiSpritzRimini)||||
-|Vignola              |[SatoshiSpritzVignola](https://t.me/SatoshiSpritzVignola)||||
-|Puglia               |[SatoshiSpritzPuglia](https://t.me/SatoshiSpritzPuglia)||||
-|Taranto              |[SatoshiSpritzTaranto](https://t.me/SatoshiSpritzTaranto)||||
-|Toscana              |||||
-|Firenze              |[SatoshiSpritzFirenze](https://t.me/SatoshiSpritzFirenze)||||
-|Lucca                |[SatoshiSpritzLucca](https://t.me/SatoshiSpritzLucca)||||
-|Prato                |[SatoshiSpritzPrato](https://t.me/SatoshiSpritzPrato)||||
-|Siena                |[SatoshiSpritzToscanaSud](https://t.me/SatoshiSpritzToscanaSud)||||
-|Sardegna             |||||
-|Cagliari             |[SatoshiSpritzCagliari](https://t.me/SatoshiSpritzCagliari)||||
-|Nuoro                |[SatoshiSpritzNuoro](https://t.me/satoshispritznuoro)||||
-|Trentino             |||||
-|Rovereto             |[SatoshiSpritzRoveretoeTrento](https://t.me/SatoshiSpritzRovereto)||||
-|Trento               |[SatoshiSpritzRoveretoeTrento](https://t.me/SatoshiSpritzRovereto)||||
-|Cles                 |[SatoshiSpritzCles](https://t.me/SatoshiSpritzCles)||||
-|Campania             |||||
-|Napoli               |[SatoshiSpritzNapoli](https://t.me/SatoshiSpritzNapoli)||||
-|Umbria               |[SatoshiSpritzUmbria](https://t.me/satoshispritzumbria)|[@satoshiumbria](https://x.com/satoshiumbria)|||
-|Liguria||||
-|Albenga              |[SatoshiSpritzAlbenga](https://t.me/satoshispritzalbenga)||||
-|Genova               |[SatoshiSpritzGenova](https://t.me/satoshispritzgenova)||||
-|Savona               |[SatoshiSpritzSavona](https://t.me/satoshispritzsavona)||||
-|ESTERO|||||
-|Svizzera|||||
-|Lugano               |[SatoshiSpritzLugano](https://t.me/satoshispritzlugano)|[@satoshilugano](https://x.com/SatoshiLugano)|||
-=======
 ### 📈 Promesse di guadagno e piattaforme scam
 
 Non fate investimenti tramite Telegram e non registratevi a link sospetti o piattaforme che promettono rendimenti garantiti, guadagni passivi o profitti rapidi.
@@ -195,6 +139,7 @@ Le lezioni si tengono su Telegram nel gruppo di [Officine Bitcoin](https://offic
 | **Piemonte** |  |  |  |  |
 | Bardonecchia | [SatoshiSpritzBardonecchia](https://t.me/satoshispritzbardonecchia) |  |  |  |
 | Cuneo | [SatoshiSpritzCuneo](https://t.me/SatoshiSpritzCuneo) |  |  |  |
+| Torino | [SatoshiSpritzTorino](https://t.me/SatoshiSpritzTorino) |  |  |  |
 | **Lazio** |  |  |  |  |
 | Roma | [SatoshiSpritzRoma](https://t.me/SatoshiSpritzRoma) |  |  |  |
 | **Veneto** | [SatoshiSpritzVeneto](https://t.me/SatoshiSpritzVeneto) |  |  |  |
@@ -236,4 +181,3 @@ Le lezioni si tengono su Telegram nel gruppo di [Officine Bitcoin](https://offic
 | **Estero** |  |  |  |  |
 | **Svizzera** |  |  |  |  |
 | Lugano | [SatoshiSpritzLugano](https://t.me/satoshispritzlugano) | [@satoshilugano](https://x.com/SatoshiLugano) |  |  |
->>>>>>> Stashed changes
