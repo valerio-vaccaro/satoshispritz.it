@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<p class="site-kicker"><strong>{{ page.group_name }}</strong> <span>Meetup Bitcoin-only</span> <span>{{ page.region }}</span></p>
+
+<h1>{{ page.group_name }}</h1>
+
+{{ content }}
+
+<div class="group-meta">
+  <p><strong>Citta:</strong> {{ page.city }}</p>
+  <p><strong>Regione:</strong> {{ page.region }}</p>
+  <p><strong>Canale Telegram:</strong> <a href="{{ page.telegram_url }}">{{ page.telegram_label | default: page.telegram_url }}</a></p>
+  {% if page.website_url %}<p><strong>Sito web:</strong> <a href="{{ page.website_url }}">{{ page.website_url }}</a></p>{% endif %}
+  {% if page.x_url %}<p><strong>Profilo X:</strong> <a href="{{ page.x_url }}">{{ page.x_url }}</a></p>{% endif %}
+</div>
+
+<h2>Regole e contesto</h2>
+
+<p>Questo gruppo locale segue le regole comuni dei Satoshi Spritz: eventi pubblici, orientati alla divulgazione, senza sponsor e senza promozione di prodotti finanziari o altcoin.</p>
+
+<p>Per il contesto completo, consulta la pagina principale dei <a href="{{ '/' | relative_url }}">Satoshi Spritz</a> e l'elenco generale dei <a href="{{ '/gruppi/' | relative_url }}">gruppi locali</a>.</p>

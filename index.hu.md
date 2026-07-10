@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Satoshi Spritz
+description: Nyilvanos, Bitcoin-only talalkozok Olaszorszagban es kulfoldon, helyi csoportokkal, szabalyokkal, eroforrasokkal es terkeppeI.
+lang: hu
+permalink: /index.hu.html
+translation_key: home
 ---
 
 <p class="site-kicker"><strong>Satoshi Spritz</strong> <span>Incontri pubblici Bitcoin-only</span> <span>This project is maintained by valerio-vaccaro</span></p>
@@ -105,6 +109,7 @@ A Satoshi Spritz Connect ugyanazokat a szabályokat követi, mint a Satoshi Spri
 
 ## 📚 Források
 
+- [Helyi csoportok](https://satoshispritz.it/gruppi/index.hu.html): kulon oldalak a Bitcoin-only talalkozoknak a kulonbozo varosokban.
 - [Előadások](https://satoshispritz.it/presentazioni/): a találkozókon használt anyagok.
 - [Gadgetek](https://satoshispritz.it/gadget.html): Satoshi Spritzhez bemutatott vagy készített tárgyak.
 - [Logók](https://satoshispritz.it/loghi/): hivatalos logó és grafikai anyagok.
@@ -129,6 +134,8 @@ Az előadások Telegramon, az [Officine Bitcoin](https://officinebitcoin.it/) cs
 <iframe src="./map.html" width="420" height="620"></iframe>
 
 ## 📍 Satoshi Spritz csoportok listája
+
+Minden csatornanak sajat helye van a [Helyi csoportok](https://satoshispritz.it/gruppi/index.hu.html) oldalon.
 
 | Város/Régió | Telegram-csatorna | X/Twitter profil | Weboldal | Nostr |
 | --- | --- | --- | --- | --- |

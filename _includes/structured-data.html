@@ -1,0 +1,35 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Satoshi Spritz",
+  "url": "{{ site.url }}",
+  "logo": "{{ site.logo | absolute_url }}",
+  "description": "{{ page.description | default: site.description | escape }}",
+  "sameAs": [
+    "https://twitter.com/satoshispritz",
+    "https://t.me/SatoshiSpritz"
+  ]
+}
+</script>
+{% if page.group_name %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "{{ page.title | escape }}",
+  "url": "{{ page.url | absolute_url }}",
+  "description": "{{ page.description | escape }}",
+  "about": {
+    "@type": "Place",
+    "name": "{{ page.group_name | escape }}",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "{{ page.city | escape }}",
+      "addressRegion": "{{ page.region | escape }}",
+      "addressCountry": "{{ page.country | default: 'IT' }}"
+    }
+  }
+}
+</script>
+{% endif %}

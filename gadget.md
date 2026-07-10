@@ -1,4 +1,16 @@
-## Gadget e dispositivi hardware visti al Satoshi Spritz
+---
+layout: default
+title: Gadget Bitcoin e dispositivi hardware | Satoshi Spritz
+description: Selezione di gadget, hardware wallet e progetti open source presentati ai Satoshi Spritz.
+lang: it
+permalink: /gadget.html
+parent_title: Satoshi Spritz
+parent_url: /
+---
+
+# Gadget Bitcoin e dispositivi hardware
+
+Questa pagina raccoglie gadget, hardware wallet e progetti open source visti o discussi durante gli incontri Satoshi Spritz.
 
 |Descrizione       |Link|
 |------------------|----|

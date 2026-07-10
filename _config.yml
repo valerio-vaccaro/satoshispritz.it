@@ -1,3 +1,23 @@
 theme: jekyll-theme-dinky
 title: Satoshi Spritz
 description: Incontri pubblici Bitcoin-only
+url: https://satoshispritz.it
+lang: it
+locale: it_IT
+logo: /loghi/SSLogo.png
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /img/splash.png
+      seo:
+        type: WebSite
+exclude:
+  - vendor
+  - .git
+  - Gemfile
+  - Gemfile.lock
+  - README.md

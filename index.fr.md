@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Satoshi Spritz
+description: Rencontres publiques Bitcoin-only en Italie et a l'etranger, avec groupes locaux, regles communes, ressources et carte.
+lang: fr
+permalink: /index.fr.html
+translation_key: home
 ---
 
 <p class="site-kicker"><strong>Satoshi Spritz</strong> <span>Incontri pubblici Bitcoin-only</span> <span>This project is maintained by valerio-vaccaro</span></p>
@@ -105,6 +109,7 @@ Satoshi Spritz Connect suit les mêmes règles que les Satoshi Spritz et Officin
 
 ## 📚 Ressources
 
+- [Groupes locaux](https://satoshispritz.it/gruppi/index.fr.html): pages dediees aux rencontres Bitcoin-only dans differentes villes.
 - [Présentations](https://satoshispritz.it/presentazioni/): supports utilisés pendant les rencontres.
 - [Gadgets](https://satoshispritz.it/gadget.html): gadgets présentés ou réalisés pour les Satoshi Spritz.
 - [Logos](https://satoshispritz.it/loghi/): logo officiel et supports graphiques.
@@ -129,6 +134,8 @@ Les leçons ont lieu sur Telegram dans le groupe [Officine Bitcoin](https://offi
 <iframe src="./map.html" width="420" height="620"></iframe>
 
 ## 📍 Liste des Satoshi Spritz
+
+Chaque canal a son propre espace dans les [Groupes locaux](https://satoshispritz.it/gruppi/index.fr.html).
 
 | Ville/Région | Canal Telegram | Profil X/Twitter | Site web | Nostr |
 | --- | --- | --- | --- | --- |

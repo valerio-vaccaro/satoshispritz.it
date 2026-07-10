@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    {% seo %}
+    {% if page.translation_key == 'home' %}
+      {% include home-hreflang.html %}
+    {% endif %}
+    {% if page.translation_key == 'groups' %}
+      {% include groups-hreflang.html %}
+    {% endif %}
+    {% include structured-data.html %}
+  </head>
+  <body>
+    <div class="wrapper">
+      <section>
+        {% if page.parent_title %}
+          <p class="breadcrumbs"><a href="{{ page.parent_url | relative_url }}">{{ page.parent_title }}</a></p>
+        {% endif %}
+        {{ content }}
+      </section>
+    </div>
+  </body>
+</html>

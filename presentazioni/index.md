@@ -1,18 +1,30 @@
-## Presentazioni
+---
+layout: default
+title: Presentazioni Satoshi Spritz
+description: Archivio di slide, talk e materiali usati durante gli incontri Satoshi Spritz.
+lang: it
+permalink: /presentazioni/
+parent_title: Satoshi Spritz
+parent_url: /
+---
 
-Qui una selezione delle presentazioni viste ai Satoshi Spritz.
+# Presentazioni Satoshi Spritz
+
+Qui trovi una selezione delle presentazioni viste ai Satoshi Spritz, con materiali dedicati a Bitcoin, self-custody, privacy, mining, wallet e protocolli correlati.
+
+Questa pagina funziona come archivio pubblico dei talk e come hub di collegamento verso i PDF usati durante gli incontri.
 
 |Data              |Autore             |Titolo|
 |------------------|-------------------|------|
 |25 Marzo 2026     |                   |[Secure Element](https://satoshispritz.it/presentazioni/260325-secure_element.pdf)|
 |25 Marzo 2026     |                   |[Bitcoin Supply](https://satoshispritz.it/presentazioni/260325-supply.pdf)|
 |24 Marzo 2026     |Valerio Vaccaro    |[LLM](https://satoshispritz.it/presentazioni/260324-ai_llm_it.pdf) [EN](https://satoshispritz.it/presentazioni/260324-ai_llm_en.pdf)|
-|18 Marzo 2026     |Valerio Vaccaro    |[Opentimestamps](https://satoshispritz.it/presentazioni/260311-bitcoin-node.pdf) [EN](https://satoshispritz.it/presentazioni/260311-bitcoin-node_en.pdf)|
-|17 Marzo 2026     |Valerio Vaccaro    |[Bitcoin Whitepaper](https://satoshispritz.it/presentazioni/260318-opentimestamps_it.pdf) [EN](https://satoshispritz.it/presentazioni/260318-opentimestamps_en.pdf)|
+|18 Marzo 2026     |Valerio Vaccaro    |[Opentimestamps](https://satoshispritz.it/presentazioni/260318-opentimestamps_it.pdf) [EN](https://satoshispritz.it/presentazioni/260318-opentimestamps_en.pdf)|
+|17 Marzo 2026     |Valerio Vaccaro    |[Bitcoin Whitepaper](https://satoshispritz.it/presentazioni/260317-bitcoin_whitepaper_it.pdf) [EN](https://satoshispritz.it/presentazioni/260317-bitcoin_whitepaper_en.pdf)|
 |11 Marzo 2026     |Valerio Vaccaro    |[Bitcoin Node](https://satoshispritz.it/presentazioni/260311-bitcoin-node.pdf) [EN](https://satoshispritz.it/presentazioni/260311-bitcoin-node_en.pdf)|
 |10 Marzo 2026     |Valerio Vaccaro    |[Bitcoinissimo](https://satoshispritz.it/presentazioni/260310-bitcoinissimo.pdf) [EN](https://satoshispritz.it/presentazioni/260310-bitcoinissimo_en.pdf)|
 |23 Febbraio 2026  |Valerio Vaccaro    |[Yubikey TPM2 Linux](https://satoshispritz.it/presentazioni/260223-yubikey-tpm2-linux.pdf) [EN](https://satoshispritz.it/presentazioni/260223-yubikey-tpm2-linux_en.pdf)|
-|21 Febbraio 2026  |Satoshi Spritz Piacenza|[Prepararsi al backup del wallet](https://satoshispritz.it/presentazioni/260221-recupero-wallet.pdf)
+|21 Febbraio 2026  |Satoshi Spritz Piacenza|[Prepararsi al backup del wallet](https://satoshispritz.it/presentazioni/260221-recupero-wallet.pdf)|
 |11 Febbraio 2026  |Valerio Vaccaro    |[Open Source](https://satoshispritz.it/presentazioni/260211-opensource.pdf)|
 |12 Gennaio 2026   |                   |[Il Vero Capodanno di Bitcoin](https://satoshispritz.it/presentazioni/260112-capodanno_bitcoin.pdf)|
 |9 Gennaio 2026    |Valerio Vaccaro    |[Il Vero Capodanno di Bitcoin](https://satoshispritz.it/presentazioni/260109-nuovo-anno.pdf)|

@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Satoshi Spritz
+description: Incoeunter publich Bitcoin-only in Italia e foeura, con grupp local, regoel comun, risors e mappa.
+lang: lmo
+permalink: /index.lmo.html
+translation_key: home
 ---
 
 <p class="site-kicker"><strong>Satoshi Spritz</strong> <span>Incontri pubblici Bitcoin-only</span> <span>This project is maintained by valerio-vaccaro</span></p>
@@ -105,6 +109,7 @@ Satoshi Spritz Connect segue i stess regol di Satoshi Spritz e de Officine Bitco
 
 ## 📚 Risors
 
+- [Grupp local](https://satoshispritz.it/gruppi/index.lmo.html): pagin dedicad ai meetup Bitcoin-only in di divers città.
 - [Presentazion](https://satoshispritz.it/presentazioni/): material doprad durant i incontr.
 - [Gadget](https://satoshispritz.it/gadget.html): gadget presentad o realizzad per i Satoshi Spritz.
 - [Loghi](https://satoshispritz.it/loghi/): logo ufficial e material grafic.
@@ -129,6 +134,8 @@ I lezion se fann su Telegram nel grupp de [Officine Bitcoin](https://officinebit
 <iframe src="./map.html" width="420" height="620"></iframe>
 
 ## 📍 Elench di Satoshi Spritz
+
+Ogni canal el gh'ha el so spaziu dentar ai [Grupp local](https://satoshispritz.it/gruppi/index.lmo.html).
 
 | Città/Region | Canal Telegram | Profil X/Twitter | Sit web | Nostr |
 | --- | --- | --- | --- | --- |
