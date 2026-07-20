@@ -13,6 +13,8 @@
 		.leaflet-popup-content-wrapper, .leaflet-popup-tip { background: #111720; color: #f7f4ee; box-shadow: 0 12px 28px rgba(0, 0, 0, 0.42); }
 		.leaflet-popup-content a, .leaflet-control-attribution a { color: #ffb14a; font-weight: 700; }
 		.leaflet-control-attribution { background: rgba(9, 11, 15, 0.78); color: #b8b2a8; }
+		.spritz-map-pin { position: relative; display: block; width: 18px; height: 18px; border: 2px solid #fff; border-radius: 50% 50% 50% 0; background: var(--spritz-colour); box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5); transform: rotate(-45deg); }
+		.spritz-map-pin::after { content: ""; position: absolute; top: 5px; left: 5px; width: 4px; height: 4px; border-radius: 50%; background: rgba(255, 255, 255, 0.82); }
 	</style>
 </head>
 <body>
@@ -24,6 +26,23 @@
 		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, tiles &copy; Humanitarian OpenStreetMap Team'
 	}).addTo(map);
 
+	function groupColour(entry) {
+		const order = Number(entry.sort_order);
+		const hue = (order * 47) % 360;
+		const lightness = 42 + Math.floor(order / 360) * 8;
+		return `hsl(${hue} 76% ${lightness}%)`;
+	}
+
+	function groupIcon(entry) {
+		return L.divIcon({
+			className: '',
+			html: `<span class="spritz-map-pin" style="--spritz-colour: ${groupColour(entry)};"></span>`,
+			iconSize: [22, 22],
+			iconAnchor: [11, 20],
+			popupAnchor: [0, -20]
+		});
+	}
+
 	fetch('./spritz-data.json')
 		.then((response) => {
 			if (!response.ok) throw new Error('Unable to load Satoshi Spritz data');
@@ -33,7 +52,7 @@
 			spritzEntries
 				.filter((entry) => entry.row_type === 'group' && entry.latitude && entry.longitude)
 				.forEach((entry) => {
-					const marker = L.marker([Number(entry.latitude), Number(entry.longitude)]).addTo(map);
+					const marker = L.marker([Number(entry.latitude), Number(entry.longitude)], { icon: groupIcon(entry) }).addTo(map);
 					const popup = document.createElement('div');
 					const title = document.createElement('b');
 					title.textContent = `Satoshi Spritz ${entry.name}`;

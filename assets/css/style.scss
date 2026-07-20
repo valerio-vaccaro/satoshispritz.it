@@ -354,6 +354,18 @@ td strong {
   color: var(--accent-dark);
 }
 
+.spritz-colour {
+  display: inline-block;
+  width: 0.7rem;
+  height: 0.7rem;
+  margin-right: 0.45rem;
+  border: 2px solid rgba(255, 255, 255, 0.88);
+  border-radius: 50%;
+  background: var(--spritz-colour);
+  box-shadow: 0 0 0 2px rgba(9, 11, 15, 0.5);
+  vertical-align: -0.04rem;
+}
+
 @media (min-width: 900px) {
   section {
     display: block;
