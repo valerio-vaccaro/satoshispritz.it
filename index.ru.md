@@ -155,7 +155,4 @@ Officine Bitcoin организует бесплатные регулярные 
 
 | Город/Регион | Канал Telegram | Профиль X/Twitter | Сайт | Nostr |
 | --- | --- | --- | --- | --- |
-| Координация - канал для информации и новых групп | [SatoshiSpritzCoordinamento](https://t.me/SatoshiSpritz) |  | [satoshispritz.it](https://satoshispritz.it) |  |
-| Connect - канал для виртуальных Satoshi Spritz | [SatoshiSpritzConnect](https://t.me/satoshispritzconnect) | [@satoshispritz](https://twitter.com/satoshispritz) |  |  |
-| Италия - канал для национальных событий | [Satoshi Spritz Italia](https://t.me/SatoshiSpritzIta) |  |  |  |
 {% include spritz-list.md %}

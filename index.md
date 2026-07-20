@@ -157,6 +157,8 @@ Ogni canale ha il proprio spazio nella sezione [Gruppi locali](https://satoshisp
 
 | Città/Regione | Canale Telegram | Profilo X/Twitter | Sito web | Nostr |
 | --- | --- | --- | --- | --- |
+{% include spritz-list.md %}
+{% comment %}
 | Coordinamento - canale per informazioni e nuovi gruppi | [SatoshiSpritzCoordinamento](https://t.me/SatoshiSpritz) |  | [satoshispritz.it](https://satoshispritz.it) |  |
 | Connect - canale per i Satoshi Spritz virtuali | [SatoshiSpritzConnect](https://t.me/satoshispritzconnect) | [@satoshispritz](https://twitter.com/satoshispritz) |  |  |
 | Italia - canale per eventi nazionali | [Satoshi Spritz Italia](https://t.me/SatoshiSpritzIta) |  |  |  |
@@ -213,3 +215,4 @@ Ogni canale ha il proprio spazio nella sezione [Gruppi locali](https://satoshisp
 | **Estero** |  |  |  |  |
 | **Svizzera** |  |  |  |  |
 | Lugano | [SatoshiSpritzLugano](https://t.me/satoshispritzlugano) | [@satoshilugano](https://x.com/SatoshiLugano) |  |  |
+{% endcomment %}

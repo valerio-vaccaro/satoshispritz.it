@@ -155,7 +155,4 @@ Minden csatornanak sajat helye van a [Helyi csoportok](https://satoshispritz.it/
 
 | Város/Régió | Telegram-csatorna | X/Twitter profil | Weboldal | Nostr |
 | --- | --- | --- | --- | --- |
-| Koordináció - információk és új csoportok csatornája | [SatoshiSpritzCoordinamento](https://t.me/SatoshiSpritz) |  | [satoshispritz.it](https://satoshispritz.it) |  |
-| Connect - virtuális Satoshi Spritz csatorna | [SatoshiSpritzConnect](https://t.me/satoshispritzconnect) | [@satoshispritz](https://twitter.com/satoshispritz) |  |  |
-| Olaszország - országos események csatornája | [Satoshi Spritz Italia](https://t.me/SatoshiSpritzIta) |  |  |  |
 {% include spritz-list.md %}

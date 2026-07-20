@@ -155,7 +155,4 @@ Jeder Kanal hat seinen eigenen Bereich in den [Lokalen Gruppen](https://satoshis
 
 | Stadt/Region | Telegram-Kanal | X/Twitter-Profil | Website | Nostr |
 | --- | --- | --- | --- | --- |
-| Koordination - Kanal für Informationen und neue Gruppen | [SatoshiSpritzCoordinamento](https://t.me/SatoshiSpritz) |  | [satoshispritz.it](https://satoshispritz.it) |  |
-| Connect - Kanal für virtuelle Satoshi Spritz | [SatoshiSpritzConnect](https://t.me/satoshispritzconnect) | [@satoshispritz](https://twitter.com/satoshispritz) |  |  |
-| Italien - Kanal für nationale Veranstaltungen | [Satoshi Spritz Italia](https://t.me/SatoshiSpritzIta) |  |  |  |
 {% include spritz-list.md %}

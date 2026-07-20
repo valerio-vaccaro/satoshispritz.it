@@ -155,7 +155,4 @@ Officine Bitcoin 定期组织关于 Bitcoin 及相关主题的免费线上活动
 
 | 城市/地区 | Telegram 频道 | X/Twitter 资料 | 网站 | Nostr |
 | --- | --- | --- | --- | --- |
-| 协调 - 信息和新群组频道 | [SatoshiSpritzCoordinamento](https://t.me/SatoshiSpritz) |  | [satoshispritz.it](https://satoshispritz.it) |  |
-| Connect - 虚拟 Satoshi Spritz 频道 | [SatoshiSpritzConnect](https://t.me/satoshispritzconnect) | [@satoshispritz](https://twitter.com/satoshispritz) |  |  |
-| 意大利 - 全国活动频道 | [Satoshi Spritz Italia](https://t.me/SatoshiSpritzIta) |  |  |  |
 {% include spritz-list.md %}

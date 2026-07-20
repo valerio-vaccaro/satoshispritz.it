@@ -155,7 +155,4 @@ Ogni canal el gh'ha el so spaziu dentar ai [Grupp local](https://satoshispritz.i
 
 | Città/Region | Canal Telegram | Profil X/Twitter | Sit web | Nostr |
 | --- | --- | --- | --- | --- |
-| Coordinament - canal per informazion e noeuv grupp | [SatoshiSpritzCoordinamento](https://t.me/SatoshiSpritz) |  | [satoshispritz.it](https://satoshispritz.it) |  |
-| Connect - canal per i Satoshi Spritz virtual | [SatoshiSpritzConnect](https://t.me/satoshispritzconnect) | [@satoshispritz](https://twitter.com/satoshispritz) |  |  |
-| Italia - canal per event nazional | [Satoshi Spritz Italia](https://t.me/SatoshiSpritzIta) |  |  |  |
 {% include spritz-list.md %}

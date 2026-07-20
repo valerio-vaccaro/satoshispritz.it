@@ -1,0 +1,5 @@
+---
+layout: null
+permalink: /spritz-data.json
+---
+{{ site.data.spritz | jsonify }}
