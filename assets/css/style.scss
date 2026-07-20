@@ -358,11 +358,6 @@ td strong {
   section {
     display: block;
   }
-
-  section > h2:not(:first-of-type) + p,
-  section > h2:not(:first-of-type) + p + p {
-    max-width: 78ch;
-  }
 }
 
 @media (max-width: 720px) {
