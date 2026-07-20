@@ -153,6 +153,8 @@ Az előadások Telegramon, az [Officine Bitcoin](https://officinebitcoin.it/) cs
 
 Minden csatornanak sajat helye van a [Helyi csoportok](https://satoshispritz.it/gruppi/index.hu.html) oldalon.
 
+[Lista letöltése CSV formátumban](spritz.csv){: download }
+
 | Város/Régió | Telegram-csatorna | X/Twitter profil | Weboldal | Nostr |
 | --- | --- | --- | --- | --- |
 {% include spritz-list.md %}

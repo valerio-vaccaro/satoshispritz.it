@@ -153,6 +153,8 @@ Officine Bitcoin 定期组织关于 Bitcoin 及相关主题的免费线上活动
 
 每个频道都在[本地群组](https://satoshispritz.it/gruppi/index.zh.html)页面中拥有自己的空间。
 
+[下载 CSV 格式列表](spritz.csv){: download }
+
 | 城市/地区 | Telegram 频道 | X/Twitter 资料 | 网站 | Nostr |
 | --- | --- | --- | --- | --- |
 {% include spritz-list.md %}

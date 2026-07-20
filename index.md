@@ -155,6 +155,8 @@ Le lezioni si tengono su Telegram nel gruppo di [Officine Bitcoin](https://offic
 
 Ogni canale ha il proprio spazio nella sezione [Gruppi locali](https://satoshispritz.it/gruppi/).
 
+[Scarica l'elenco in formato CSV](spritz.csv){: download }
+
 | Città/Regione | Canale Telegram | Profilo X/Twitter | Sito web | Nostr |
 | --- | --- | --- | --- | --- |
 {% include spritz-list.md %}

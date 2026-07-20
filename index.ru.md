@@ -153,6 +153,8 @@ Officine Bitcoin организует бесплатные регулярные 
 
 У каждого канала есть свое место в разделе [Локальные группы](https://satoshispritz.it/gruppi/index.ru.html).
 
+[Скачать список в формате CSV](spritz.csv){: download }
+
 | Город/Регион | Канал Telegram | Профиль X/Twitter | Сайт | Nostr |
 | --- | --- | --- | --- | --- |
 {% include spritz-list.md %}

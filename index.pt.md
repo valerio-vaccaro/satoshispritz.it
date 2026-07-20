@@ -153,6 +153,8 @@ As aulas acontecem no Telegram, no grupo [Officine Bitcoin](https://officinebitc
 
 Cada canal tem o seu proprio espaco em [Grupos locais](https://satoshispritz.it/gruppi/index.pt.html).
 
+[Descarregar a lista em CSV](spritz.csv){: download }
+
 | Cidade/Região | Canal Telegram | Perfil X/Twitter | Site | Nostr |
 | --- | --- | --- | --- | --- |
 {% include spritz-list.md %}

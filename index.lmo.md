@@ -153,6 +153,8 @@ I lezion se fann su Telegram nel grupp de [Officine Bitcoin](https://officinebit
 
 Ogni canal el gh'ha el so spaziu dentar ai [Grupp local](https://satoshispritz.it/gruppi/index.lmo.html).
 
+[Descarga l'elenc in format CSV](spritz.csv){: download }
+
 | Città/Region | Canal Telegram | Profil X/Twitter | Sit web | Nostr |
 | --- | --- | --- | --- | --- |
 {% include spritz-list.md %}

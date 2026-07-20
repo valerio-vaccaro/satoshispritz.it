@@ -153,6 +153,8 @@ Lessons take place on Telegram in the [Officine Bitcoin](https://officinebitcoin
 
 Each channel has its own space in [Local groups](https://satoshispritz.it/gruppi/index.en.html).
 
+[Download the list as CSV](spritz.csv){: download }
+
 | City/Region | Telegram Channel | X/Twitter Profile | Website | Nostr |
 | --- | --- | --- | --- | --- |
 {% include spritz-list.md %}

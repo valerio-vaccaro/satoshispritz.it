@@ -1,0 +1,7 @@
+---
+layout: null
+permalink: /spritz.csv
+---
+row_type,sort_order,name,telegram_label,telegram_url,x_label,x_url,website_label,website_url,nostr_label,nostr_url,latitude,longitude
+{% assign spritz_entries = site.data.spritz | sort: 'sort_order' %}{% for spritz in spritz_entries %}"{{ spritz.row_type | replace: '"', '""' }}","{{ spritz.sort_order | replace: '"', '""' }}","{{ spritz.name | replace: '"', '""' }}","{{ spritz.telegram_label | replace: '"', '""' }}","{{ spritz.telegram_url | replace: '"', '""' }}","{{ spritz.x_label | replace: '"', '""' }}","{{ spritz.x_url | replace: '"', '""' }}","{{ spritz.website_label | replace: '"', '""' }}","{{ spritz.website_url | replace: '"', '""' }}","{{ spritz.nostr_label | replace: '"', '""' }}","{{ spritz.nostr_url | replace: '"', '""' }}","{{ spritz.latitude | replace: '"', '""' }}","{{ spritz.longitude | replace: '"', '""' }}"
+{% endfor %}
