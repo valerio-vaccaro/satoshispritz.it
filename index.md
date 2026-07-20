@@ -109,6 +109,22 @@ Serve a far incontrare le voci dei diversi gruppi anche a distanza, senza dovers
 
 Satoshi Spritz Connect segue le stesse regole dei Satoshi Spritz e di Officine Bitcoin.
 
+## 🏆 Satoshi Spritz Contest
+
+I Satoshi Spritz Contest sono un programma che unisce divulgazione Bitcoin, incontri locali e premi messi a disposizione dai partner. Il format è stato realizzato finora in collaborazione con [Blockstream](https://blockstream.com/), ma è aperto anche ad altre aziende che vogliano sostenere la formazione e le comunità locali.
+
+Con Blockstream abbiamo avviato il programma in sei Satoshi Spritz in Italia. Per ciascun gruppo selezionato Blockstream mette a disposizione cinque Jade Classic, tutti distribuiti come premi, oltre a sticker, volantini, cappellini e altro materiale promozionale. Fornisce inoltre immagini di alta qualità, slide di base e altri materiali per le presentazioni; il team Satoshi Spritz prepara presentazioni e tutorial.
+
+All'incirca una volta al mese, ogni gruppo organizza un Contest: una presentazione e un gioco per assegnare il premio, con l'accordo tra gentiluomini che una stessa persona non possa vincere due volte lo stesso premio. Per la distribuzione dei premi sono disponibili queste piattaforme:
+
+- [Quiz Satoshi Spritz](https://quiz.satoshispritz.it/): quiz pubblici, attualmente in italiano, da usare durante o dopo la presentazione.
+- [Lottery Satoshi Spritz](https://lottery.satoshispritz.it/): estrazioni a sorte, utili quando non è possibile organizzare un quiz.
+- [Mining Satoshi Spritz](https://mining.satoshispritz.it/): piattaforma dedicata a giochi e iniziative di mining per l'assegnazione dei premi.
+
+Tutti i siti e le piattaforme sono open source e disponibili su GitHub con licenza MIT; i materiali delle presentazioni sono pubblicati con licenza Creative Commons e resi disponibili alla comunità.
+
+In cambio, il partner riceve il logo nella locandina dell'evento, citazioni nella comunicazione sui social (Telegram, X e Nostr) e un report per ogni incontro con data, orario, numero di partecipanti, presentazione utilizzata, domande principali e risultati del quiz. Non condividiamo foto degli eventi: ai Satoshi Spritz non è consentito scattarle.
+
 ## 📚 Risorse
 
 - [Gruppi locali](https://satoshispritz.it/gruppi/): pagine dedicate ai meetup Bitcoin-only nelle varie città.

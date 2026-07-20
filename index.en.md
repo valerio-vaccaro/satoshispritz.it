@@ -107,6 +107,22 @@ It lets people hear voices from different groups remotely, without leaving their
 
 Satoshi Spritz Connect follows the same rules as Satoshi Spritz and Officine Bitcoin.
 
+## 🏆 Satoshi Spritz Contest
+
+Satoshi Spritz Contests are a programme that brings together Bitcoin education, local meetups and prizes provided by partners. The format has so far been run in collaboration with [Blockstream](https://blockstream.com/), but is also open to other companies wishing to support education and local communities.
+
+With Blockstream, we launched the programme in six Satoshi Spritz groups in Italy. For each selected group, Blockstream provides five Jade Classic devices, all awarded as prizes, as well as stickers, flyers, caps and other promotional material. It also provides high-quality images, basic slides and other material for the presentations; the Satoshi Spritz team prepares presentations and tutorials.
+
+About once a month, each group organises a Contest: a presentation and a game to award the prize, with a gentlemen's agreement that the same person cannot win the same prize twice. These platforms are available for distributing prizes:
+
+- [Satoshi Spritz Quiz](https://quiz.satoshispritz.it/): public quizzes, currently in Italian, to use during or after the presentation.
+- [Satoshi Spritz Lottery](https://lottery.satoshispritz.it/): prize draws, useful when it is not possible to organise a quiz.
+- [Satoshi Spritz Mining](https://mining.satoshispritz.it/): a platform for mining games and initiatives used to award prizes.
+
+All sites and platforms are open source and available on GitHub under the MIT licence; presentation materials are published under a Creative Commons licence and made available to the community.
+
+In return, the partner receives its logo on the event poster, mentions in social-media communications (Telegram, X and Nostr), and a report for each meetup with the date, time, number of participants, presentation used, main questions and quiz results. We do not share photos of events: taking photos at Satoshi Spritz is not permitted.
+
 ## 📚 Resources
 
 - [Local groups](https://satoshispritz.it/gruppi/index.en.html): dedicated pages for Bitcoin-only meetups in different cities.

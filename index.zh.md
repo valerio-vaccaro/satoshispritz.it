@@ -107,6 +107,22 @@ Satoshi Spritz Connect 是在相应 Telegram 频道中举行的虚拟 Satoshi Sp
 
 Satoshi Spritz Connect 遵守与 Satoshi Spritz 和 Officine Bitcoin 相同的规则。
 
+## 🏆 Satoshi Spritz Contest
+
+Satoshi Spritz Contest 是一项结合 Bitcoin 教育、本地聚会和合作伙伴提供奖品的计划。该形式目前一直与 [Blockstream](https://blockstream.com/) 合作开展，也向希望支持教育和本地社群的其他企业开放。
+
+我们与 Blockstream 已在意大利的六个 Satoshi Spritz 群组中启动了该计划。Blockstream 为每个入选群组提供五台 Jade Classic，全部作为奖品发放，另有贴纸、传单、帽子及其他宣传材料。Blockstream 还提供高质量图片、基础幻灯片和其他演示材料；Satoshi Spritz 团队负责准备演示文稿和教程。
+
+大约每月一次，每个群组会举办一次 Contest：通过一场演示和一个游戏来颁发奖品，并遵循君子约定——同一位参与者不能两次赢得同一奖品。以下平台可用于发放奖品：
+
+- [Satoshi Spritz Quiz](https://quiz.satoshispritz.it/)：公开测验，目前为意大利语，可在演示期间或结束后使用。
+- [Satoshi Spritz Lottery](https://lottery.satoshispritz.it/)：抽奖工具，适用于无法组织测验的情况。
+- [Satoshi Spritz Mining](https://mining.satoshispritz.it/)：用于通过挖矿游戏和活动发放奖品的平台。
+
+所有网站和平台均为开源项目，并以 MIT 许可证在 GitHub 上提供；演示材料采用 Creative Commons 许可证发布，并向社群开放。
+
+作为回报，合作伙伴的标志将出现在活动海报上，并在社交媒体传播中获得提及（Telegram、X 和 Nostr）；合作伙伴还会收到每场聚会的报告，包括日期、时间、参与人数、所用演示文稿、主要问题和测验结果。我们不会分享活动照片：Satoshi Spritz 禁止拍照。
+
 ## 📚 资源
 
 - [本地群组](https://satoshispritz.it/gruppi/index.zh.html)：不同城市 Bitcoin-only 聚会的专属页面。

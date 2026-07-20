@@ -107,6 +107,22 @@ Lehetővé teszi, hogy a különböző csoportok hangját távolról is meghallg
 
 A Satoshi Spritz Connect ugyanazokat a szabályokat követi, mint a Satoshi Spritz és az Officine Bitcoin.
 
+## 🏆 Satoshi Spritz Contest
+
+A Satoshi Spritz Contest olyan program, amely a Bitcoin-oktatást, a helyi találkozókat és a partnerek által felajánlott nyereményeket kapcsolja össze. A formátum eddig a [Blockstream](https://blockstream.com/) együttműködésével valósult meg, de nyitott más vállalatok előtt is, amelyek támogatni szeretnék az oktatást és a helyi közösségeket.
+
+A Blockstreammel hat olaszországi Satoshi Spritz csoportban indítottuk el a programot. Minden kiválasztott csoport számára a Blockstream öt Jade Classic eszközt biztosít, amelyek mind nyereményként kerülnek kiosztásra, valamint matricákat, szórólapokat, sapkákat és egyéb promóciós anyagokat. Emellett kiváló minőségű képeket, alapvető diákat és más anyagokat ad a bemutatókhoz; a Satoshi Spritz csapata előadásokat és oktatóanyagokat készít.
+
+Nagyjából havonta egyszer minden csoport Contestet szervez: egy bemutatót és egy játékot a nyeremény kiosztására, azzal az úriemberi megállapodással, hogy ugyanaz a résztvevő nem nyerheti meg kétszer ugyanazt a díjat. A nyeremények kiosztásához ezek a platformok állnak rendelkezésre:
+
+- [Satoshi Spritz Quiz](https://quiz.satoshispritz.it/): nyilvános kvízek, jelenleg olasz nyelven, a bemutató közben vagy után.
+- [Satoshi Spritz Lottery](https://lottery.satoshispritz.it/): sorsolások arra az esetre, ha nem lehet kvízt szervezni.
+- [Satoshi Spritz Mining](https://mining.satoshispritz.it/): bányászati játékok és kezdeményezések platformja a nyeremények kiosztásához.
+
+Minden webhely és platform nyílt forráskódú, és MIT licenc alatt elérhető a GitHubon; a bemutatók anyagai Creative Commons licenc alatt jelennek meg, és a közösség rendelkezésére állnak.
+
+Cserébe a partner logója megjelenik az esemény plakátján, megemlítik a közösségi médiás kommunikációban (Telegram, X és Nostr), és minden találkozóról jelentést kap a dátummal, időponttal, résztvevők számával, a használt bemutatóval, a főbb kérdésekkel és a kvíz eredményeivel. Az eseményekről nem osztunk meg fényképeket: a Satoshi Spritz találkozókon tilos fényképezni.
+
 ## 📚 Források
 
 - [Helyi csoportok](https://satoshispritz.it/gruppi/index.hu.html): kulon oldalak a Bitcoin-only talalkozoknak a kulonbozo varosokban.

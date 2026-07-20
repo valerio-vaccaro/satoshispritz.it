@@ -107,6 +107,22 @@ El serv per sentì i vos di divers grupp anca a distanza, senza spostass de la p
 
 Satoshi Spritz Connect segue i stess regol di Satoshi Spritz e de Officine Bitcoin.
 
+## 🏆 Satoshi Spritz Contest
+
+I Satoshi Spritz Contest hinn on programma che el met insema divulgazion de Bitcoin, incontr local e premi mettud a disposizion dai partner. El format l'è staa faa fin adess in collaborazion con [Blockstream](https://blockstream.com/), ma l'è vert anca a alter aziend che völen sostegnì la formazion e i comunità local.
+
+Con Blockstream gh'emm avvià el programma in ses Satoshi Spritz in Italia. Per ogni grupp selezionaa, Blockstream el mett a disposizion cinq Jade Classic, tucc distribuid come premi, insèma a sticker, volantinn, cappell e alter material promozional. El forniss anca immagin de alta qualità, slide de base e alter material per i presentazion; el team Satoshi Spritz el prepara presentazion e tutorial.
+
+Pussee o men una volta al mes, ogni grupp el organiza on Contest: una presentazion e on giogh per assegnà el premi, con l'accord tra galantom che la stessa persona la po' minga vinc el medesem premi do volt. Per la distribuzion di premi hinn disponibil quest piattaform:
+
+- [Quiz Satoshi Spritz](https://quiz.satoshispritz.it/): quiz pubblic, adess in italian, de doprà durant o dopo la presentazion.
+- [Lottery Satoshi Spritz](https://lottery.satoshispritz.it/): estrazion a sort, util quand l'è minga possibel organizà on quiz.
+- [Mining Satoshi Spritz](https://mining.satoshispritz.it/): piattaforma dedicà ai gioeugh e iniziativ de mining per assegnà i premi.
+
+Tücc i sit e i piattaform hinn open source e disponibil su GitHub con licenza MIT; i material di presentazion hinn pubblicaa con licenza Creative Commons e mettud a disposizion de la comunità.
+
+In cambii, el partner el ricev el so logo su la locandina de l'event, citazion in la comunicazion sui social (Telegram, X e Nostr) e on report per ogni incontr con data, ora, numer de partecipant, presentazion usada, domand principal e risultaa del quiz. No condividemm foto di event: ai Satoshi Spritz l'è minga permess fà foto.
+
 ## 📚 Risors
 
 - [Grupp local](https://satoshispritz.it/gruppi/index.lmo.html): pagin dedicad ai meetup Bitcoin-only in di divers città.
