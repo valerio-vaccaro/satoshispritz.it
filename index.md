@@ -160,6 +160,20 @@ Ogni canale ha il proprio spazio nella sezione [Gruppi locali](https://satoshisp
 | Città/Regione | Canale Telegram | Profilo X/Twitter | Sito web | Nostr |
 | --- | --- | --- | --- | --- |
 {% include spritz-list.md %}
+
+## ✨ Come creare un nuovo Satoshi Spritz
+
+Per avviare un nuovo Satoshi Spritz, segui questi passi:
+
+1. Leggi e comprendi questo regolamento, e assicurati di essere d'accordo con i contenuti e i limiti dei Satoshi Spritz.
+2. Frequenta altri Satoshi Spritz per conoscere il format e la comunità.
+3. Vai nel [gruppo di coordinamento](https://t.me/SatoshiSpritz) e scrivi al coordinatore.
+4. Crea un canale Telegram pubblico e comincia ad aggiungere i bitcoiner della tua zona.
+5. Cerca un locale adatto, ben visibile e facilmente raggiungibile, senza richieste stringenti di prenotazione.
+6. Crea sondaggi anonimi per organizzare gli eventi.
+7. Mantieni gli eventi aderenti a questo regolamento.
+8. Divertiti parlando di Bitcoin.
+
 {% comment %}
 | Coordinamento - canale per informazioni e nuovi gruppi | [SatoshiSpritzCoordinamento](https://t.me/SatoshiSpritz) |  | [satoshispritz.it](https://satoshispritz.it) |  |
 | Connect - canale per i Satoshi Spritz virtuali | [SatoshiSpritzConnect](https://t.me/satoshispritzconnect) | [@satoshispritz](https://twitter.com/satoshispritz) |  |  |

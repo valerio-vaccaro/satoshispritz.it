@@ -158,3 +158,16 @@ Ogni canal el gh'ha el so spaziu dentar ai [Grupp local](https://satoshispritz.i
 | Città/Region | Canal Telegram | Profil X/Twitter | Sit web | Nostr |
 | --- | --- | --- | --- | --- |
 {% include spritz-list.md %}
+
+## ✨ Come creà on neuv Satoshi Spritz
+
+Per avvià on neuv Satoshi Spritz, seguit questi passagg:
+
+1. Leggee e capii sto regolament, e sigureeves de vess d'accord coi contegnuu e i limit di Satoshi Spritz.
+2. Frequentée alter Satoshi Spritz per cognoss el format e la comunità.
+3. Andee nel [grupp de coordinament](https://t.me/SatoshiSpritz) e scrivee al coordinator.
+4. Crea on canal Telegram pubblic e comincia a giuntà i bitcoiner de la to zona.
+5. Cerca on local adatt, ben visibil e facil de rivàgh, senza richieste stringent de prenotazion.
+6. Crea sondaggi anonimi per organizzà i event.
+7. Tegn i event aderent a sto regolament.
+8. Divertìves a parlà de Bitcoin.

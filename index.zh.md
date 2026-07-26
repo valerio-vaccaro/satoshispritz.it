@@ -158,3 +158,16 @@ Officine Bitcoin 定期组织关于 Bitcoin 及相关主题的免费线上活动
 | 城市/地区 | Telegram 频道 | X/Twitter 资料 | 网站 | Nostr |
 | --- | --- | --- | --- | --- |
 {% include spritz-list.md %}
+
+## ✨ 如何创建新的 Satoshi Spritz
+
+要发起一个新的 Satoshi Spritz，请遵循以下步骤：
+
+1. 阅读并理解本规则，并确认你同意 Satoshi Spritz 的内容和限制。
+2. 参加其他 Satoshi Spritz 活动，了解活动形式和社区。
+3. 加入[协调群组](https://t.me/SatoshiSpritz)，并向协调员发送消息。
+4. 创建一个公开的 Telegram 频道，开始邀请你所在地区的比特币爱好者加入。
+5. 寻找一个合适、显眼且便于到达的场地，不要求严格预约。
+6. 创建匿名投票来组织活动。
+7. 让活动始终遵守本规则。
+8. 开心地聊 Bitcoin。

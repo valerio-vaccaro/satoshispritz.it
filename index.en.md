@@ -158,3 +158,16 @@ Each channel has its own space in [Local groups](https://satoshispritz.it/gruppi
 | City/Region | Telegram Channel | X/Twitter Profile | Website | Nostr |
 | --- | --- | --- | --- | --- |
 {% include spritz-list.md %}
+
+## ✨ How to create a new Satoshi Spritz
+
+To start a new Satoshi Spritz, follow these steps:
+
+1. Read and understand these rules, and make sure you agree with the content and limits of Satoshi Spritz.
+2. Attend other Satoshi Spritz events to get to know the format and the community.
+3. Join the [coordination group](https://t.me/SatoshiSpritz) and write to the coordinator.
+4. Create a public Telegram channel and start adding bitcoiners from your area.
+5. Find a suitable venue that is visible and easy to reach, without strict booking requirements.
+6. Create anonymous polls to organize events.
+7. Keep events in line with these rules.
+8. Have fun talking about Bitcoin.

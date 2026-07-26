@@ -158,3 +158,16 @@ Minden csatornanak sajat helye van a [Helyi csoportok](https://satoshispritz.it/
 | Város/Régió | Telegram-csatorna | X/Twitter profil | Weboldal | Nostr |
 | --- | --- | --- | --- | --- |
 {% include spritz-list.md %}
+
+## ✨ Új Satoshi Spritz indítása
+
+Új Satoshi Spritz indításához kövesd ezeket a lépéseket:
+
+1. Olvasd el és értsd meg ezt a szabályzatot, és győződj meg arról, hogy egyetértesz a Satoshi Spritz tartalmával és korlátaival.
+2. Látogass el más Satoshi Spritz találkozókra, hogy megismerd a formátumot és a közösséget.
+3. Lépj be a [koordinációs csoportba](https://t.me/SatoshiSpritz), és írj a koordinátornak.
+4. Hozz létre egy nyilvános Telegram-csatornát, és kezdd el hozzáadni a környéked bitcoinereit.
+5. Keress megfelelő, jól látható és könnyen megközelíthető helyszínt, szigorú foglalási feltételek nélkül.
+6. Készíts névtelen szavazásokat az események szervezéséhez.
+7. Tartsd az eseményeket összhangban ezzel a szabályzattal.
+8. Érezd jól magad, miközben Bitcoinról beszélgetsz.
