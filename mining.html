@@ -1,0 +1,1021 @@
+---
+layout: default
+title: Minare a casa, il simulatore | Satoshi Spritz
+description: Quanto costa minare bitcoin a casa? Cambia macchina, corrente, difficoltà, prezzo e calore e guarda il contatore in sats. Dal workshop "Minare a casa NON è profittevole (ma è un bel gioco)".
+lang: it
+permalink: /mining.html
+parent_title: Satoshi Spritz
+parent_url: /
+---
+{% raw %}
+<h1>Minare a casa</h1>
+
+<div class="mh" id="mh">
+<p class="mh-lead"><b>Non è profittevole (ma è un bel gioco).</b> Tutte le condizioni sono messe a favore di chi mina, eppure il saldo resta negativo. Cambia le condizioni e guarda il contatore.</p>
+
+<div class="mh-toolbar">
+  <button type="button" class="mh-btn mh-btn-primary" id="mh-reset">Valori del talk</button>
+  <button type="button" class="mh-btn" id="mh-copy">Copia link</button>
+  <span class="mh-status" id="mh-copy-status" role="status"></span>
+</div>
+
+<div class="mh-grid">
+
+<div class="mh-countwrap">
+  <div class="mh-card mh-count" id="mh-count">
+    <div class="mh-count-top">
+      <div>
+        <p class="mh-kicker">Il contatore</p>
+        <p class="mh-big" id="mh-saldo">0</p>
+        <p class="mh-sub" id="mh-saldo-sub">migliaia di sats</p>
+      </div>
+      <p class="mh-verdict" id="mh-verdict">No.</p>
+    </div>
+    <dl class="mh-rows" id="mh-rows"></dl>
+    <p class="mh-why" id="mh-why" aria-live="polite"></p>
+  </div>
+</div>
+
+<div class="mh-cond" id="mh-cond" aria-label="Condizioni al contorno"></div>
+
+<div class="mh-res">
+  <div class="mh-cards" id="mh-cards"></div>
+
+  <figure class="mh-card mh-chart">
+    <figcaption><h3>Il contatore mese per mese</h3><p>Cumulato, in migliaia di sats: le spese (corrente e hardware), le entrate (incassato e calore) e il saldo.</p></figcaption>
+    <ul class="mh-legend"><li><i class="mh-k-spese"></i>Spese</li><li><i class="mh-k-entrate"></i>Entrate</li><li><i class="mh-k-saldo"></i>Saldo</li></ul>
+    <div class="mh-svg" id="mh-ch-mesi" role="img"></div>
+    <details><summary>Valori del grafico</summary><div class="mh-tablewrap" id="mh-tb-mesi"></div></details>
+  </figure>
+
+  <figure class="mh-card mh-chart">
+    <figcaption><h3>Incassato anno per anno</h3><p>In migliaia di sats, con tre scenari di crescita della difficoltà. Si vede il gradino dell'halving.</p></figcaption>
+    <ul class="mh-legend" id="mh-lg-anni"></ul>
+    <div class="mh-svg" id="mh-ch-anni" role="img"></div>
+    <details><summary>Valori del grafico</summary><div class="mh-tablewrap" id="mh-tb-anni"></div></details>
+  </figure>
+
+  <figure class="mh-card mh-chart">
+    <figcaption><h3>Quanto costa 1 kWh di calore</h3><p>Per ogni macchina: 1 kWh di corrente di rete meno quello che incassi. A confronto con caldaia a gas, pompa di calore e stufetta.</p></figcaption>
+    <div class="mh-svg" id="mh-ch-calore" role="img"></div>
+    <details><summary>Valori del grafico</summary><div class="mh-tablewrap" id="mh-tb-calore"></div></details>
+  </figure>
+
+  <figure class="mh-card mh-chart">
+    <figcaption><h3>La mappa del pareggio</h3><p>0,024 · e · c ≤ hashprice. Sotto la curva la corrente si ripaga, sopra no (hardware gratis, hashprice di oggi). Il punto è la tua macchina al tuo prezzo del kWh.</p></figcaption>
+    <ul class="mh-legend"><li><i class="mh-k-curva"></i>Efficienza di pareggio</li><li><i class="mh-k-punto"></i>La tua macchina</li></ul>
+    <div class="mh-svg" id="mh-ch-pareggio" role="img"></div>
+    <details><summary>Valori del grafico</summary><div class="mh-tablewrap" id="mh-tb-pareggio"></div></details>
+  </figure>
+
+  <div class="mh-card">
+    <h3>Anno per anno, in euro</h3>
+    <p class="mh-small">La quota dell'hardware è divisa sugli anni di durata.</p>
+    <div class="mh-tablewrap" id="mh-tb-euro"></div>
+  </div>
+</div>
+
+</div>
+
+<h2>Prova a cambiare le condizioni</h2>
+<p>Ogni pulsante riparte dai valori del talk e cambia una cosa. Sotto trovi il risultato del talk, da confrontare con il contatore.</p>
+<div class="mh-prove" id="mh-prove"></div>
+<p class="mh-prova-out" id="mh-prova-out" role="status"></p>
+
+<h2>Le slide</h2>
+<p>Le slide del workshop saranno pubblicate dopo la conferenza nella pagina <a href="/presentazioni/">Presentazioni</a>.</p>
+
+<h2>Le ipotesi (quasi tutte a favore di chi mina)</h2>
+<ul>
+  <li>È un modello semplificato, per capire gli ordini di grandezza. Non è un consiglio finanziario.</li>
+  <li>La macchina non si guasta e resta accesa le ore indicate. Non ci sono tasse, costi di raffreddamento o aumenti della quota fissa del contratto.</li>
+  <li>Le fee per blocco restano costanti in BTC, anche dopo l'halving. La difficoltà cresce in modo continuo. Gli halving cadono ogni 210.000 blocchi alla velocità indicata.</li>
+  <li>Il calore conta solo nel periodo di riscaldamento e al massimo per le ore consentite. D'estate il calore del miner è un costo, che qui non è conteggiato.</li>
+  <li>Il prezzo di BTC serve solo per passare da € a sats. Se lo fai crescere, la stessa bolletta in € vale meno sats.</li>
+  <li>Il pulsante "Valori di oggi" chiede i dati a mempool.space solo quando lo premi.</li>
+</ul>
+
+<h2>Fonti</h2>
+<ul class="mh-fonti">
+  <li>Difficoltà, altezza dei blocchi, fee per blocco: <a href="https://mempool.space/mining">mempool.space</a> (difficoltà 140,58 T dal 16/10/2026, blocco 971.712).</li>
+  <li>Halving ogni 210.000 blocchi, subsidy 3,125 BTC: <a href="https://github.com/bitcoin/bitcoin">Bitcoin Core</a>.</li>
+  <li>Storico della difficoltà (da circa 22 T a circa 141 T dal 2021): spark.money.</li>
+  <li>Prezzo di BTC in euro (74.500 €, ottobre 2026): digrin.com.</li>
+  <li>Corrente per le famiglie, Italia (0,333 €/kWh, tasse incluse): <a href="https://ec.europa.eu/eurostat">Eurostat</a> nrg_pc_204, banda DC, 2° semestre 2025.</li>
+  <li>Gas per le famiglie, Italia (14,81 €/100 kWh): <a href="https://ec.europa.eu/eurostat">Eurostat</a> nrg_pc_202, banda D2.</li>
+  <li>Rendimento della caldaia (0,9): stima per una caldaia a condensazione.</li>
+  <li>COP della pompa di calore (da 2,5 a 4): Braiins, "Bitcoin Mining Heat Reuse", pp. 39-40.</li>
+  <li>Zone climatiche, periodi e ore di riscaldamento: DPR 74/2013.</li>
+  <li>Prezzo minimo garantito 2026 per il fotovoltaico (47,5 €/MWh): ARERA (via segugio.it).</li>
+  <li>Fee della pool Ocean (2%, con DATUM 1%): <a href="https://ocean.xyz">ocean.xyz</a>.</li>
+  <li>Dati delle macchine: <a href="https://www.asicminervalue.com">asicminervalue.com</a>; d-central (NerdMiner).</li>
+  <li>Prezzi dell'hardware: stime da annunci online, tenute basse (a favore di chi mina).</li>
+</ul>
+
+<p class="mh-small">Simulatore di gesooNakamoto per il workshop "Minare a casa NON è profittevole (ma è un bel gioco)", Plan B Forum Lugano, Spazio 21, sabato 24 ottobre 2026. Community: <a href="https://t.me/HomeMiningItalia">Home Mining Italia</a>. Contenuti con licenza CC BY-SA 4.0, codice con licenza MIT.</p>
+
+<div class="mh-bar" id="mh-bar" aria-hidden="true"><span id="mh-bar-saldo"></span><span id="mh-bar-verdict"></span></div>
+</div>
+
+<style>
+.mh { --mh-pos: var(--teal); --mh-neg: var(--red); }
+.mh-lead { margin: 0 0 14px; font-size: 1.08rem; }
+.mh-lead b { color: var(--ink); }
+.mh-small { color: var(--muted); font-size: 0.86rem; }
+.mh-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 0 0 16px; }
+.mh-status { color: var(--muted); font-size: 0.86rem; }
+.mh-btn { min-height: 40px; padding: 6px 14px; border: 1px solid rgba(247, 147, 26, 0.35); border-radius: 999px; background: var(--surface-strong); color: var(--ink); font: inherit; font-size: 0.92rem; font-weight: 700; cursor: pointer; }
+.mh-btn:hover { border-color: var(--accent); color: var(--accent-dark); }
+.mh-btn-primary { border-color: var(--accent); background: var(--accent); color: #12161d; }
+.mh-btn-primary:hover { background: var(--accent-dark); color: #12161d; }
+.mh button:focus-visible, .mh input:focus-visible, .mh select:focus-visible, .mh summary:focus-visible { outline: 2px solid var(--accent-dark); outline-offset: 2px; }
+
+.mh-grid { display: grid; grid-template-areas: "count" "cond" "res"; grid-template-columns: minmax(0, 1fr); gap: 16px; }
+.mh-countwrap { grid-area: count; }
+.mh-cond { grid-area: cond; }
+.mh-res { grid-area: res; display: grid; gap: 16px; min-width: 0; }
+@media (min-width: 980px) {
+  .mh-grid { grid-template-areas: "cond count" "cond res"; grid-template-columns: minmax(330px, 390px) minmax(0, 1fr); align-items: start; }
+  .mh-cond { grid-row: 1 / span 2; position: sticky; top: 12px; max-height: calc(100vh - 24px); overflow-y: auto; padding-right: 4px; }
+}
+
+.mh-card { min-width: 0; margin: 0; padding: 16px; border: 1px solid var(--line); border-radius: 18px; background: var(--surface-strong); }
+.mh-card h3 { margin: 0 0 4px; }
+.mh-card figcaption p { margin: 0 0 8px; color: var(--muted); font-size: 0.88rem; }
+
+.mh-count { border-color: rgba(247, 147, 26, 0.35); background: radial-gradient(circle at 12% 0%, rgba(247, 147, 26, 0.16), transparent 18rem), var(--surface-strong); }
+.mh-count-top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 4px 12px; }
+.mh-count-top > div { min-width: 0; }
+.mh-kicker { margin: 0; color: var(--muted); font-size: 0.8rem; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; }
+.mh-big { margin: 2px 0 0; font-size: clamp(2.2rem, 10vw, 4.2rem); font-weight: 850; line-height: 1; font-variant-numeric: tabular-nums; }
+.mh-sub { margin: 4px 0 0; color: var(--muted); font-size: 0.9rem; }
+.mh-verdict { margin: 0 0 0 auto; font-size: clamp(2rem, 8vw, 3.4rem); font-weight: 900; line-height: 1; }
+.mh .mh-neg { color: var(--mh-neg); }
+.mh .mh-pos { color: var(--mh-pos); }
+.mh-rows { display: grid; grid-template-columns: 1fr auto; gap: 2px 0; margin: 14px 0 0; font-variant-numeric: tabular-nums; }
+.mh .mh-rows dt { color: var(--muted); font-weight: 600; }
+.mh .mh-rows dd { margin: 0; padding-left: 12px; color: var(--ink); font-style: normal; text-align: right; font-weight: 700; }
+.mh .mh-rows .mh-tot { padding-top: 6px; border-top: 1px solid var(--line); color: var(--ink); font-weight: 800; }
+.mh-why { margin: 12px 0 0; }
+
+.mh-group { margin: 0 0 10px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface-strong); }
+.mh .mh-group > summary { display: flex; justify-content: space-between; align-items: center; min-height: 44px; padding: 8px 14px; color: var(--accent); font-weight: 800; cursor: pointer; list-style: none; }
+.mh-group > summary::-webkit-details-marker { display: none; }
+.mh-group > summary::after { content: "+"; color: var(--muted); font-size: 1.3rem; }
+.mh-group[open] > summary::after { content: "−"; }
+.mh-gbody { padding: 0 14px 10px; }
+.mh-field { display: grid; grid-template-columns: minmax(0, 1fr) minmax(112px, 136px); gap: 4px 10px; align-items: center; padding: 8px 0; border-top: 1px solid var(--line); }
+.mh-field > label { color: var(--ink); font-size: 0.94rem; font-weight: 650; line-height: 1.25; }
+.mh-num { display: flex; align-items: center; gap: 6px; }
+.mh-unit { min-width: 2.2em; color: var(--muted); font-size: 0.8rem; white-space: nowrap; }
+.mh input[type="number"], .mh input[type="date"], .mh select { width: 100%; min-width: 0; min-height: 40px; padding: 6px 8px; border: 1px solid var(--line); border-radius: 10px; background: var(--bg); color: var(--ink); font: inherit; font-size: 0.94rem; font-variant-numeric: tabular-nums; color-scheme: dark; }
+.mh input[aria-invalid="true"] { border-color: var(--red); }
+.mh-field-wide { grid-template-columns: minmax(0, 1fr); }
+.mh-range { grid-column: 1 / -1; width: 100%; accent-color: var(--accent); }
+.mh .mh-note { grid-column: 1 / -1; margin: 0; color: var(--muted); font-size: 0.8rem; line-height: 1.35; }
+.mh-check { display: flex; align-items: center; gap: 8px; }
+.mh-check input { width: 22px; height: 22px; accent-color: var(--accent); }
+.mh-derived { margin: 0; padding: 8px 0; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.86rem; }
+.mh-derived b { color: var(--ink); }
+.mh-gbtns { display: flex; flex-wrap: wrap; gap: 6px; padding: 8px 0; border-top: 1px solid var(--line); }
+.mh-gbtns .mh-btn { min-height: 36px; padding: 4px 11px; font-size: 0.84rem; }
+.mh-hidden { display: none; }
+
+.mh-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; }
+.mh-cards .mh-card p { margin: 0 0 6px; font-size: 0.92rem; line-height: 1.45; }
+.mh-cards .mh-card p:last-child { margin-bottom: 0; }
+.mh-cards b { color: var(--ink); font-variant-numeric: tabular-nums; }
+
+.mh-legend { display: flex; flex-wrap: wrap; gap: 4px 14px; margin: 0 0 6px; padding: 0; list-style: none; }
+.mh-legend li { margin: 0; color: var(--muted); font-size: 0.84rem; }
+.mh-legend i { display: inline-block; width: 14px; height: 4px; margin-right: 6px; border-radius: 2px; vertical-align: middle; }
+.mh-k-spese { background: var(--red); }
+.mh-k-entrate { background: var(--teal); }
+.mh-k-saldo { background: var(--accent); }
+.mh-k-s0 { background: var(--accent); }
+.mh-k-s1 { background: var(--blue); }
+.mh-k-s2 { background: var(--teal); }
+.mh-k-curva { background: var(--teal); }
+.mh-k-punto { height: 10px !important; width: 10px !important; border-radius: 50% !important; background: var(--accent); }
+.mh-svg { min-height: 200px; }
+.mh-svg svg { display: block; width: 100%; height: auto; overflow: visible; }
+.mh-svg text { fill: var(--muted); font-size: 12px; font-family: inherit; }
+.mh-svg .mh-t-strong { fill: var(--ink); font-weight: 700; }
+.mh-svg .mh-grid-l { stroke: var(--line); stroke-width: 1; }
+.mh-svg .mh-zero { stroke: var(--muted); stroke-width: 1; }
+.mh-svg .mh-l { fill: none; stroke-width: 2.5; stroke-linejoin: round; }
+.mh-svg .mh-c-spese { stroke: var(--red); }
+.mh-svg .mh-c-entrate { stroke: var(--teal); }
+.mh-svg .mh-c-saldo { stroke: var(--accent); stroke-width: 3; }
+.mh-svg .mh-c-curva { stroke: var(--teal); }
+.mh-svg .mh-f0 { fill: var(--accent); }
+.mh-svg .mh-f1 { fill: var(--blue); }
+.mh-svg .mh-f2 { fill: var(--teal); }
+.mh-svg .mh-fbar { fill: var(--muted); opacity: 0.55; }
+.mh-svg .mh-fsel { fill: var(--accent); }
+.mh-svg .mh-fref { fill: var(--blue); opacity: 0.75; }
+.mh-svg .mh-farea { fill: var(--teal); opacity: 0.12; }
+.mh-svg .mh-dash { stroke: var(--muted); stroke-dasharray: 4 4; }
+.mh-svg .mh-dot { fill: var(--accent); stroke: var(--bg); stroke-width: 2; }
+.mh details { margin-top: 8px; }
+.mh details > summary { color: var(--blue); font-size: 0.86rem; font-weight: 650; cursor: pointer; }
+.mh-tablewrap { max-height: 320px; margin-top: 6px; overflow: auto; }
+.mh .mh-tablewrap table { display: table; width: 100%; margin: 0; border-radius: 10px; box-shadow: none; font-size: 0.86rem; }
+.mh .mh-tablewrap thead, .mh .mh-tablewrap tbody { min-width: 0; }
+.mh .mh-tablewrap th, .mh .mh-tablewrap td { padding: 6px 10px; }
+.mh .mh-tablewrap .n { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+.mh-prove { display: flex; flex-wrap: wrap; gap: 8px; }
+.mh-prova-out { min-height: 1.6em; margin-top: 12px; padding: 10px 14px; border-left: 3px solid var(--accent); border-radius: 0 10px 10px 0; background: rgba(247, 147, 26, 0.08); }
+.mh-prova-out:empty { display: none; }
+.mh-fonti li { font-size: 0.92rem; }
+
+.mh-bar { position: fixed; right: 8px; bottom: 8px; left: 8px; z-index: 20; display: flex; justify-content: space-between; gap: 12px; padding: 10px 16px; border: 1px solid var(--line); border-radius: 14px; background: rgba(18, 22, 29, 0.97); box-shadow: var(--shadow); font-weight: 800; font-variant-numeric: tabular-nums; transform: translateY(160%); transition: transform 0.2s; }
+.mh-bar.mh-show { transform: none; }
+@media (min-width: 980px) { .mh-bar { display: none; } }
+@media (max-width: 979px) { .mh { padding-bottom: 56px; } }
+@media (prefers-reduced-motion: reduce) { .mh-bar { transition: none; } }
+</style>
+
+<script>
+(function () {
+  'use strict';
+
+  // MODEL-START
+  // Porting fedele di simulate() in model_ref.py, che rifà i conti di minare_a_casa_simulatore.xlsx.
+  var SATS = 1e8, NDAYS = 3653;
+
+  function dayNum(iso) {
+    var a = String(iso).split('-');
+    return Date.UTC(+a[0], +a[1] - 1, +a[2]) / 86400000;
+  }
+  function isoOf(n) { return new Date(Math.floor(n) * 86400000).toISOString().slice(0, 10); }
+  // come ROUND del foglio: la metà si arrotonda lontano da zero
+  function roundXls(x) { return x < 0 ? -Math.round(-x) : Math.round(x); }
+
+  function simulate(p) {
+    var h = p.hash, w = p.watt, prezzoHw = p.prezzo_hw || 0, eff = w / h;
+    var hashRete = p.diff_t * Math.pow(2, 32) / 600;              // TH/s, con diff_t in T
+    var hashprice = (p.subsidy + p.fee_blocco) * 144 * SATS / hashRete;
+    var bloccoHalving = (Math.floor(p.altezza / 210000) + 1) * 210000;
+    var passo = 210000 * p.min_blocco / 1440;
+    var halvings = [dayNum(p.data_altezza) + (bloccoHalving - p.altezza) * p.min_blocco / 1440];
+    halvings.push(halvings[0] + passo);
+    halvings.push(halvings[1] + passo);
+    var start = dayNum(p.data_inizio);
+    var dataFine = start + roundXls(p.durata * 365.25);
+    var prezzoFine = p.prezzo_btc * Math.pow(1 + p.crescita_prezzo, p.durata);
+    var hwSats = prezzoHw / p.prezzo_btc * SATS;
+    var residuoSats = prezzoHw * p.valore_residuo / prezzoFine * SATS;
+    var fattoreModo = p.modalita === 'Solo (nessun blocco trovato)' ? 0 : 1;
+    var z = p.zona, calInizio = z[1] * 100 + z[0], calFine = z[3] * 100 + z[2], oreCalore = z[4];
+    var valoreCalore = p.sostituisce === 'Caldaia a gas' ? p.prezzo_gas / p.rend_caldaia :
+      p.sostituisce === 'Pompa di calore' ? p.prezzo_rete / p.cop_pdc : p.prezzo_rete;
+    var og = p.ore_giorno / 24;
+
+    var tot = { incAtteso: 0, inc: 0, kwh: 0, corrSats: 0, corrEur: 0, calKwh: 0, calSats: 0, blocchi: 0 };
+    var anni = [], scen = [0, 0, 0], scenAnni = [], perMese = [], nMesi = Math.ceil(p.durata * 12);
+    for (var k = 0; k < NDAYS; k++) {
+      var d = start + k;
+      if (d >= dataFine) continue;                                  // "Attivo" = 0
+      var t = k / 365.25, nHalv = 0, i;
+      for (i = 0; i < 3; i++) if (halvings[i] <= d) nHalv++;
+      var sub = p.subsidy / Math.pow(2, nHalv);
+      var g = Math.pow(1 + p.crescita_diff, t);
+      var hp = (sub + p.fee_blocco) * 144 * SATS / (hashRete * g);
+      var px = p.prezzo_btc * Math.pow(1 + p.crescita_prezzo, t);
+      var incAtt = h * hp * og * (1 - p.fee_pool);
+      var inc = incAtt * fattoreModo;
+      var kwh = w / 1000 * p.ore_giorno;
+      var corrSats = kwh * p.prezzo_kwh / px * SATS;
+      var data = new Date(d * 86400000);
+      var md = (data.getUTCMonth() + 1) * 100 + data.getUTCDate();
+      var stagione = calInizio <= calFine ? (md >= calInizio && md <= calFine) : (md >= calInizio || md <= calFine);
+      var calKwh = p.calore_si && stagione ? w / 1000 * Math.min(oreCalore, p.ore_giorno) : 0;
+      var calSats = calKwh * valoreCalore / px * SATS;
+      var blocchi = h / (hashRete * g) * 144 * og;
+      var anno = Math.floor((k + 0.5) / 365.25) + 1;
+      var mese = Math.floor((k + 0.5) / (365.25 / 12)) + 1;
+
+      var a = anni[anno - 1] || (anni[anno - 1] = { anno: anno, inc: 0, corr_sats: 0, corr_eur: 0, inc_eur: 0, cal_eur: 0 });
+      a.inc += inc; a.corr_sats += corrSats; a.corr_eur += kwh * p.prezzo_kwh;
+      a.inc_eur += inc * px / SATS; a.cal_eur += calKwh * valoreCalore;
+      var sa = scenAnni[anno - 1] || (scenAnni[anno - 1] = [0, 0, 0]);
+      for (i = 0; i < 3; i++) {
+        var v = h * (sub + p.fee_blocco) * 144 * SATS / (hashRete * Math.pow(1 + p.scenari[i], t)) * og * (1 - p.fee_pool);
+        scen[i] += v; sa[i] += v;
+      }
+      // l'ultimo giorno può cadere nel mese dopo: lo conto nell'ultimo, così il grafico chiude sul contatore
+      var pm = perMese[Math.min(mese, nMesi)] || (perMese[Math.min(mese, nMesi)] = { corr: 0, entrate: 0 });
+      pm.corr += corrSats; pm.entrate += inc + calSats;
+
+      tot.incAtteso += incAtt; tot.inc += inc; tot.kwh += kwh;
+      tot.corrSats += corrSats; tot.corrEur += kwh * p.prezzo_kwh;
+      tot.calKwh += calKwh; tot.calSats += calSats; tot.blocchi += blocchi;
+    }
+
+    var saldo = tot.inc + tot.calSats + residuoSats - tot.corrSats - hwSats;
+    var saldoEur = saldo * prezzoFine / SATS;
+    var prob = -Math.expm1(-tot.blocchi);                          // = 1 − e^(−λ), preciso anche per λ piccolo
+    var quotaHw = function (y) { return prezzoHw * (1 - p.valore_residuo) * Math.min(1, p.durata - (y - 1)) / p.durata; };
+    anni.forEach(function (a) {
+      a.inc_k = a.inc / 1000;
+      a.saldo_eur = a.inc_eur + a.cal_eur - a.corr_eur - quotaHw(a.anno);
+    });
+    // contatore cumulato mese per mese (foglio Mesi)
+    var mesi = [], cumCorr = 0, cumEntr = 0;
+    for (var m = 0; m <= nMesi; m++) {
+      if (perMese[m]) { cumCorr += perMese[m].corr; cumEntr += perMese[m].entrate; }
+      var spese = -(hwSats + cumCorr) / 1000, entrate = cumEntr / 1000;
+      mesi.push({ mese: m, spese: spese, entrate: entrate, saldo: spese + entrate + (m >= p.durata * 12 ? residuoSats / 1000 : 0) });
+    }
+    return {
+      contatore_k_sats: {
+        corrente: -tot.corrSats / 1000, hardware: -hwSats / 1000,
+        incassato: tot.inc / 1000, calore: tot.calSats / 1000,
+        fine_vita: residuoSats / 1000, saldo: saldo / 1000
+      },
+      saldo_eur: saldoEur,
+      costo_hobby_eur_anno: -saldoEur / p.durata,
+      spendi_per_sats: (tot.inc + tot.calSats) ? (tot.corrSats + hwSats) / (tot.inc + tot.calSats) : null,
+      hashrate_rete_eh: hashRete / 1e6,
+      hashprice: hashprice,
+      halving_blocco: bloccoHalving,
+      halving_data: isoOf(halvings[0]),
+      pareggio_eur_kwh: hashprice / (0.024 * eff) * p.prezzo_btc / SATS,
+      pareggio_j_th: p.prezzo_kwh ? hashprice / (0.024 * p.prezzo_kwh / p.prezzo_btc * SATS) : null,
+      btc_per_corrente_oggi: 0.024 * eff * p.prezzo_kwh * SATS / hashprice,
+      btc_per_corrente_durata: tot.incAtteso ? tot.corrEur / (tot.incAtteso / SATS) : null,
+      kwh_rende_eur: tot.kwh ? (tot.incAtteso - hwSats + residuoSats) / tot.kwh * p.prezzo_btc / SATS : null,
+      solo_prob: prob, solo_uno_su: prob ? 1 / prob : null,
+      solo_anni_per_blocco: og ? hashRete / h / (144 * 365.25 * og) : null,
+      contratto_ok: w / 1000 <= p.contratto_kw * 1.1,
+      kwh: tot.kwh, corrente_eur: tot.corrEur, calore_kwh: tot.calKwh,
+      costo_kwh_calore_macchina: p.prezzo_rete - hashprice / (0.024 * eff) * p.prezzo_btc / SATS,
+      scenari_k_sats: scen.map(function (s) { return s / 1000; }),
+      anni: anni,
+      scenari_anni_k_sats: scenAnni.map(function (v) { return v.map(function (x) { return x / 1000; }); }),
+      // in più rispetto a model_ref.py, per i grafici
+      mesi: mesi,
+      halving_anni: halvings.map(function (x) { return (x - start) / 365.25; }),
+      efficienza: eff,
+      premio_blocco: p.subsidy + p.fee_blocco
+    };
+  }
+  // MODEL-END
+
+  // ---------------------------------------------------------------- dati
+  // nome, TH/s, W, € (0 = non nel talk), nota
+  var MACCHINE = [
+    ['NerdMiner', 0.000078, 1, 0, 'ESP32, didattico (d-central)'],
+    ['Bitaxe Gamma', 1.2, 20, 100, 'esempio del talk: 20 W con scheda e ventola'],
+    ['Antminer S9', 13.5, 1323, 0, 'usato, 2017'],
+    ['Antminer S21 usato', 200, 3500, 1200, 'esempio del talk'],
+    ['Antminer S23 Hyd', 580, 5510, 0, 'a liquido, 2026'],
+    ['La mia macchina', 1.2, 20, 100, 'libera: parte uguale al Bitaxe']
+  ];
+  // nome, giorno e mese di inizio, giorno e mese di fine, ore al giorno (DPR 74/2013)
+  var ZONE = [
+    ['Zona A', 1, 12, 15, 3, 6],
+    ['Zona B', 1, 12, 31, 3, 8],
+    ['Sud – zona C (Cagliari)', 15, 11, 31, 3, 10],
+    ['Zona D', 1, 11, 15, 4, 12],
+    ['Nord – zona E (Milano)', 15, 10, 15, 4, 14],
+    ["Tutto l'anno (caso limite)", 1, 1, 31, 12, 24],
+    ['Personalizzata', 1, 11, 31, 3, 12]
+  ];
+  var MODI = ['Pool', 'Solo (valore atteso)', 'Solo (nessun blocco trovato)'];
+  var SOST = ['Caldaia a gas', 'Pompa di calore', 'Stufetta elettrica'];
+
+  // i valori del talk
+  var DEF = {
+    macchina: 'Bitaxe Gamma', hash: 1.2, watt: 20, prezzo_hw: 100,
+    ore_giorno: 24, prezzo_kwh: 0.333, durata: 5, data_inizio: '2026-10-24', modalita: 'Pool',
+    fee_pool: 0, valore_residuo: 0, contratto_kw: 3,
+    diff_t: 140.58, crescita_diff: 0, subsidy: 3.125, fee_blocco: 0.02, altezza: 971712,
+    data_altezza: '2026-10-16', min_blocco: 10, scen_a: 0, scen_b: 0.25, scen_c: 0.5,
+    prezzo_btc: 74500, crescita_prezzo: 0,
+    calore_si: false, zona: 'Sud – zona C (Cagliari)', zc_gi: 1, zc_mi: 11, zc_gf: 31, zc_mf: 3, zc_ore: 12,
+    sostituisce: 'Caldaia a gas', prezzo_gas: 0.1481, rend_caldaia: 0.9, cop_pdc: 3, prezzo_rete: 0.333,
+    minimo_gse: 0.0475
+  };
+
+  // k: chiave, l: etichetta, t: tipo (num, pct, sel, date, bool), u: unità, r: cursore [min, max, passo]
+  var GRUPPI = [
+    { id: 'macchina', titolo: 'La macchina', open: true, campi: [
+      { k: 'macchina', l: 'Macchina', t: 'sel', o: MACCHINE.map(function (m) { return m[0]; }) },
+      { k: 'hash', l: 'Hashrate', t: 'num', u: 'TH/s', min: 0.000001, max: 100000, n: 'puoi abbassarlo per simulare un underclock' },
+      { k: 'watt', l: 'Potenza', t: 'num', u: 'W', min: 0.01, max: 100000 },
+      { k: 'prezzo_hw', l: 'Prezzo', t: 'num', u: '€', min: 0, max: 1000000, n: 'stime da annunci online, tenute basse' }
+    ] },
+    { id: 'uso', titolo: 'Come la usi', open: true, campi: [
+      { k: 'ore_giorno', l: 'Ore accese al giorno', t: 'num', u: 'h', min: 0, max: 24, r: [0, 24, 0.5], n: 'solo col sole: 8' },
+      { k: 'prezzo_kwh', l: 'Prezzo del kWh che usa il miner', t: 'num', u: '€/kWh', min: 0, max: 5, r: [0, 0.6, 0.001], n: 'media italiana con tasse (Eurostat nrg_pc_204, banda DC, 2° sem. 2025). Fotovoltaico: 0 = gratis, 0,0475 = costo opportunità' },
+      { k: 'durata', l: 'Durata', t: 'num', u: 'anni', min: 0.5, max: 10, r: [0.5, 10, 0.5], n: 'da 0,5 a 10 anni, senza guasti' },
+      { k: 'data_inizio', l: 'Data di inizio', t: 'date', n: 'il giorno del talk' },
+      { k: 'modalita', l: 'Pool o solo', t: 'sel', o: MODI, n: 'in solo il valore atteso è uguale, ma quasi sempre trovi zero' },
+      { k: 'fee_pool', l: 'Fee della pool', t: 'pct', u: '%', min: 0, max: 1, n: 'Ocean 2%, con DATUM 1% (ocean.xyz)' },
+      { k: 'valore_residuo', l: 'Valore a fine vita', t: 'pct', u: '%', min: 0, max: 1, n: 'percentuale del prezzo; nel talk: zero' },
+      { k: 'contratto_kw', l: 'Potenza del contratto', t: 'num', u: 'kW', min: 0.1, max: 1000, n: 'il contatore stacca oltre il 10% in più' }
+    ] },
+    { id: 'rete', titolo: 'La rete', campi: [
+      { k: 'diff_t', l: 'Difficoltà', t: 'num', u: 'T', min: 0.001, max: 1e7, n: 'T = mila miliardi. Dal 16/10/2026, blocco 971.712 (mempool.space)' },
+      { k: 'crescita_diff', l: 'Crescita della difficoltà', t: 'pct', u: '%/anno', min: -0.9, max: 5, r: [-0.5, 1, 0.01], n: "nel talk: ferma. Dal 2021 al 2026: circa +46% l'anno (spark.money)" },
+      { k: 'subsidy', l: 'Ricompensa per blocco (subsidy)', t: 'num', u: 'BTC', min: 0.00000001, max: 50, n: "si dimezza a ogni halving (Bitcoin Core)" },
+      { k: 'fee_blocco', l: 'Fee per blocco', t: 'num', u: 'BTC', min: 0, max: 100, n: "media 2026, circa 0,6% della ricompensa; costanti anche dopo l'halving" },
+      { k: 'altezza', l: 'Altezza di riferimento', t: 'num', u: 'blocco', min: 0, max: 100000000, step: 1, n: "serve a stimare la data dell'halving" },
+      { k: 'data_altezza', l: "Data dell'altezza", t: 'date' },
+      { k: 'min_blocco', l: 'Minuti per blocco', t: 'num', u: 'min', min: 0.1, max: 1000, n: "solo per la data dell'halving" },
+      { k: 'scen_a', l: 'Difficoltà, scenario A', t: 'pct', u: '%/anno', min: -0.9, max: 5, n: 'per il grafico anno per anno' },
+      { k: 'scen_b', l: 'Difficoltà, scenario B', t: 'pct', u: '%/anno', min: -0.9, max: 5 },
+      { k: 'scen_c', l: 'Difficoltà, scenario C', t: 'pct', u: '%/anno', min: -0.9, max: 5 }
+    ] },
+    { id: 'prezzo', titolo: 'Il prezzo', campi: [
+      { k: 'prezzo_btc', l: 'Prezzo di BTC', t: 'num', u: '€', min: 1, max: 1e9, n: 'serve solo per passare da € a sats (digrin, ottobre 2026)' },
+      { k: 'crescita_prezzo', l: 'Crescita del prezzo', t: 'pct', u: '%/anno', min: -0.9, max: 5, r: [-0.5, 1, 0.01], n: 'se il prezzo sale, la stessa bolletta in € vale meno sats' }
+    ] },
+    { id: 'calore', titolo: 'Il calore', campi: [
+      { k: 'calore_si', l: 'Conta il calore', t: 'bool', n: 'il calore utile vale quanto quello che sostituisce' },
+      { k: 'zona', l: 'Zona climatica', t: 'sel', o: ZONE.map(function (z) { return z[0]; }), n: 'DPR 74/2013. La zona F non ha limiti di legge' },
+      { k: 'zc_gi', l: 'Inizio: giorno', t: 'num', min: 1, max: 31, step: 1, zc: true },
+      { k: 'zc_mi', l: 'Inizio: mese', t: 'num', min: 1, max: 12, step: 1, zc: true },
+      { k: 'zc_gf', l: 'Fine: giorno', t: 'num', min: 1, max: 31, step: 1, zc: true },
+      { k: 'zc_mf', l: 'Fine: mese', t: 'num', min: 1, max: 12, step: 1, zc: true },
+      { k: 'zc_ore', l: 'Ore di riscaldamento', t: 'num', u: 'h', min: 0, max: 24, zc: true },
+      { k: 'sostituisce', l: 'Il calore sostituisce', t: 'sel', o: SOST },
+      { k: 'prezzo_gas', l: 'Prezzo del gas', t: 'num', u: '€/kWh', min: 0, max: 5, n: 'Eurostat nrg_pc_202, banda D2 (14,81 €/100 kWh)' },
+      { k: 'rend_caldaia', l: 'Rendimento della caldaia', t: 'num', min: 0.1, max: 1.5, n: 'stima, caldaia a condensazione' },
+      { k: 'cop_pdc', l: 'COP della pompa di calore', t: 'num', min: 0.5, max: 10, n: 'da 2,5 a 4 (Braiins, "Bitcoin Mining Heat Reuse", pp. 39-40)' },
+      { k: 'prezzo_rete', l: 'Prezzo della corrente di rete', t: 'num', u: '€/kWh', min: 0, max: 5, n: 'per stufetta e pompa di calore' }
+    ] },
+    { id: 'fv', titolo: 'Fotovoltaico', campi: [
+      { k: 'minimo_gse', l: 'Prezzo minimo garantito GSE', t: 'num', u: '€/kWh', min: 0, max: 5, n: '2026 (ARERA). Mettilo come prezzo del kWh: è quello che perdi non vendendo la corrente' }
+    ] }
+  ];
+  var FIELD = {};
+  GRUPPI.forEach(function (g) { g.campi.forEach(function (f) { FIELD[f.k] = f; }); });
+
+  var PROVE = [
+    ['Solo, nessun blocco', { modalita: 'Solo (nessun blocco trovato)' }, 'Nel talk: −526.000 sats. Il valore atteso è lo stesso della pool (1 blocco su 3.200 in 5 anni), ma quasi sempre incassi zero.'],
+    ['Fotovoltaico gratis, 8 h', { ore_giorno: 8, prezzo_kwh: 0 }, "Nel talk: −112.900 sats. Incassi 21.300 sats, ma l'hardware ne costa 134.000."],
+    ['Calore, Sud (zona C)', { calore_si: true }, 'Nel talk: −431.700 sats. Il calore vale 30.300 sats.'],
+    ['Calore, Nord (zona E)', { calore_si: true, zona: 'Nord – zona E (Milano)' }, 'Nel talk: −405.300 sats.'],
+    ["Calore, tutto l'anno", { calore_si: true, zona: "Tutto l'anno (caso limite)" }, "Nel talk: −268.400 sats. Anche scaldando 24 ore al giorno tutto l'anno, il saldo resta negativo."],
+    ['Antminer S21 usato', { macchina: 'Antminer S21 usato' }, 'Nel talk, primo anno: corrente 10.210 €, incassato 2.448 €, saldo −8.002 €. E il contratto da 3 kW stacca.'],
+    ['S21 sui pannelli, 8 h', { macchina: 'Antminer S21 usato', ore_giorno: 8, prezzo_kwh: 0.0475 }, '1 kWh dato al miner rende 0,028 € (con 12 ore 0,036 €), meno dei 0,0475 € del minimo garantito GSE: conviene vendere la corrente.'],
+    ["Difficoltà +46% l'anno", { crescita_diff: 0.46 }, "È il ritmo dal 2021 al 2026. L'incassato scende da 64.000 a 33.300 sats in 5 anni."]
+  ];
+
+  // ---------------------------------------------------------------- formati
+  var NF = [0, 1, 2, 3, 4].map(function (d) {
+    return new Intl.NumberFormat('it-IT', { minimumFractionDigits: d, maximumFractionDigits: d, useGrouping: 'always' });
+  });
+  function num(x, d) {
+    if (x === null || x === undefined || !isFinite(x)) return '—';
+    d = d || 0;
+    if (Math.abs(x) < 0.5 * Math.pow(10, -d)) x = 0;
+    return NF[d].format(x).replace('-', '−');
+  }
+  function sgn(x, d) { var s = num(x, d); return x > 0 && s !== '—' && s.replace(/[0,.]/g, '') !== '' ? '+' + s : s; }
+  function pct(x, d) { return num(x * 100, d || 0) + '%'; }
+  function dataIt(iso) { var a = iso.split('-'); return a[2] + '/' + a[1] + '/' + a[0]; }
+  function sig(x) { // cifre significative per valori piccoli
+    if (!isFinite(x)) return '—';
+    var a = Math.abs(x);
+    return num(x, a >= 100 ? 0 : a >= 10 ? 1 : a >= 1 ? 2 : a >= 0.1 ? 3 : 4);
+  }
+  function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return '&#' + c.charCodeAt(0) + ';'; }); }
+  function $(id) { return document.getElementById(id); }
+
+  // ---------------------------------------------------------------- stato
+  function clone(o) { var c = {}; for (var k in o) c[k] = o[k]; return c; }
+  var S = clone(DEF);
+
+  function riga(nome, tab) { for (var i = 0; i < tab.length; i++) if (tab[i][0] === nome) return tab[i]; return null; }
+  function params(s) {
+    var p = clone(s);
+    var z = riga(s.zona, ZONE);
+    p.zona = s.zona === 'Personalizzata' ? [s.zc_gi, s.zc_mi, s.zc_gf, s.zc_mf, s.zc_ore] : z.slice(1);
+    p.scenari = [s.scen_a, s.scen_b, s.scen_c];
+    return p;
+  }
+  function caricaMacchina(s) {
+    var m = riga(s.macchina, MACCHINE);
+    s.hash = m[1]; s.watt = m[2]; s.prezzo_hw = m[3];
+  }
+
+  // ---------------------------------------------------------------- input
+  function valoreMostrato(f, v) {
+    if (f.t === 'pct') return String(+(v * 100).toFixed(6));
+    return String(v);
+  }
+  function campoHTML(f) {
+    var id = 'mh-f-' + f.k, nota = f.n ? '<p class="mh-note" id="' + id + '-n">' + esc(f.n) + '</p>' : '';
+    var desc = f.n ? ' aria-describedby="' + id + '-n"' : '';
+    var cls = 'mh-field' + (f.zc ? ' mh-zc' : '');
+    if (f.t === 'bool') {
+      return '<div class="' + cls + ' mh-field-wide"><span class="mh-check"><input type="checkbox" id="' + id + '" data-k="' + f.k + '"' + desc + '>' +
+        '<label for="' + id + '">' + esc(f.l) + '</label></span>' + nota + '</div>';
+    }
+    var ctl;
+    if (f.t === 'sel') {
+      ctl = '<select id="' + id + '" data-k="' + f.k + '"' + desc + '>' + f.o.map(function (o) {
+        return '<option value="' + esc(o) + '">' + esc(o) + '</option>';
+      }).join('') + '</select>';
+    } else if (f.t === 'date') {
+      ctl = '<input type="date" id="' + id + '" data-k="' + f.k + '" min="2009-01-03" max="2100-12-31"' + desc + '>';
+    } else {
+      var mn = f.t === 'pct' ? f.min * 100 : f.min, mx = f.t === 'pct' ? f.max * 100 : f.max;
+      ctl = '<span class="mh-num"><input type="number" inputmode="decimal" id="' + id + '" data-k="' + f.k + '" min="' + mn + '" max="' + mx +
+        '" step="' + (f.step || 'any') + '"' + desc + '>' + (f.u ? '<span class="mh-unit">' + esc(f.u) + '</span>' : '') + '</span>';
+    }
+    var cursore = f.r ? '<input type="range" class="mh-range" data-k="' + f.k + '" min="' + (f.t === 'pct' ? f.r[0] * 100 : f.r[0]) +
+      '" max="' + (f.t === 'pct' ? f.r[1] * 100 : f.r[1]) + '" step="' + (f.t === 'pct' ? f.r[2] * 100 : f.r[2]) + '" aria-label="' + esc(f.l) + ', cursore">' : '';
+    return '<div class="' + cls + '"><label for="' + id + '">' + esc(f.l) + '</label>' + ctl + cursore + nota + '</div>';
+  }
+
+  var EXTRA = {
+    macchina: '<p class="mh-derived" id="mh-eff"></p>',
+    rete: '<div class="mh-gbtns"><button type="button" class="mh-btn" id="mh-live">Valori di oggi (mempool.space)</button></div>' +
+      '<p class="mh-note" id="mh-live-status" role="status"></p><p class="mh-derived" id="mh-rete-out"></p>',
+    calore: '<p class="mh-derived" id="mh-zona-out"></p>',
+    fv: '<div class="mh-gbtns"><button type="button" class="mh-btn" data-fv="sole">Solo col sole: 8 h</button>' +
+      '<button type="button" class="mh-btn" data-fv="gratis">Corrente gratis: 0 €/kWh</button>' +
+      '<button type="button" class="mh-btn" data-fv="gse">Costo opportunità: minimo GSE</button></div><p class="mh-derived" id="mh-fv-out"></p>'
+  };
+
+  function costruisci() {
+    $('mh-cond').innerHTML = GRUPPI.map(function (g) {
+      return '<details class="mh-group" id="mh-g-' + g.id + '"' + (g.open ? ' open' : '') + '><summary>' + esc(g.titolo) + '</summary><div class="mh-gbody">' +
+        g.campi.map(campoHTML).join('') + (EXTRA[g.id] || '') + '</div></details>';
+    }).join('');
+    // su schermi larghi i gruppi partono aperti
+    if (window.matchMedia && window.matchMedia('(min-width: 980px)').matches) {
+      Array.prototype.forEach.call(document.querySelectorAll('.mh-group'), function (d) { d.open = true; });
+    }
+    $('mh-prove').innerHTML = PROVE.map(function (p, i) {
+      return '<button type="button" class="mh-btn" data-prova="' + i + '">' + esc(p[0]) + '</button>';
+    }).join('');
+  }
+
+  function mostraTutto() {
+    Array.prototype.forEach.call(document.querySelectorAll('#mh-cond [data-k]'), function (el) {
+      var f = FIELD[el.dataset.k], v = S[f.k];
+      if (f.t === 'bool') el.checked = !!v;
+      else el.value = f.t === 'sel' || f.t === 'date' ? v : valoreMostrato(f, v);
+      el.removeAttribute('aria-invalid');
+    });
+    Array.prototype.forEach.call(document.querySelectorAll('.mh-zc'), function (el) {
+      el.classList.toggle('mh-hidden', S.zona !== 'Personalizzata');
+    });
+  }
+  function mostra(k, tranne) {
+    var f = FIELD[k];
+    Array.prototype.forEach.call(document.querySelectorAll('#mh-cond [data-k="' + k + '"]'), function (el) {
+      if (el === tranne) return;
+      if (f.t === 'bool') el.checked = !!S[k];
+      else el.value = f.t === 'sel' || f.t === 'date' ? S[k] : valoreMostrato(f, S[k]);
+      el.removeAttribute('aria-invalid');
+    });
+  }
+
+  function leggi(f, raw) {
+    if (f.t === 'bool') return raw === true || raw === '1' || raw === 'true';
+    if (f.t === 'sel') return f.o.indexOf(raw) >= 0 ? raw : null;
+    if (f.t === 'date') {
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(raw)) return null;
+      var y = +raw.slice(0, 4);
+      return y >= 2009 && y <= 2100 && isFinite(dayNum(raw)) && isoOf(dayNum(raw)) === raw ? raw : null;
+    }
+    if (raw === '' || raw === null) return null;
+    var v = Number(raw);
+    if (!isFinite(v)) return null;
+    return v;
+  }
+  function limita(f, v) {
+    if (f.min !== undefined && v < f.min) v = f.min;
+    if (f.max !== undefined && v > f.max) v = f.max;
+    if (f.step === 1) v = Math.round(v);
+    return v;
+  }
+
+  function imposta(k, v, da) {
+    S[k] = v;
+    if (k === 'macchina') { caricaMacchina(S); mostra('hash'); mostra('watt'); mostra('prezzo_hw'); }
+    if (k === 'zona') Array.prototype.forEach.call(document.querySelectorAll('.mh-zc'), function (el) {
+      el.classList.toggle('mh-hidden', v !== 'Personalizzata');
+    });
+    mostra(k, da);
+    aggiorna();
+  }
+
+  function suInput(e) {
+    var el = e.target, k = el.dataset && el.dataset.k;
+    if (!k) return;
+    var f = FIELD[k], raw = f.t === 'bool' ? el.checked : el.value, v = leggi(f, raw);
+    if (v === null) { el.setAttribute('aria-invalid', 'true'); return; }
+    el.removeAttribute('aria-invalid');
+    if (f.t === 'num' || f.t === 'pct') {
+      if (f.t === 'pct') v = v / 100;
+      v = limita(f, v);
+    }
+    imposta(k, v, e.type === 'input' ? el : null);
+  }
+
+  // ---------------------------------------------------------------- URL
+  function codifica() {
+    var q = [], m = riga(S.macchina, MACCHINE);
+    Object.keys(DEF).forEach(function (k) {
+      var v = S[k];
+      if (k === 'hash' || k === 'watt' || k === 'prezzo_hw') {
+        if (v === m[{ hash: 1, watt: 2, prezzo_hw: 3 }[k]]) return;
+      } else if (v === DEF[k]) return;
+      q.push(encodeURIComponent(k) + '=' + encodeURIComponent(typeof v === 'boolean' ? (v ? '1' : '0') : String(v)));
+    });
+    return q.join('&');
+  }
+  function decodifica(search) {
+    var s = clone(DEF), q = new URLSearchParams(search);
+    var mac = q.get('macchina');
+    if (mac !== null && leggi(FIELD.macchina, mac) !== null) s.macchina = mac;
+    caricaMacchina(s);
+    q.forEach(function (raw, k) {
+      var f = FIELD[k];
+      if (!f || k === 'macchina') return;
+      var v = leggi(f, raw);
+      if (v === null) return;
+      if (f.t === 'num' || f.t === 'pct') v = limita(f, v);
+      s[k] = v;
+    });
+    return s;
+  }
+  var urlTimer = null;
+  function scriviURL() {
+    clearTimeout(urlTimer);
+    urlTimer = setTimeout(function () {
+      var q = codifica();
+      try { history.replaceState(null, '', location.pathname + (q ? '?' + q : '') + location.hash); } catch (err) { /* file:// */ }
+    }, 250);
+  }
+
+  // ---------------------------------------------------------------- grafici
+  function larghezza(el) { return Math.max(280, Math.round(el.clientWidth || 600)); }
+  function passi(lo, hi, n) {
+    if (!(hi > lo)) { hi = lo + 1; }
+    var span = hi - lo, step = Math.pow(10, Math.floor(Math.log(span / n) / Math.LN10)), err = n / span * step;
+    if (err <= 0.15) step *= 10; else if (err <= 0.35) step *= 5; else if (err <= 0.75) step *= 2;
+    var a = Math.floor(lo / step + 1e-9) * step, b = Math.ceil(hi / step - 1e-9) * step, t = [];
+    for (var v = a; v <= b + step * 1e-6; v += step) t.push(Math.abs(v) < step * 1e-6 ? 0 : v);
+    return { lo: a, hi: b, t: t, step: step };
+  }
+  function dec(step) { return step >= 1 ? 0 : Math.min(4, Math.ceil(-Math.log(step) / Math.LN10 - 1e-9)); }
+  function svg(w, h, body) {
+    return '<svg viewBox="0 0 ' + w + ' ' + h + '" width="' + w + '" height="' + h + '" aria-hidden="true" focusable="false">' + body + '</svg>';
+  }
+  function T(x, y, s, a, cls) {
+    return '<text x="' + x.toFixed(1) + '" y="' + y.toFixed(1) + '"' + (a ? ' text-anchor="' + a + '"' : '') + (cls ? ' class="' + cls + '"' : '') + '>' + esc(s) + '</text>';
+  }
+  function L(x1, y1, x2, y2, cls) {
+    return '<line x1="' + x1.toFixed(1) + '" y1="' + y1.toFixed(1) + '" x2="' + x2.toFixed(1) + '" y2="' + y2.toFixed(1) + '" class="' + cls + '"/>';
+  }
+  function asseY(ty, pad, W, y, fmt) {
+    return ty.t.map(function (v) {
+      return L(pad.l, y(v), W - pad.r, y(v), v === 0 ? 'mh-zero' : 'mh-grid-l') + T(pad.l - 6, y(v) + 4, fmt(v), 'end');
+    }).join('');
+  }
+  function tabella(cols, rows) {
+    return '<table><thead><tr>' + cols.map(function (c, i) { return '<th scope="col"' + (i ? ' class="n"' : '') + '>' + esc(c) + '</th>'; }).join('') +
+      '</tr></thead><tbody>' + rows.map(function (r) {
+        return '<tr>' + r.map(function (c, i) { return '<td' + (i ? ' class="n"' : '') + '>' + esc(c) + '</td>'; }).join('') + '</tr>';
+      }).join('') + '</tbody></table>';
+  }
+
+  function graficoMesi(r) {
+    var el = $('mh-ch-mesi'), W = larghezza(el), H = Math.round(Math.min(360, Math.max(240, W * 0.55)));
+    var pad = { l: 58, r: 12, t: 10, b: 38 }, M = r.mesi, n = M[M.length - 1].mese || 1;
+    var lo = 0, hi = 0;
+    M.forEach(function (m) { lo = Math.min(lo, m.spese, m.saldo); hi = Math.max(hi, m.entrate, m.saldo); });
+    var ty = passi(lo, hi, 5);
+    var x = function (v) { return pad.l + v / n * (W - pad.l - pad.r); };
+    var y = function (v) { return pad.t + (ty.hi - v) / (ty.hi - ty.lo) * (H - pad.t - pad.b); };
+    var dx = n <= 12 ? 1 : n <= 24 ? 3 : n <= 60 || W > 520 ? 12 : 24;
+    var b = asseY(ty, pad, W, y, function (v) { return num(v, dec(ty.step)); });
+    for (var m = 0; m <= n; m += dx) b += T(x(m), H - pad.b + 16, String(m), 'middle');
+    b += T((pad.l + W - pad.r) / 2, H - 4, 'mesi dall\'inizio', 'middle');
+    ['spese', 'entrate', 'saldo'].forEach(function (s) {
+      b += '<path class="mh-l mh-c-' + s + '" d="' + M.map(function (m, i) { return (i ? 'L' : 'M') + x(m.mese).toFixed(1) + ' ' + y(m[s]).toFixed(1); }).join('') + '"/>';
+    });
+    el.innerHTML = svg(W, H, b);
+    var ult = M[M.length - 1];
+    el.setAttribute('aria-label', 'Grafico a linee del contatore cumulato su ' + n + ' mesi: alla fine spese ' + num(ult.spese, 1) +
+      ', entrate ' + num(ult.entrate, 1) + ', saldo ' + num(ult.saldo, 1) + ' migliaia di sats.');
+    $('mh-tb-mesi').innerHTML = tabella(['Mese', 'Spese [k sats]', 'Entrate [k sats]', 'Saldo [k sats]'],
+      M.map(function (m) { return [m.mese, num(m.spese, 1), num(m.entrate, 1), num(m.saldo, 1)]; }));
+  }
+
+  function graficoAnni(r) {
+    var el = $('mh-ch-anni'), W = larghezza(el), H = Math.round(Math.min(340, Math.max(230, W * 0.5)));
+    var pad = { l: 50, r: 12, t: 16, b: 38 }, A = r.scenari_anni_k_sats, n = A.length, sc = [S.scen_a, S.scen_b, S.scen_c];
+    var hi = 0;
+    A.forEach(function (v) { hi = Math.max(hi, v[0], v[1], v[2]); });
+    var ty = passi(0, hi || 1, 5);
+    var pw = W - pad.l - pad.r, gw = pw / n, bw = Math.max(2, gw * 0.78 / 3);
+    var y = function (v) { return pad.t + (ty.hi - v) / (ty.hi - ty.lo) * (H - pad.t - pad.b); };
+    var b = asseY(ty, pad, W, y, function (v) { return num(v, dec(ty.step)); });
+    A.forEach(function (v, i) {
+      var x0 = pad.l + i * gw + gw * 0.11;
+      v.forEach(function (val, j) {
+        var yy = y(Math.max(0, val));
+        b += '<rect class="mh-f' + j + '" x="' + (x0 + j * bw).toFixed(1) + '" y="' + yy.toFixed(1) + '" width="' + (bw - 1).toFixed(1) +
+          '" height="' + Math.max(0, y(0) - yy).toFixed(1) + '" rx="2"/>';
+      });
+      b += T(pad.l + (i + 0.5) * gw, H - pad.b + 16, String(i + 1), 'middle');
+    });
+    r.halving_anni.forEach(function (t) {
+      if (t > 0 && t < n) {
+        var xx = pad.l + t / n * pw;
+        b += L(xx, pad.t - 4, xx, H - pad.b, 'mh-dash') + T(xx + 4, pad.t + 6, 'halving', 'start', 'mh-t-strong');
+      }
+    });
+    b += T((pad.l + W - pad.r) / 2, H - 4, 'anno', 'middle');
+    el.innerHTML = svg(W, H, b);
+    var nomi = sc.map(function (s) { return 'difficoltà ' + sgn(s * 100, 0) + "% l'anno"; });
+    $('mh-lg-anni').innerHTML = nomi.map(function (s, j) { return '<li><i class="mh-k-s' + j + '"></i>' + esc(s) + '</li>'; }).join('');
+    el.setAttribute('aria-label', 'Grafico a barre dell\'incassato per ' + n + ' anni. Totale: ' + nomi.map(function (s, j) {
+      return s + ' ' + num(r.scenari_k_sats[j], 1) + ' migliaia di sats';
+    }).join('; ') + '.');
+    $('mh-tb-anni').innerHTML = tabella(['Anno'].concat(nomi.map(function (s) { return s + ' [k sats]'; })),
+      A.map(function (v, i) { return [i + 1, num(v[0], 1), num(v[1], 1), num(v[2], 1)]; })
+        .concat([['Totale', num(r.scenari_k_sats[0], 1), num(r.scenari_k_sats[1], 1), num(r.scenari_k_sats[2], 1)]]));
+  }
+
+  function costiCalore(r) {
+    var guadagno = function (eff) { return r.hashprice / (0.024 * eff) * S.prezzo_btc / SATS; };
+    var voci = [];
+    MACCHINE.forEach(function (m) {
+      if (m[0] === 'NerdMiner' || m[0] === 'La mia macchina') return;
+      var sel = m[0] === S.macchina, eff = sel ? S.watt / S.hash : m[2] / m[1];
+      voci.push({ n: m[0], v: S.prezzo_rete - guadagno(eff), c: sel ? 'mh-fsel' : 'mh-fbar' });
+    });
+    if (S.macchina === 'NerdMiner' || S.macchina === 'La mia macchina') {
+      voci.push({ n: S.macchina, v: S.prezzo_rete - guadagno(S.watt / S.hash), c: 'mh-fsel' });
+    }
+    voci.push({ n: 'Stufetta elettrica', v: S.prezzo_rete, c: 'mh-fref', s: 'Stufetta elettrica' });
+    voci.push({ n: 'Caldaia a gas', v: S.prezzo_gas / S.rend_caldaia, c: 'mh-fref', s: 'Caldaia a gas' });
+    voci.push({ n: 'Pompa di calore', v: S.prezzo_rete / S.cop_pdc, c: 'mh-fref', s: 'Pompa di calore' });
+    voci.sort(function (a, b) { return b.v - a.v; });
+    return voci;
+  }
+  function graficoCalore(r) {
+    var el = $('mh-ch-calore'), W = larghezza(el), voci = costiCalore(r).filter(function (v) { return isFinite(v.v); });
+    var rowH = 30, lw = Math.min(160, Math.round(W * 0.42)), pad = { l: lw, r: 64, t: 6, b: 28 };
+    var H = pad.t + pad.b + voci.length * rowH;
+    var lo = 0, hi = 0;
+    voci.forEach(function (v) { lo = Math.min(lo, v.v); hi = Math.max(hi, v.v); });
+    var tx = passi(lo, hi || 0.1, 4);
+    var x = function (v) { return pad.l + (v - tx.lo) / (tx.hi - tx.lo) * (W - pad.l - pad.r); };
+    var b = '';
+    tx.t.forEach(function (v) {
+      b += L(x(v), pad.t, x(v), H - pad.b, v === 0 ? 'mh-zero' : 'mh-grid-l') + T(x(v), H - pad.b + 16, num(v, dec(tx.step)), 'middle');
+    });
+    voci.forEach(function (v, i) {
+      var yy = pad.t + i * rowH + 5, x0 = x(Math.min(0, v.v)), x1 = x(Math.max(0, v.v));
+      var forte = v.c === 'mh-fsel' || v.s === S.sostituisce ? 'mh-t-strong' : '';
+      b += T(pad.l - 8, yy + 15, v.n, 'end', forte);
+      b += '<rect class="' + v.c + '" x="' + x0.toFixed(1) + '" y="' + yy + '" width="' + Math.max(1, x1 - x0).toFixed(1) + '" height="' + (rowH - 10) + '" rx="3"/>';
+      b += T(x1 + 6, yy + 15, num(v.v, 3) + ' €', 'start', forte);
+    });
+    el.innerHTML = svg(W, H, b);
+    el.setAttribute('aria-label', 'Grafico a barre del costo di 1 kWh di calore in euro: ' + voci.map(function (v) {
+      return v.n + ' ' + num(v.v, 3);
+    }).join('; ') + '.');
+    $('mh-tb-calore').innerHTML = tabella(['Fonte di calore', 'Costo di 1 kWh [€]'], voci.map(function (v) { return [v.n, num(v.v, 3)]; }));
+  }
+
+  function graficoPareggio(r) {
+    var el = $('mh-ch-pareggio'), W = larghezza(el), H = Math.round(Math.min(360, Math.max(250, W * 0.58)));
+    var pad = { l: 58, r: 14, t: 10, b: 38 };
+    var xmax = Math.max(0.4, S.prezzo_kwh * 1.15), Y0 = 0, Y1 = 5; // log10: da 1 a 100.000 J/TH
+    var curva = function (c) { return r.hashprice / (0.024 * c / S.prezzo_btc * SATS); };
+    var x = function (v) { return pad.l + v / xmax * (W - pad.l - pad.r); };
+    var y = function (e) {
+      var l = Math.log(Math.max(Math.pow(10, Y0), Math.min(Math.pow(10, Y1), e))) / Math.LN10;
+      return pad.t + (Y1 - l) / (Y1 - Y0) * (H - pad.t - pad.b);
+    };
+    var b = '', e;
+    for (e = Y0; e <= Y1; e++) b += L(pad.l, y(Math.pow(10, e)), W - pad.r, y(Math.pow(10, e)), 'mh-grid-l') + T(pad.l - 6, y(Math.pow(10, e)) + 4, num(Math.pow(10, e), 0), 'end');
+    var tx = passi(0, xmax, W > 520 ? 8 : 4);
+    tx.t.forEach(function (v) { if (v <= xmax + 1e-9) b += T(x(v), H - pad.b + 16, num(v, dec(tx.step)), 'middle'); });
+    b += T((pad.l + W - pad.r) / 2, H - 4, 'prezzo del kWh [€]', 'middle');
+    b += T(pad.l + 4, pad.t + 12, 'J/TH (scala logaritmica)', 'start');
+    var pts = [], N = 160;
+    for (var i = 1; i <= N; i++) { var c = xmax * i / N; pts.push([x(c), y(curva(c))]); }
+    var path = pts.map(function (p, j) { return (j ? 'L' : 'M') + p[0].toFixed(1) + ' ' + p[1].toFixed(1); }).join('');
+    b += '<path class="mh-farea" d="M' + x(0).toFixed(1) + ' ' + pts[0][1].toFixed(1) + 'L' + path.slice(1) + 'L' + x(xmax).toFixed(1) + ' ' + y(1).toFixed(1) + 'L' + x(0).toFixed(1) + ' ' + y(1).toFixed(1) + 'Z"/>';
+    b += '<path class="mh-l mh-c-curva" d="' + path + '"/>';
+    b += T(x(xmax) - 6, y(1) - 8, 'qui la corrente si ripaga', 'end');
+    var eff = r.efficienza, px = x(Math.min(S.prezzo_kwh, xmax)), py = y(eff);
+    b += '<circle class="mh-dot" cx="' + px.toFixed(1) + '" cy="' + py.toFixed(1) + '" r="6"/>';
+    b += T(px + (px > W * 0.6 ? -10 : 10), py - 10, S.macchina + ', ' + sig(eff) + ' J/TH', px > W * 0.6 ? 'end' : 'start', 'mh-t-strong');
+    el.innerHTML = svg(W, H, b);
+    var ok = S.prezzo_kwh === 0 || eff <= curva(S.prezzo_kwh);
+    el.setAttribute('aria-label', 'Curva dell\'efficienza di pareggio al variare del prezzo del kWh. La tua macchina, ' + sig(eff) + ' J/TH a ' +
+      num(S.prezzo_kwh, 3) + ' €/kWh, sta ' + (ok ? 'sotto la curva: la corrente si ripaga.' : 'sopra la curva: la corrente non si ripaga.'));
+    var rows = [];
+    for (var cc = 0.05; cc <= Math.max(0.4, xmax) + 1e-9; cc += 0.05) rows.push([num(cc, 2), sig(curva(cc))]);
+    $('mh-tb-pareggio').innerHTML = tabella(['Prezzo del kWh [€]', 'Efficienza di pareggio [J/TH]'], rows);
+  }
+
+  // ---------------------------------------------------------------- risultati
+  function aggiornaContatore(r) {
+    var c = r.contatore_k_sats, neg = c.saldo < 0;
+    $('mh-saldo').textContent = num(c.saldo, 1);
+    $('mh-saldo').className = 'mh-big ' + (neg ? 'mh-neg' : 'mh-pos');
+    $('mh-saldo-sub').textContent = 'migliaia di sats in ' + num(S.durata, S.durata % 1 ? 1 : 0) + (S.durata === 1 ? ' anno' : ' anni');
+    $('mh-verdict').textContent = neg ? 'No.' : 'Sì?';
+    $('mh-verdict').className = 'mh-verdict ' + (neg ? 'mh-neg' : 'mh-pos');
+    var voci = [['Corrente', c.corrente], ['Hardware', c.hardware], ['Incassato', c.incassato], ['Calore', c.calore], ['Fine vita', c.fine_vita]];
+    $('mh-rows').innerHTML = voci.map(function (v) {
+      return '<dt>' + v[0] + '</dt><dd>' + sgn(v[1], 1) + ' k</dd>';
+    }).join('') +
+      '<dt class="mh-tot">Saldo</dt><dd class="mh-tot ' + (neg ? 'mh-neg' : 'mh-pos') + '">' + sgn(c.saldo, 1) + ' k sats</dd>' +
+      '<dt>Saldo in euro</dt><dd>' + sgn(r.saldo_eur, 0) + ' €</dd>' +
+      '<dt>' + (neg ? 'Costo all\'anno' : 'Guadagno all\'anno') + '</dt><dd>' + num(Math.abs(r.costo_hobby_eur_anno), 0) + ' €</dd>';
+    var perche;
+    if (neg) {
+      perche = 'Con queste condizioni perdi ' + num(-c.saldo * 1000, 0) + ' sats, circa ' + num(r.costo_hobby_eur_anno, 0) + " € l'anno." +
+        (r.spendi_per_sats !== null ? ' Per ogni sat incassato ne spendi ' + num(r.spendi_per_sats, 1) + '.' : ' E non incassi niente.');
+    } else {
+      perche = 'Con queste condizioni il saldo è positivo. Sono realistiche, a casa tua? Se sì, raccontalo su Home Mining Italia.';
+    }
+    $('mh-why').textContent = perche;
+    $('mh-bar-saldo').textContent = 'Saldo ' + sgn(c.saldo, 1) + ' k sats';
+    $('mh-bar-saldo').className = neg ? 'mh-neg' : 'mh-pos';
+    $('mh-bar-verdict').textContent = neg ? 'No.' : 'Sì?';
+    $('mh-bar-verdict').className = neg ? 'mh-neg' : 'mh-pos';
+  }
+
+  function card(titolo, righe) {
+    return '<div class="mh-card"><h3>' + esc(titolo) + '</h3>' + righe.map(function (r) { return '<p>' + r + '</p>'; }).join('') + '</div>';
+  }
+  function aggiornaCards(r) {
+    var anni = S.durata === 1 ? '1 anno' : num(S.durata, S.durata % 1 ? 1 : 0) + ' anni';
+    var rende = r.kwh_rende_eur, gse = S.minimo_gse;
+    var cards = [
+      card('La rete oggi', [
+        'Hashrate di rete: <b>' + num(r.hashrate_rete_eh, 0) + ' EH/s</b>',
+        'Hashprice: <b>' + num(r.hashprice, 1) + ' sats</b> per TH/s al giorno',
+        'Prossimo halving: blocco <b>' + num(r.halving_blocco, 0) + '</b>, circa il <b>' + dataIt(r.halving_data) + '</b>'
+      ]),
+      card('Il pareggio', [
+        'Con la corrente a ' + num(S.prezzo_kwh, 3) + ' €/kWh servirebbe un\'efficienza di <b>' + (r.pareggio_j_th === null ? 'qualsiasi' : sig(r.pareggio_j_th) + ' J/TH') +
+          '</b>. La tua macchina: <b>' + sig(r.efficienza) + ' J/TH</b>.',
+        'Con questa macchina il kWh dovrebbe costare al massimo <b>' + num(r.pareggio_eur_kwh, 3) + ' €</b>.',
+        'Oppure BTC dovrebbe valere <b>' + num(r.btc_per_corrente_oggi, 0) + ' €</b> oggi' +
+          (r.btc_per_corrente_durata !== null ? ', <b>' + num(r.btc_per_corrente_durata, 0) + ' €</b> sulla durata.' : '.')
+      ]),
+      card('Fotovoltaico', [
+        '1 kWh dato al miner rende <b>' + (rende === null ? '—' : num(rende, 3) + ' €') + '</b>, hardware compreso.',
+        'Il minimo garantito GSE è <b>' + num(gse, 4) + ' €</b>: ' + (rende === null ? 'senza ore accese non c\'è confronto.' :
+          rende < gse ? 'conviene vendere la corrente.' : 'qui conviene minare.')
+      ]),
+      card('In solo', [
+        'Almeno un blocco in ' + anni + ': <b>' + (r.solo_uno_su === null ? 'mai' : '1 su ' + num(r.solo_uno_su, 0)) + '</b>' +
+          (r.solo_prob ? ' (' + (r.solo_prob < 1e-6 ? 'meno di 0,0001' : num(r.solo_prob * 100, r.solo_prob < 0.001 ? 4 : 2)) + '%)' : ''),
+        'In media un blocco ogni <b>' + (r.solo_anni_per_blocco === null ? '—' : num(r.solo_anni_per_blocco, 0)) + ' anni</b>.',
+        'Il premio di un blocco: <b>' + num(r.premio_blocco, 3) + ' BTC</b>.'
+      ]),
+      card('Contratto e consumi', [
+        'Il miner chiede <b>' + num(S.watt / 1000, S.watt < 100 ? 3 : 2) + ' kW</b> su ' + num(S.contratto_kw, 1) + ' kW: <b class="' + (r.contratto_ok ? 'mh-pos' : 'mh-neg') + '">' +
+          (r.contratto_ok ? 'ok' : 'il contatore stacca') + '</b>.',
+        'In ' + anni + ' consuma <b>' + num(r.kwh, 0) + ' kWh</b>, che costano <b>' + num(r.corrente_eur, 0) + ' €</b>.'
+      ])
+    ];
+    $('mh-cards').innerHTML = cards.join('');
+    $('mh-tb-euro').innerHTML = tabella(['Anno', 'Corrente [€]', 'Incassato [€]', 'Calore [€]', 'Saldo [€]'], r.anni.map(function (a) {
+      return [a.anno, num(-a.corr_eur, 0), num(a.inc_eur, 0), num(a.cal_eur, 0), num(a.saldo_eur, 0)];
+    }));
+    $('mh-eff').innerHTML = 'Efficienza: <b>' + sig(r.efficienza) + ' J/TH</b>. ' + esc(riga(S.macchina, MACCHINE)[4]) +
+      (riga(S.macchina, MACCHINE)[3] === 0 && S.prezzo_hw === 0 ? '. Prezzo non nel talk: inseriscilo tu.' : '.');
+    $('mh-rete-out').innerHTML = 'Hashprice oggi: <b>' + num(r.hashprice, 1) + ' sats/TH/giorno</b>. Halving circa il <b>' + dataIt(r.halving_data) + '</b>.';
+    var z = params(S).zona;
+    $('mh-zona-out').innerHTML = 'Riscaldamento dal <b>' + z[0] + '/' + z[1] + '</b> al <b>' + z[2] + '/' + z[3] + '</b>, <b>' + num(z[4], 0) +
+      ' h</b> al giorno. ' + (S.calore_si ? 'Il calore vale <b>' + num(r.contatore_k_sats.calore, 1) + ' k sats</b>.' : 'Il calore non è conteggiato.');
+    $('mh-fv-out').innerHTML = '1 kWh dato al miner rende <b>' + (rende === null ? '—' : num(rende, 3) + ' €') + '</b> contro <b>' + num(gse, 4) + ' €</b> del minimo garantito.';
+  }
+
+  var ultimo = null, frame = 0;
+  function disegna() {
+    frame = 0;
+    var r = simulate(params(S));
+    ultimo = r;
+    aggiornaContatore(r);
+    aggiornaCards(r);
+    graficoMesi(r);
+    graficoAnni(r);
+    graficoCalore(r);
+    graficoPareggio(r);
+    scriviURL();
+  }
+  function aggiorna() {
+    if (!frame) frame = (window.requestAnimationFrame || setTimeout)(disegna);
+  }
+
+  // ---------------------------------------------------------------- dati live
+  function prendi(path) {
+    var ctl = window.AbortController ? new AbortController() : null;
+    var timer = setTimeout(function () { if (ctl) ctl.abort(); }, 8000);
+    return fetch('https://mempool.space' + path, { signal: ctl ? ctl.signal : undefined, cache: 'no-store' }).then(function (res) {
+      clearTimeout(timer);
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      return res.json();
+    });
+  }
+  function valoriDiOggi() {
+    var btn = $('mh-live'), st = $('mh-live-status');
+    btn.disabled = true;
+    st.textContent = 'Chiedo i dati a mempool.space…';
+    var richieste = [prendi('/api/blocks/tip/height'), prendi('/api/v1/mining/hashrate/3d'), prendi('/api/v1/mining/blocks/fees/1w'), prendi('/api/v1/prices')];
+    var tutte = richieste.map(function (p) { return p.then(function (v) { return { ok: true, v: v }; }, function () { return { ok: false }; }); });
+    Promise.all(tutte).then(function (res) {
+      var fatti = [], mancano = [], now = new Date();
+      var oggi = now.getFullYear() + '-' + String(now.getMonth() + 1).padStart(2, '0') + '-' + String(now.getDate()).padStart(2, '0');
+      var alt = res[0].ok ? Number(res[0].v) : NaN;
+      if (isFinite(alt) && alt > 0) { S.altezza = Math.round(alt); S.data_altezza = oggi; fatti.push('blocco ' + num(S.altezza, 0)); } else mancano.push('altezza');
+      var diff = res[1].ok && res[1].v ? Number(res[1].v.currentDifficulty) : NaN;
+      if (isFinite(diff) && diff > 0) { S.diff_t = Math.round(diff / 1e10) / 100; fatti.push('difficoltà ' + num(S.diff_t, 2) + ' T'); } else mancano.push('difficoltà');
+      var fees = res[2].ok && Array.isArray(res[2].v) ? res[2].v.map(function (b) { return Number(b.avgFees); }).filter(isFinite) : [];
+      if (fees.length) {
+        var media = fees.reduce(function (a, b) { return a + b; }, 0) / fees.length / SATS;
+        S.fee_blocco = Math.round(media * 10000) / 10000;
+        fatti.push('fee medie ' + num(S.fee_blocco, 4) + ' BTC per blocco (ultima settimana)');
+      } else mancano.push('fee');
+      var eur = res[3].ok && res[3].v ? Number(res[3].v.EUR) : NaN;
+      if (isFinite(eur) && eur > 0) { S.prezzo_btc = eur; fatti.push('prezzo ' + num(eur, 0) + ' €'); } else mancano.push('prezzo');
+      var ora = String(now.getHours()).padStart(2, '0') + ':' + String(now.getMinutes()).padStart(2, '0');
+      st.textContent = fatti.length ? 'Dati di mempool.space del ' + dataIt(oggi) + ' alle ' + ora + ': ' + fatti.join(', ') + '.' +
+        (mancano.length ? ' Non disponibili: ' + mancano.join(', ') + '.' : '') :
+        'mempool.space non risponde: restano i valori di prima.';
+      mostraTutto();
+      aggiorna();
+    }).then(function () { btn.disabled = false; }, function () { btn.disabled = false; });
+  }
+
+  // ---------------------------------------------------------------- avvio
+  costruisci();
+  S = decodifica(location.search);
+  mostraTutto();
+  disegna();
+
+  var cond = $('mh-cond');
+  cond.addEventListener('input', suInput);
+  cond.addEventListener('change', function (e) { suInput(e); var k = e.target.dataset && e.target.dataset.k; if (k) mostra(k); });
+  cond.addEventListener('click', function (e) {
+    var b = e.target.closest ? e.target.closest('[data-fv]') : null;
+    if (!b) return;
+    var a = b.getAttribute('data-fv');
+    if (a === 'sole') imposta('ore_giorno', 8);
+    if (a === 'gratis') imposta('prezzo_kwh', 0);
+    if (a === 'gse') imposta('prezzo_kwh', S.minimo_gse);
+  });
+  $('mh-live').addEventListener('click', valoriDiOggi);
+  $('mh-reset').addEventListener('click', function () {
+    S = clone(DEF);
+    $('mh-live-status').textContent = '';
+    $('mh-prova-out').textContent = '';
+    mostraTutto();
+    aggiorna();
+  });
+  $('mh-prove').addEventListener('click', function (e) {
+    var b = e.target.closest ? e.target.closest('[data-prova]') : null;
+    if (!b) return;
+    var p = PROVE[+b.getAttribute('data-prova')];
+    S = clone(DEF);
+    if (p[1].macchina) { S.macchina = p[1].macchina; caricaMacchina(S); }
+    for (var k in p[1]) if (k !== 'macchina') S[k] = p[1][k];
+    mostraTutto();
+    disegna();
+    $('mh-prova-out').textContent = p[0] + '. ' + p[2];
+    $('mh-count').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+  $('mh-copy').addEventListener('click', function () {
+    var q = codifica(), url = location.origin + location.pathname + (q ? '?' + q : '');
+    var st = $('mh-copy-status');
+    var fallback = function () { st.textContent = 'Copialo da qui: ' + url; };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(url).then(function () { st.textContent = 'Link copiato.'; }, fallback);
+    } else fallback();
+  });
+  var rt = null;
+  window.addEventListener('resize', function () {
+    clearTimeout(rt);
+    rt = setTimeout(function () { if (ultimo) { graficoMesi(ultimo); graficoAnni(ultimo); graficoCalore(ultimo); graficoPareggio(ultimo); } }, 150);
+  });
+  if (window.IntersectionObserver) {
+    new IntersectionObserver(function (en) {
+      $('mh-bar').classList.toggle('mh-show', !en[0].isIntersecting);
+    }).observe($('mh-count'));
+  }
+})();
+</script>
+{% endraw %}
