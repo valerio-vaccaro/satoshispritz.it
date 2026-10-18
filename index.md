@@ -130,6 +130,7 @@ In cambio, il partner riceve il logo nella locandina dell'evento, citazioni nell
 - [Gruppi locali](https://satoshispritz.it/gruppi/): pagine dedicate ai meetup Bitcoin-only nelle varie città.
 - [Presentazioni](https://satoshispritz.it/presentazioni/): materiali usati durante gli incontri.
 - [Gadget](https://satoshispritz.it/gadget.html): gadget presentati o realizzati per i Satoshi Spritz.
+- [Simulatore di mining](https://satoshispritz.it/mining.html): quanto costa minare a casa, con le tue condizioni.
 - [Loghi](https://satoshispritz.it/loghi/): logo ufficiale e materiali grafici.
 - [Locandine](https://satoshispritz.it/locandine/): template disponibili per la personalizzazione.
 
