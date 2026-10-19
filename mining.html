@@ -90,7 +90,6 @@ parent_url: /
 <p>Ogni pulsante riparte dai valori del talk e cambia una cosa. Sotto trovi il risultato del talk, da confrontare con il contatore.</p>
 <div class="mh-prove" id="mh-prove"></div>
 <p class="mh-prova-out" id="mh-prova-out" role="status"></p>
-<p>Hai trovato un controesempio, cioè condizioni realistiche a casa tua con il saldo positivo? <a id="mh-mail" href="mailto:giulio@satoshispritz.it">Mandamelo</a>: nella mail c'è già il link con le tue condizioni.</p>
 
 <h2>Le slide</h2>
 <p>Le slide del workshop saranno pubblicate dopo la conferenza nella pagina <a href="/presentazioni/">Presentazioni</a>.</p>
@@ -1087,7 +1086,6 @@ parent_url: /
     $('mh-zona-out').innerHTML = 'Riscaldamento dal <b>' + z[0] + '/' + z[1] + '</b> al <b>' + z[2] + '/' + z[3] + '</b>, al massimo <b>' + num(z[4], 0) +
       ' h</b> al giorno. ' + testoCalore(r);
     $('mh-fv-out').innerHTML = '1 kWh dato al miner rende <b>' + (rende === null ? '—' : num(rende, 3) + ' €') + '</b> contro <b>' + num(gse, 4) + ' €</b> del minimo garantito.';
-    $('mh-mail').href = mailto(r);
   }
 
   var ultimo = null, frame = 0;
