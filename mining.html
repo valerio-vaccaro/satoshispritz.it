@@ -434,7 +434,6 @@ parent_url: /
   // le righe del grafico del pareggio, come nella slide "Minare o comprare?"
   var RIGHE_PAREGGIO = [['S9', 98], ['S19', 34], ['S19k Pro', 23], ['S21, Bitaxe Gamma', 17], ['S23 Hyd', 9.5]];
   var GRANDI_MINER = [35, 60];   // sats/kWh: circa 0,03-0,05 $/kWh (CoinShares, Q1 2026) [7]
-  var EMAIL = 'giulio@satoshispritz.it';
   // nome, giorno e mese di inizio, giorno e mese di fine, ore al giorno (DPR 74/2013)
   var ZONE = [
     ['Zona A', 1, 12, 15, 3, 6],
@@ -971,12 +970,6 @@ parent_url: /
 
   // ---------------------------------------------------------------- risultati
   function testoAnni() { return S.durata === 1 ? '1 anno' : num(S.durata, S.durata % 1 ? 1 : 0) + ' anni'; }
-  function linkScenario() { var q = codifica(); return location.origin + location.pathname + (q ? '?' + q : ''); }
-  function mailto(r) {
-    return 'mailto:' + EMAIL + '?subject=' + encodeURIComponent('Controesempio: minare a casa') + '&body=' +
-      encodeURIComponent('Ciao Giulio,\n\necco le mie condizioni: ' + linkScenario() + '\n\nCon queste il saldo è ' +
-        sgn(r.contatore_k_sats.saldo, 1) + ' migliaia di sats in ' + testoAnni() + '.\n');
-  }
 
   function aggiornaContatore(r) {
     var c = r.contatore_k_sats, neg = c.saldo < 0, solo0 = S.modalita === 'Solo (nessun blocco trovato)';
@@ -1009,7 +1002,7 @@ parent_url: /
       perche = esc('Con queste condizioni perdi ' + num(-c.saldo * 1000, 0) + ' sats, circa ' + num(r.costo_hobby_eur_anno, 0) + " € l'anno: è il prezzo del biglietto." +
         (r.spendi_per_sats !== null ? ' Per ogni sat incassato ne spendi ' + num(r.spendi_per_sats, 1) + '.' : ' E non incassi niente.'));
     } else {
-      perche = 'Con queste condizioni il saldo è positivo. Sono realistiche, a casa tua? Se sì, <a href="' + esc(mailto(r)) + '">mandamelo</a>.';
+      perche = 'Con queste condizioni il saldo è positivo. Sono realistiche, a casa tua?';
     }
     $('mh-why').innerHTML = perche;
     $('mh-bar-saldo').textContent = 'Saldo ' + sgn(c.saldo, 1) + ' k sats';
