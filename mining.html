@@ -111,7 +111,7 @@ parent_url: /
   <li id="mh-fonte-2"><b>[2]</b> Fee medie per blocco circa 0,02 BTC, settembre–ottobre 2026: <a href="https://mempool.space/graphs/mining/block-fees">mempool.space/graphs/mining/block-fees</a></li>
   <li id="mh-fonte-3"><b>[3]</b> Ricompensa 3,125 BTC, halving ogni 210.000 blocchi (prossimo al blocco 1.050.000): Bitcoin Core, <code>GetBlockSubsidy</code>, <a href="https://github.com/bitcoin/bitcoin">github.com/bitcoin/bitcoin</a></li>
   <li id="mh-fonte-4"><b>[4]</b> Prezzo BTC circa 74.500 €, ottobre 2026: <a href="https://www.digrin.com/stocks/detail/BTC-EUR/price">www.digrin.com/stocks/detail/BTC-EUR/price</a></li>
-  <li id="mh-fonte-5"><b>[5]</b> Corrente per le famiglie in Italia, 2° semestre 2025, tasse incluse: 0,333 €/kWh. Eurostat, dataset <code>nrg_pc_204</code></li>
+  <li id="mh-fonte-5"><b>[5]</b> Corrente per le famiglie in Italia, 2° semestre 2025, tasse incluse, fascia di consumo 1.000–2.499 kWh l'anno: 0,333 €/kWh. Eurostat, dataset <code>nrg_pc_204</code></li>
   <li id="mh-fonte-6"><b>[6]</b> Gas per le famiglie in Italia, 2° semestre 2025, tasse incluse: 14,81 €/100 kWh. Eurostat, notizia del 5/5/2026, <a href="https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260505-2">ec.europa.eu/eurostat</a></li>
   <li id="mh-fonte-7"><b>[7]</b> Corrente dei grandi miner circa 0,03–0,05 $/kWh: CoinShares, <i>Bitcoin Mining Report Q1 2026</i></li>
   <li id="mh-fonte-8"><b>[8]</b> Specifiche S9, S19, S19k Pro, S21, S21 Pro, S23 Hyd: <a href="https://www.asicminervalue.com">www.asicminervalue.com</a></li>
@@ -124,8 +124,8 @@ parent_url: /
   <li id="mh-fonte-15"><b>[15]</b> Dev fee dei firmware (Vnish 2–2,8%, LuxOS 2,8%, Braiins OS+ 2–2,5%): <a href="https://www.spark.money/tools/bitcoin-mining-firmware-comparison">spark.money</a></li>
   <li id="mh-fonte-16"><b>[16]</b> Caldaia: classe A da η<sub>s</sub> ≥ 90%, Regolamento UE 811/2013, allegato II</li>
   <li id="mh-fonte-17"><b>[17]</b> S9 con ventole Noctua a 650 W: 8,25 TH/s, 45 dB. CryptoCloaks, <i>The Future of Space Heaters</i> v3</li>
-  <li id="mh-fonte-18"><b>[18]</b> Scheda ESP32 (NerdMiner, EasyMiner), circa 1 W: <a href="https://d-central.tech/manuals/nerdminer-setup-guide/">d-central.tech</a></li>
-  <li id="mh-fonte-19"><b>[19]</b> Difficoltà circa 21,7 T a novembre 2021, massimo di 156 T l'11 novembre 2025: <a href="https://www.spark.money/tools/bitcoin-difficulty-epochs-reference">spark.money</a>, <a href="https://crypto.news/bitcoin-mining-difficulty-148-trillion-2025-wraps/">crypto.news</a></li>
+  <li id="mh-fonte-18"><b>[18]</b> Scheda ESP32 (NerdMiner, EasyMiner), circa 1 W: <a href="https://d-central.tech/manuals/nerdminer-setup-guide/">d-central.tech</a>. NerdMiner su ESP32-S3 con firmware recenti, circa 250–350 kH/s: <a href="https://nerdminers.org/">nerdminers.org</a>, <a href="https://github.com/dwespl/nerdminer-axehub">nerdminer-axehub</a></li>
+  <li id="mh-fonte-19"><b>[19]</b> Difficoltà circa 21,7 T a novembre 2021, massimo di 156 T dal 29 ottobre 2025 (blocco 921.312, <a href="https://mempool.space/mining">mempool.space</a>): <a href="https://www.spark.money/tools/bitcoin-difficulty-epochs-reference">spark.money</a>, <a href="https://crypto.news/bitcoin-mining-difficulty-148-trillion-2025-wraps/">crypto.news</a></li>
   <li id="mh-fonte-20"><b>[20]</b> Ritiro Dedicato, prezzo minimo garantito 2026 per il fotovoltaico: 47,5 €/MWh, fino a 1,5 milioni di kWh l'anno (ARERA, aggiornamento ISTAT +1,4%): <a href="https://tariffe.segugio.it/news-tariffe/rinnovabili-cambiano-i-prezzi-minimi-garantiti-per-il-2026-00045593.aspx">tariffe.segugio.it</a></li>
   <li id="mh-fonte-21"><b>[21]</b> Valerio Vaccaro, autore di HanSoloMiner (da cui deriva NerdMiner) e di EasyMiner, ottobre 2026. EasyMiner, firmware open source per ESP32: <a href="https://github.com/valerio-vaccaro/EasyMiner">github.com/valerio-vaccaro/EasyMiner</a></li>
 </ul>
@@ -470,7 +470,7 @@ parent_url: /
     ] },
     { id: 'uso', titolo: 'Come la usi', open: true, campi: [
       { k: 'ore_giorno', l: 'Ore accese al giorno', t: 'num', u: 'h', min: 0, max: 24, r: [0, 24, 0.5], n: 'solo col sole: 8' },
-      { k: 'prezzo_kwh', l: 'Prezzo del kWh che usa il miner', t: 'num', u: '€/kWh', min: 0, max: 5, r: [0, 0.6, 0.001], n: 'media italiana con tasse (Eurostat nrg_pc_204, 2° sem. 2025) [5]. Fotovoltaico: 0 = gratis, 0,0475 = costo opportunità' },
+      { k: 'prezzo_kwh', l: 'Prezzo del kWh che usa il miner', t: 'num', u: '€/kWh', min: 0, max: 5, r: [0, 0.6, 0.001], n: 'famiglie, con tasse, consumo 1.000–2.499 kWh l’anno (Eurostat, 2° sem. 2025) [5]. Fotovoltaico: 0 = gratis, 0,0475 = costo opportunità' },
       { k: 'durata', l: 'Durata', t: 'num', u: 'anni', min: 0.5, max: 10, r: [0.5, 10, 0.5], n: 'da 0,5 a 10 anni, senza guasti' },
       { k: 'data_inizio', l: 'Data di inizio', t: 'date', n: 'il giorno del talk' },
       { k: 'modalita', l: 'Pool o solo', t: 'sel', o: MODI, n: 'in solo il valore atteso è uguale, ma quasi sempre trovi zero' },
