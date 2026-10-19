@@ -62,15 +62,24 @@ parent_url: /
   </figure>
 
   <figure class="mh-card mh-chart">
-    <figcaption><h3>La mappa del pareggio</h3><p>0,024 · e · c ≤ hashprice. Sotto la curva la corrente si ripaga, sopra no (hardware gratis, hashprice di oggi). Il punto è la tua macchina al tuo prezzo del kWh.</p></figcaption>
-    <ul class="mh-legend"><li><i class="mh-k-curva"></i>Efficienza di pareggio</li><li><i class="mh-k-punto"></i>La tua macchina</li></ul>
+    <figcaption><h3>Minare o comprare?</h3><p>Conviene minare solo se 1 TH costa meno di quanto rende: 0,024 · e · c ≤ hashprice, con e l'efficienza [J/TH] e c il costo della corrente [sats/kWh]. Conto fatto solo sulla corrente: hardware gratis, hashprice di oggi.</p></figcaption>
+    <ul class="mh-legend"><li><i class="mh-k-curva"></i>Pareggio</li><li><i class="mh-k-grandi"></i>Grandi miner [7]</li><li><i class="mh-k-casa"></i>Il tuo kWh</li></ul>
     <div class="mh-svg" id="mh-ch-pareggio" role="img"></div>
     <details><summary>Valori del grafico</summary><div class="mh-tablewrap" id="mh-tb-pareggio"></div></details>
   </figure>
 
+  <figure class="mh-card mh-chart">
+    <figcaption><h3>Quanto vale 1 kWh</h3><p>Il kWh dato al miner, contro quello che ti paga il GSE se lo vendi e quello che paghi alla rete.</p></figcaption>
+    <div class="mh-svg" id="mh-ch-kwh" role="img"></div>
+    <details><summary>Valori del grafico</summary><div class="mh-tablewrap" id="mh-tb-kwh"></div></details>
+  </figure>
+
   <div class="mh-card">
-    <h3>Anno per anno, in euro</h3>
-    <p class="mh-small">La quota dell'hardware è divisa sugli anni di durata.</p>
+    <h3>Il contatore anno per anno</h3>
+    <p class="mh-small">In migliaia di sats. L'hardware si paga il giorno dell'acquisto.</p>
+    <div class="mh-tablewrap" id="mh-tb-sats"></div>
+    <h3 class="mh-h3-2">Anno per anno, in euro</h3>
+    <p class="mh-small">Qui l'hardware è diviso sugli anni di durata, come nella slide dell'S21.</p>
     <div class="mh-tablewrap" id="mh-tb-euro"></div>
   </div>
 </div>
@@ -81,6 +90,7 @@ parent_url: /
 <p>Ogni pulsante riparte dai valori del talk e cambia una cosa. Sotto trovi il risultato del talk, da confrontare con il contatore.</p>
 <div class="mh-prove" id="mh-prove"></div>
 <p class="mh-prova-out" id="mh-prova-out" role="status"></p>
+<p>Hai trovato un controesempio, cioè condizioni realistiche a casa tua con il saldo positivo? <a id="mh-mail" href="mailto:giulio@satoshispritz.it">Mandamelo</a>: nella mail c'è già il link con le tue condizioni.</p>
 
 <h2>Le slide</h2>
 <p>Le slide del workshop saranno pubblicate dopo la conferenza nella pagina <a href="/presentazioni/">Presentazioni</a>.</p>
@@ -96,20 +106,35 @@ parent_url: /
 </ul>
 
 <h2>Fonti</h2>
+<p class="mh-small">Gli stessi numeri delle slide: le note accanto alle condizioni li citano tra parentesi quadre.</p>
 <ul class="mh-fonti">
-  <li>Difficoltà, altezza dei blocchi, fee per blocco: <a href="https://mempool.space/mining">mempool.space</a> (difficoltà 140,58 T dal 16/10/2026, blocco 971.712).</li>
-  <li>Halving ogni 210.000 blocchi, subsidy 3,125 BTC: <a href="https://github.com/bitcoin/bitcoin">Bitcoin Core</a>.</li>
-  <li>Storico della difficoltà (da circa 22 T a circa 141 T dal 2021): spark.money.</li>
-  <li>Prezzo di BTC in euro (74.500 €, ottobre 2026): digrin.com.</li>
-  <li>Corrente per le famiglie, Italia (0,333 €/kWh, tasse incluse): <a href="https://ec.europa.eu/eurostat">Eurostat</a> nrg_pc_204, banda DC, 2° semestre 2025.</li>
-  <li>Gas per le famiglie, Italia (14,81 €/100 kWh): <a href="https://ec.europa.eu/eurostat">Eurostat</a> nrg_pc_202, banda D2.</li>
-  <li>Rendimento della caldaia (0,9): stima per una caldaia a condensazione.</li>
-  <li>COP della pompa di calore (da 2,5 a 4): Braiins, "Bitcoin Mining Heat Reuse", pp. 39-40.</li>
-  <li>Zone climatiche, periodi e ore di riscaldamento: DPR 74/2013.</li>
-  <li>Prezzo minimo garantito 2026 per il fotovoltaico (47,5 €/MWh): ARERA (via segugio.it).</li>
-  <li>Fee della pool Ocean (2%, con DATUM 1%): <a href="https://ocean.xyz">ocean.xyz</a>.</li>
-  <li>Dati delle macchine: <a href="https://www.asicminervalue.com">asicminervalue.com</a>; d-central (NerdMiner).</li>
-  <li>Prezzi dell'hardware: stime da annunci online, tenute basse (a favore di chi mina).</li>
+  <li id="mh-fonte-1"><b>[1]</b> Difficoltà di rete 140,6 T dal 16 ottobre 2026 (blocco 971.712, +5,9%): <a href="https://mempool.space/mining">mempool.space/mining</a>. Hashrate implicito: D × 2<sup>32</sup> / 600 ≈ 1.006 EH/s.</li>
+  <li id="mh-fonte-2"><b>[2]</b> Fee medie per blocco circa 0,02 BTC, settembre–ottobre 2026: <a href="https://mempool.space/graphs/mining/block-fees">mempool.space/graphs/mining/block-fees</a></li>
+  <li id="mh-fonte-3"><b>[3]</b> Ricompensa 3,125 BTC, halving ogni 210.000 blocchi (prossimo al blocco 1.050.000): Bitcoin Core, <code>GetBlockSubsidy</code>, <a href="https://github.com/bitcoin/bitcoin">github.com/bitcoin/bitcoin</a></li>
+  <li id="mh-fonte-4"><b>[4]</b> Prezzo BTC circa 74.500 €, ottobre 2026: <a href="https://www.digrin.com/stocks/detail/BTC-EUR/price">www.digrin.com/stocks/detail/BTC-EUR/price</a></li>
+  <li id="mh-fonte-5"><b>[5]</b> Corrente per le famiglie in Italia, 2° semestre 2025, tasse incluse: 0,333 €/kWh. Eurostat, dataset <code>nrg_pc_204</code></li>
+  <li id="mh-fonte-6"><b>[6]</b> Gas per le famiglie in Italia, 2° semestre 2025, tasse incluse: 14,81 €/100 kWh. Eurostat, notizia del 5/5/2026, <a href="https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260505-2">ec.europa.eu/eurostat</a></li>
+  <li id="mh-fonte-7"><b>[7]</b> Corrente dei grandi miner circa 0,03–0,05 $/kWh: CoinShares, <i>Bitcoin Mining Report Q1 2026</i></li>
+  <li id="mh-fonte-8"><b>[8]</b> Specifiche S9, S19k Pro, S21, S21 Pro, S23 Hyd: <a href="https://www.asicminervalue.com">www.asicminervalue.com</a></li>
+  <li id="mh-fonte-9"><b>[9]</b> Bitaxe Gamma 601: 1,2 TH/s, 20 W, <a href="https://pool.kryptex.com/device/asic/Bitaxe/gamma-601">pool.kryptex.com</a>; chip BM1370 dell'S21 Pro, <a href="https://nobsbitcoin.com">nobsbitcoin.com</a></li>
+  <li id="mh-fonte-10"><b>[10]</b> Prezzi dell'hardware: Bitaxe Gamma circa 100 €, S21 usato circa 1.200 €. Stime dagli annunci online di ottobre 2026, tra i prezzi più bassi (a favore di chi mina)</li>
+  <li id="mh-fonte-11"><b>[11]</b> Pompa di calore, COP 2,5–4: T. Stevens, <i>Bitcoin Mining Heat Reuse</i>, Braiins 2025, pp. 39–40</li>
+  <li id="mh-fonte-12"><b>[12]</b> Periodi e ore di accensione del riscaldamento: DPR 16 aprile 2013, n. 74, art. 4</li>
+  <li id="mh-fonte-13"><b>[13]</b> Contratto da 3 kW, potenza disponibile + 10%: <a href="https://luce-gas.it/faq/quale-differenza-potenza-impegnata-contatore-potenza-disponibile-corrente">luce-gas.it, FAQ “potenza impegnata e disponibile”</a></li>
+  <li id="mh-fonte-14"><b>[14]</b> Fee di Ocean: 2%, 1% con DATUM: <a href="https://www.spark.money/research/bitcoin-decentralized-mining-pool-ocean-demand">spark.money</a></li>
+  <li id="mh-fonte-15"><b>[15]</b> Dev fee dei firmware (Vnish 2–2,8%, LuxOS 2,8%, Braiins OS+ 2–2,5%): <a href="https://www.spark.money/tools/bitcoin-mining-firmware-comparison">spark.money</a></li>
+  <li id="mh-fonte-16"><b>[16]</b> Caldaia: classe A da η<sub>s</sub> ≥ 90%, Regolamento UE 811/2013, allegato II</li>
+  <li id="mh-fonte-17"><b>[17]</b> S9 con ventole Noctua a 650 W: 8,25 TH/s, 45 dB. CryptoCloaks, <i>The Future of Space Heaters</i> v3</li>
+  <li id="mh-fonte-18"><b>[18]</b> Scheda ESP32 (NerdMiner, EasyMiner), circa 1 W: <a href="https://d-central.tech/manuals/nerdminer-setup-guide/">d-central.tech</a></li>
+  <li id="mh-fonte-19"><b>[19]</b> Programma di Spazio 21 / Plan B Forum Lugano, 23–24 ottobre 2026</li>
+  <li id="mh-fonte-20"><b>[20]</b> Foto delle slide: gruppo Telegram pubblico Home Mining Italia, <a href="https://t.me/HomeMiningItalia">t.me/HomeMiningItalia</a></li>
+  <li id="mh-fonte-21"><b>[21]</b> Home Mining Italia: <a href="https://solo.homeminingitalia.org">solo.homeminingitalia.org</a></li>
+  <li id="mh-fonte-22"><b>[22]</b> Hashrate di un miner su Ocean, settimana di luglio 2026: <a href="https://ocean.xyz/stats/bc1q6m69ufwtf6k5x3dwlcx8pnhl0c7dtn9ta3td4w">ocean.xyz/stats/bc1q6m69…ta3td4w</a></li>
+  <li id="mh-fonte-23"><b>[23]</b> Primo blocco solo trovato con un Bitaxe: statistiche solo.ckpool del miner (media giornaliera 516 GH/s, picco di 1 minuto 3,07 TH/s), post di Altair Technology (@altair_tech) su X, luglio 2024. Blocco 853.742 (24/7/2024): <a href="https://mempool.space/tx/fe75e7d6e9f1c73f77c3dbeddd911dc6fbb8bcf98b7a37fec1820adba989e378">mempool.space/tx/fe75e7d6…989e378</a>; <a href="https://nobsbitcoin.com/a-bitaxe-has-found-a-block">nobsbitcoin.com/a-bitaxe-has-found-a-block</a></li>
+  <li id="mh-fonte-24"><b>[24]</b> Ocean, FAQ: pagamento nella coinbase sopra 0,01048576 BTC (1.048.576 sats); sotto la soglia il saldo si accumula, oppure si viene pagati prima via Lightning: <a href="https://ocean.xyz/docs/lightning">ocean.xyz/docs/lightning</a></li>
+  <li id="mh-fonte-25"><b>[25]</b> Difficoltà circa 21,7 T a novembre 2021, massimo di 156 T l'11 novembre 2025: <a href="https://www.spark.money/tools/bitcoin-difficulty-epochs-reference">spark.money</a>, <a href="https://crypto.news/bitcoin-mining-difficulty-148-trillion-2025-wraps/">crypto.news</a></li>
+  <li id="mh-fonte-26"><b>[26]</b> Ritiro Dedicato, prezzo minimo garantito 2026 per il fotovoltaico: 47,5 €/MWh, fino a 1,5 milioni di kWh l'anno (ARERA, aggiornamento ISTAT +1,4%): <a href="https://tariffe.segugio.it/news-tariffe/rinnovabili-cambiano-i-prezzi-minimi-garantiti-per-il-2026-00045593.aspx">tariffe.segugio.it</a></li>
+  <li id="mh-fonte-27"><b>[27]</b> Valerio Vaccaro, autore di HanSoloMiner (da cui deriva NerdMiner) e di EasyMiner, ottobre 2026. EasyMiner, firmware open source per ESP32: <a href="https://github.com/valerio-vaccaro/EasyMiner">github.com/valerio-vaccaro/EasyMiner</a></li>
 </ul>
 
 <p class="mh-small">Simulatore di Giulio per il workshop "Minare a casa NON è profittevole (ma è un bel gioco)", Plan B Forum Lugano, Spazio 21, sabato 24 ottobre 2026. Community: <a href="https://t.me/HomeMiningItalia">Home Mining Italia</a>. Contenuti con licenza CC BY-SA 4.0, codice con licenza MIT.</p>
@@ -152,10 +177,25 @@ parent_url: /
 .mh-verdict { margin: 0 0 0 auto; font-size: clamp(2rem, 8vw, 3.4rem); font-weight: 900; line-height: 1; }
 .mh .mh-neg { color: var(--mh-neg); }
 .mh .mh-pos { color: var(--mh-pos); }
-.mh-rows { display: grid; grid-template-columns: 1fr auto; gap: 2px 0; margin: 14px 0 0; font-variant-numeric: tabular-nums; }
-.mh .mh-rows dt { color: var(--muted); font-weight: 600; }
-.mh .mh-rows dd { margin: 0; padding-left: 12px; color: var(--ink); font-style: normal; text-align: right; font-weight: 700; }
-.mh .mh-rows .mh-tot { padding-top: 6px; border-top: 1px solid var(--line); color: var(--ink); font-weight: 800; }
+.mh-rows { margin: 14px 0 0; font-variant-numeric: tabular-nums; }
+.mh-row { display: grid; grid-template-columns: 5.6em minmax(0, 1fr); gap: 0 10px; align-items: center; padding: 3px 0; }
+.mh .mh-row dt { color: var(--muted); font-weight: 600; }
+.mh .mh-row dd { display: grid; grid-template-columns: minmax(2.5rem, 1fr) max-content; gap: 10px; align-items: center; margin: 0; color: var(--ink); font-style: normal; font-weight: 700; }
+.mh-val { text-align: right; white-space: nowrap; }
+.mh-row.mh-wrap .mh-val { max-width: 9.5em; white-space: normal; }
+.mh-track { display: block; height: 12px; }
+.mh-track i { display: block; height: 100%; border-radius: 3px; }
+.mh-b-corr { background: var(--red); }
+.mh-b-hw { background: var(--red); opacity: 0.5; }
+.mh-b-inc { background: var(--teal); }
+.mh-b-cal { background: var(--teal); opacity: 0.55; }
+.mh-b-fine { background: var(--teal); opacity: 0.35; }
+.mh-b-att { border: 1.5px dashed var(--muted); background: transparent; box-sizing: border-box; }
+.mh .mh-row.mh-tot { margin-top: 4px; padding-top: 7px; border-top: 1px solid var(--line); }
+.mh .mh-row.mh-tot dt { color: var(--ink); font-weight: 800; }
+.mh-hbar { display: block; height: 10px; margin-top: 8px; border-radius: 3px; background: var(--line); overflow: hidden; }
+.mh-hbar i { display: block; height: 100%; background: var(--accent); }
+.mh-h3-2 { margin-top: 16px !important; }
 .mh-why { margin: 12px 0 0; }
 
 .mh-group { margin: 0 0 10px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface-strong); }
@@ -195,8 +235,9 @@ parent_url: /
 .mh-k-s0 { background: var(--accent); }
 .mh-k-s1 { background: var(--blue); }
 .mh-k-s2 { background: var(--teal); }
-.mh-k-curva { background: var(--teal); }
-.mh-k-punto { height: 10px !important; width: 10px !important; border-radius: 50% !important; background: var(--accent); }
+.mh-k-curva { background: var(--ink); }
+.mh-k-grandi { height: 10px !important; background: var(--accent); opacity: 0.45; }
+.mh-k-casa { background: var(--red); }
 .mh-svg { min-height: 200px; }
 .mh-svg svg { display: block; width: 100%; height: auto; overflow: visible; }
 .mh-svg text { fill: var(--muted); font-size: 12px; font-family: inherit; }
@@ -207,7 +248,20 @@ parent_url: /
 .mh-svg .mh-c-spese { stroke: var(--red); }
 .mh-svg .mh-c-entrate { stroke: var(--teal); }
 .mh-svg .mh-c-saldo { stroke: var(--accent); stroke-width: 3; }
-.mh-svg .mh-c-curva { stroke: var(--teal); }
+.mh-svg .mh-c-curva { stroke: var(--ink); stroke-width: 2.5; }
+.mh-svg .mh-fverde { fill: var(--teal); opacity: 0.16; }
+.mh-svg .mh-frosso { fill: var(--red); opacity: 0.1; }
+.mh-svg .mh-fgrandi { fill: var(--accent); opacity: 0.3; }
+.mh-svg .mh-casa { stroke: var(--red); stroke-width: 2.5; }
+.mh-svg .mh-dash-sel { stroke: var(--accent); stroke-width: 1.5; stroke-dasharray: 5 4; }
+.mh-svg .mh-dot-casa { fill: var(--red); }
+.mh-svg .mh-t-sel { fill: var(--accent-dark); font-weight: 700; }
+.mh-svg .mh-t-verde { fill: var(--teal); font-weight: 700; }
+.mh-svg .mh-t-rosso { fill: var(--red); font-weight: 700; }
+.mh-svg .mh-fpos { fill: var(--teal); opacity: 0.5; }
+.mh-svg .mh-fpos2 { fill: var(--teal); }
+.mh-svg .mh-fgse { fill: var(--accent); }
+.mh-svg .mh-frete { fill: var(--red); }
 .mh-svg .mh-f0 { fill: var(--accent); }
 .mh-svg .mh-f1 { fill: var(--blue); }
 .mh-svg .mh-f2 { fill: var(--teal); }
@@ -228,7 +282,9 @@ parent_url: /
 .mh-prove { display: flex; flex-wrap: wrap; gap: 8px; }
 .mh-prova-out { min-height: 1.6em; margin-top: 12px; padding: 10px 14px; border-left: 3px solid var(--accent); border-radius: 0 10px 10px 0; background: rgba(247, 147, 26, 0.08); }
 .mh-prova-out:empty { display: none; }
-.mh-fonti li { font-size: 0.92rem; }
+.mh-fonti { list-style: none; padding-left: 0; }
+.mh-fonti li { font-size: 0.88rem; overflow-wrap: anywhere; }
+.mh-fonti b { color: var(--muted); }
 
 .mh-bar { position: fixed; right: 8px; bottom: 8px; left: 8px; z-index: 20; display: flex; justify-content: space-between; gap: 12px; padding: 10px 16px; border: 1px solid var(--line); border-radius: 14px; background: rgba(18, 22, 29, 0.97); box-shadow: var(--shadow); font-weight: 800; font-variant-numeric: tabular-nums; transform: translateY(160%); transition: transform 0.2s; }
 .mh-bar.mh-show { transform: none; }
@@ -297,9 +353,9 @@ parent_url: /
       var anno = Math.floor((k + 0.5) / 365.25) + 1;
       var mese = Math.floor((k + 0.5) / (365.25 / 12)) + 1;
 
-      var a = anni[anno - 1] || (anni[anno - 1] = { anno: anno, inc: 0, corr_sats: 0, corr_eur: 0, inc_eur: 0, cal_eur: 0 });
+      var a = anni[anno - 1] || (anni[anno - 1] = { anno: anno, inc: 0, corr_sats: 0, corr_eur: 0, inc_eur: 0, cal_eur: 0, cal_sats: 0 });
       a.inc += inc; a.corr_sats += corrSats; a.corr_eur += kwh * p.prezzo_kwh;
-      a.inc_eur += inc * px / SATS; a.cal_eur += calKwh * valoreCalore;
+      a.inc_eur += inc * px / SATS; a.cal_eur += calKwh * valoreCalore; a.cal_sats += calSats;
       var sa = scenAnni[anno - 1] || (scenAnni[anno - 1] = [0, 0, 0]);
       for (i = 0; i < 3; i++) {
         var v = h * (sub + p.fee_blocco) * 144 * SATS / (hashRete * Math.pow(1 + p.scenari[i], t)) * og * (1 - p.fee_pool);
@@ -320,7 +376,8 @@ parent_url: /
     var quotaHw = function (y) { return prezzoHw * (1 - p.valore_residuo) * Math.min(1, p.durata - (y - 1)) / p.durata; };
     anni.forEach(function (a) {
       a.inc_k = a.inc / 1000;
-      a.saldo_eur = a.inc_eur + a.cal_eur - a.corr_eur - quotaHw(a.anno);
+      a.hw_eur = quotaHw(a.anno);
+      a.saldo_eur = a.inc_eur + a.cal_eur - a.corr_eur - a.hw_eur;
     });
     // contatore cumulato mese per mese (foglio Mesi)
     var mesi = [], cumCorr = 0, cumEntr = 0;
@@ -358,6 +415,7 @@ parent_url: /
       // in più rispetto a model_ref.py, per i grafici
       mesi: mesi,
       halving_anni: halvings.map(function (x) { return (x - start) / 365.25; }),
+      incassato_atteso_k: tot.incAtteso / 1000,
       efficienza: eff,
       premio_blocco: p.subsidy + p.fee_blocco
     };
@@ -366,14 +424,23 @@ parent_url: /
 
   // ---------------------------------------------------------------- dati
   // nome, TH/s, W, € (0 = non nel talk), nota
+  // come nella slide "i miner usati nel talk"; [n] = fonti in fondo alla pagina
   var MACCHINE = [
-    ['NerdMiner', 0.000078, 1, 0, 'ESP32, didattico (d-central)'],
-    ['Bitaxe Gamma', 1.2, 20, 100, 'esempio del talk: 20 W con scheda e ventola'],
-    ['Antminer S9', 13.5, 1323, 0, 'usato, 2017'],
-    ['Antminer S21 usato', 200, 3500, 1200, 'esempio del talk'],
-    ['Antminer S23 Hyd', 580, 5510, 0, 'a liquido, 2026'],
+    ['NerdMiner', 0.0000003, 1, 0, 'open source, scheda ESP32 [18, 27]'],
+    ['EasyMiner', 0.0000008, 1, 0, 'open source, scheda ESP32 [18, 27]'],
+    ['Bitaxe Gamma', 1.2, 20, 100, "Bitaxe Gamma 601, l'esempio del talk: monta il chip BM1370 dell'S21 Pro [9, 10]"],
+    ['Antminer S9', 13.5, 1323, 0, '2017 [8]'],
+    ['Antminer S9 silenzioso', 8.25, 650, 0, 'S9 con ventole Noctua a 650 W, 45 dB [17]'],
+    ['Antminer S19k Pro', 120, 2760, 0, '[8]'],
+    ['Antminer S21 usato', 200, 3500, 1200, 'esempio del talk, 2024 [8, 10]'],
+    ['Antminer S21 Pro', 234, 3510, 0, '[8]'],
+    ['Antminer S23 Hyd', 580, 5510, 0, 'a liquido, 2026 [8]'],
     ['La mia macchina', 1.2, 20, 100, 'libera: parte uguale al Bitaxe']
   ];
+  // le righe del grafico del pareggio, come nella slide "Minare o comprare?"
+  var RIGHE_PAREGGIO = [['S9', 98], ['S19k Pro', 23], ['S21, Bitaxe Gamma', 17], ['S23 Hyd', 9.5]];
+  var GRANDI_MINER = [35, 60];   // sats/kWh: circa 0,03-0,05 $/kWh (CoinShares, Q1 2026) [7]
+  var EMAIL = 'giulio@satoshispritz.it';
   // nome, giorno e mese di inizio, giorno e mese di fine, ore al giorno (DPR 74/2013)
   var ZONE = [
     ['Zona A', 1, 12, 15, 3, 6],
@@ -404,25 +471,25 @@ parent_url: /
   var GRUPPI = [
     { id: 'macchina', titolo: 'La macchina', open: true, campi: [
       { k: 'macchina', l: 'Macchina', t: 'sel', o: MACCHINE.map(function (m) { return m[0]; }) },
-      { k: 'hash', l: 'Hashrate', t: 'num', u: 'TH/s', min: 0.000001, max: 100000, n: 'puoi abbassarlo per simulare un underclock' },
+      { k: 'hash', l: 'Hashrate', t: 'num', u: 'TH/s', min: 1e-9, max: 100000, n: 'puoi abbassarlo per simulare un underclock' },
       { k: 'watt', l: 'Potenza', t: 'num', u: 'W', min: 0.01, max: 100000 },
-      { k: 'prezzo_hw', l: 'Prezzo', t: 'num', u: '€', min: 0, max: 1000000, n: 'stime da annunci online, tenute basse' }
+      { k: 'prezzo_hw', l: 'Prezzo', t: 'num', u: '€', min: 0, max: 1000000, n: 'stime da annunci online di ottobre 2026, tra le più basse [10]. Bitaxe al lancio: circa 170 €' }
     ] },
     { id: 'uso', titolo: 'Come la usi', open: true, campi: [
       { k: 'ore_giorno', l: 'Ore accese al giorno', t: 'num', u: 'h', min: 0, max: 24, r: [0, 24, 0.5], n: 'solo col sole: 8' },
-      { k: 'prezzo_kwh', l: 'Prezzo del kWh che usa il miner', t: 'num', u: '€/kWh', min: 0, max: 5, r: [0, 0.6, 0.001], n: 'media italiana con tasse (Eurostat nrg_pc_204, banda DC, 2° sem. 2025). Fotovoltaico: 0 = gratis, 0,0475 = costo opportunità' },
+      { k: 'prezzo_kwh', l: 'Prezzo del kWh che usa il miner', t: 'num', u: '€/kWh', min: 0, max: 5, r: [0, 0.6, 0.001], n: 'media italiana con tasse (Eurostat nrg_pc_204, 2° sem. 2025) [5]. Fotovoltaico: 0 = gratis, 0,0475 = costo opportunità' },
       { k: 'durata', l: 'Durata', t: 'num', u: 'anni', min: 0.5, max: 10, r: [0.5, 10, 0.5], n: 'da 0,5 a 10 anni, senza guasti' },
       { k: 'data_inizio', l: 'Data di inizio', t: 'date', n: 'il giorno del talk' },
       { k: 'modalita', l: 'Pool o solo', t: 'sel', o: MODI, n: 'in solo il valore atteso è uguale, ma quasi sempre trovi zero' },
-      { k: 'fee_pool', l: 'Fee della pool', t: 'pct', u: '%', min: 0, max: 1, n: 'Ocean 2%, con DATUM 1% (ocean.xyz)' },
+      { k: 'fee_pool', l: 'Fee della pool', t: 'pct', u: '%', min: 0, max: 1, n: 'Ocean 2%, con DATUM 1% [14]. Anche la dev fee dei firmware conta così: Vnish 2–2,8%, LuxOS 2,8%, Braiins OS+ 2–2,5% [15]' },
       { k: 'valore_residuo', l: 'Valore a fine vita', t: 'pct', u: '%', min: 0, max: 1, n: 'percentuale del prezzo; nel talk: zero' },
-      { k: 'contratto_kw', l: 'Potenza del contratto', t: 'num', u: 'kW', min: 0.1, max: 1000, n: 'il contatore stacca oltre il 10% in più' }
+      { k: 'contratto_kw', l: 'Potenza del contratto', t: 'num', u: 'kW', min: 0.1, max: 1000, n: 'il contatore stacca oltre il 10% in più [13]' }
     ] },
     { id: 'rete', titolo: 'La rete', campi: [
-      { k: 'diff_t', l: 'Difficoltà', t: 'num', u: 'T', min: 0.001, max: 1e7, n: 'T = mila miliardi. Dal 16/10/2026, blocco 971.712 (mempool.space)' },
-      { k: 'crescita_diff', l: 'Crescita della difficoltà', t: 'pct', u: '%/anno', min: -0.9, max: 5, r: [-0.5, 1, 0.01], n: "nel talk: ferma. Dal 2021 al 2026: circa +46% l'anno (spark.money)" },
-      { k: 'subsidy', l: 'Ricompensa per blocco (subsidy)', t: 'num', u: 'BTC', min: 0.00000001, max: 50, n: "si dimezza a ogni halving (Bitcoin Core)" },
-      { k: 'fee_blocco', l: 'Fee per blocco', t: 'num', u: 'BTC', min: 0, max: 100, n: "media 2026, circa 0,6% della ricompensa; costanti anche dopo l'halving" },
+      { k: 'diff_t', l: 'Difficoltà', t: 'num', u: 'T', min: 0.001, max: 1e7, n: 'T = mila miliardi. Dal 16/10/2026, blocco 971.712 [1]' },
+      { k: 'crescita_diff', l: 'Crescita della difficoltà', t: 'pct', u: '%/anno', min: -0.9, max: 5, r: [-0.5, 1, 0.01], n: "nel talk: ferma. Da 21,7 T (novembre 2021) a circa 141 T: circa +46% l'anno [25]" },
+      { k: 'subsidy', l: 'Ricompensa per blocco (subsidy)', t: 'num', u: 'BTC', min: 0.00000001, max: 50, n: "si dimezza a ogni halving [3]" },
+      { k: 'fee_blocco', l: 'Fee per blocco', t: 'num', u: 'BTC', min: 0, max: 100, n: "media settembre–ottobre 2026, meno dell'1% della ricompensa [2]; costanti anche dopo l'halving" },
       { k: 'altezza', l: 'Altezza di riferimento', t: 'num', u: 'blocco', min: 0, max: 100000000, step: 1, n: "serve a stimare la data dell'halving" },
       { k: 'data_altezza', l: "Data dell'altezza", t: 'date' },
       { k: 'min_blocco', l: 'Minuti per blocco', t: 'num', u: 'min', min: 0.1, max: 1000, n: "solo per la data dell'halving" },
@@ -431,25 +498,25 @@ parent_url: /
       { k: 'scen_c', l: 'Difficoltà, scenario C', t: 'pct', u: '%/anno', min: -0.9, max: 5 }
     ] },
     { id: 'prezzo', titolo: 'Il prezzo', campi: [
-      { k: 'prezzo_btc', l: 'Prezzo di BTC', t: 'num', u: '€', min: 1, max: 1e9, n: 'serve solo per passare da € a sats (digrin, ottobre 2026)' },
+      { k: 'prezzo_btc', l: 'Prezzo di BTC', t: 'num', u: '€', min: 1, max: 1e9, n: 'serve solo per passare da € a sats (ottobre 2026) [4]' },
       { k: 'crescita_prezzo', l: 'Crescita del prezzo', t: 'pct', u: '%/anno', min: -0.9, max: 5, r: [-0.5, 1, 0.01], n: 'se il prezzo sale, la stessa bolletta in € vale meno sats' }
     ] },
     { id: 'calore', titolo: 'Il calore', campi: [
       { k: 'calore_si', l: 'Conta il calore', t: 'bool', n: 'il calore utile vale quanto quello che sostituisce' },
-      { k: 'zona', l: 'Zona climatica', t: 'sel', o: ZONE.map(function (z) { return z[0]; }), n: 'DPR 74/2013. La zona F non ha limiti di legge' },
+      { k: 'zona', l: 'Zona climatica', t: 'sel', o: ZONE.map(function (z) { return z[0]; }), n: 'periodi e ore di accensione dal DPR 74/2013, art. 4 [12]. La zona F non ha limiti di legge' },
       { k: 'zc_gi', l: 'Inizio: giorno', t: 'num', min: 1, max: 31, step: 1, zc: true },
       { k: 'zc_mi', l: 'Inizio: mese', t: 'num', min: 1, max: 12, step: 1, zc: true },
       { k: 'zc_gf', l: 'Fine: giorno', t: 'num', min: 1, max: 31, step: 1, zc: true },
       { k: 'zc_mf', l: 'Fine: mese', t: 'num', min: 1, max: 12, step: 1, zc: true },
       { k: 'zc_ore', l: 'Ore di riscaldamento', t: 'num', u: 'h', min: 0, max: 24, zc: true },
       { k: 'sostituisce', l: 'Il calore sostituisce', t: 'sel', o: SOST },
-      { k: 'prezzo_gas', l: 'Prezzo del gas', t: 'num', u: '€/kWh', min: 0, max: 5, n: 'Eurostat nrg_pc_202, banda D2 (14,81 €/100 kWh)' },
-      { k: 'rend_caldaia', l: 'Rendimento della caldaia', t: 'num', min: 0.1, max: 1.5, n: 'stima, caldaia a condensazione' },
-      { k: 'cop_pdc', l: 'COP della pompa di calore', t: 'num', min: 0.5, max: 10, n: 'da 2,5 a 4 (Braiins, "Bitcoin Mining Heat Reuse", pp. 39-40)' },
-      { k: 'prezzo_rete', l: 'Prezzo della corrente di rete', t: 'num', u: '€/kWh', min: 0, max: 5, n: 'per stufetta e pompa di calore' }
+      { k: 'prezzo_gas', l: 'Prezzo del gas', t: 'num', u: '€/kWh', min: 0, max: 5, n: 'famiglie, tasse incluse: 14,81 €/100 kWh (Eurostat, 2° sem. 2025) [6]' },
+      { k: 'rend_caldaia', l: 'Rendimento della caldaia', t: 'num', min: 0.1, max: 1.5, n: 'classe A: almeno 90% (Reg. UE 811/2013) [16]' },
+      { k: 'cop_pdc', l: 'COP della pompa di calore', t: 'num', min: 0.5, max: 10, n: 'da 2,5 a 4 [11]' },
+      { k: 'prezzo_rete', l: 'Prezzo della corrente di rete', t: 'num', u: '€/kWh', min: 0, max: 5, n: 'per stufetta e pompa di calore [5]' }
     ] },
     { id: 'fv', titolo: 'Fotovoltaico', campi: [
-      { k: 'minimo_gse', l: 'Prezzo minimo garantito GSE', t: 'num', u: '€/kWh', min: 0, max: 5, n: '2026 (ARERA). Mettilo come prezzo del kWh: è quello che perdi non vendendo la corrente' }
+      { k: 'minimo_gse', l: 'Prezzo minimo garantito GSE', t: 'num', u: '€/kWh', min: 0, max: 5, n: 'Ritiro Dedicato 2026: 47,5 €/MWh [26]. Mettilo come prezzo del kWh: è quello che perdi non vendendo la corrente' }
     ] }
   ];
   var FIELD = {};
@@ -463,7 +530,8 @@ parent_url: /
     ["Calore, tutto l'anno", { calore_si: true, zona: "Tutto l'anno (caso limite)" }, "Nel talk: −268.400 sats. Anche scaldando 24 ore al giorno tutto l'anno, il saldo resta negativo."],
     ['Antminer S21 usato', { macchina: 'Antminer S21 usato' }, 'Nel talk, primo anno: corrente 10.210 €, incassato 2.448 €, saldo −8.002 €. E il contratto da 3 kW stacca.'],
     ['S21 sui pannelli, 8 h', { macchina: 'Antminer S21 usato', ore_giorno: 8, prezzo_kwh: 0.0475 }, '1 kWh dato al miner rende 0,028 € (con 12 ore 0,036 €), meno dei 0,0475 € del minimo garantito GSE: conviene vendere la corrente.'],
-    ["Difficoltà +46% l'anno", { crescita_diff: 0.46 }, "È il ritmo dal 2021 al 2026. L'incassato scende da 64.000 a 33.300 sats in 5 anni."]
+    ["Difficoltà +46% l'anno", { crescita_diff: 0.46 }, "È il ritmo dal 2021 al 2026. L'incassato scende da 64.000 a 33.300 sats in 5 anni."],
+    ['S9 silenzioso, 650 W', { macchina: 'Antminer S9 silenzioso' }, "“Lo abbasso e il contatore non salta.” Il contatore regge, ma i conti no: consuma meno, ma incassa anche meno. Anche con la macchina gratis, in 5 anni il saldo è circa −12,3 milioni di sats."]
   ];
 
   // ---------------------------------------------------------------- formati
@@ -483,6 +551,24 @@ parent_url: /
     if (!isFinite(x)) return '—';
     var a = Math.abs(x);
     return num(x, a >= 100 ? 0 : a >= 10 ? 1 : a >= 1 ? 2 : a >= 0.1 ? 3 : 4);
+  }
+  function grande(x, di) { // 840 milioni, 64 miliardi (di anni)
+    if (x === null || x === undefined || !isFinite(x)) return '—';
+    var a = Math.abs(x), dopo = di ? ' di' : '';
+    if (a >= 1e9) return num(x / 1e9, a < 1e10 ? 1 : 0) + ' miliardi' + dopo;
+    if (a >= 1e6) return num(x / 1e6, a < 1e7 ? 1 : 0) + ' milioni' + dopo;
+    return num(x, 0);
+  }
+  function efficienza(e) { // come nelle slide: 98, 23, 17,5, 9,5, 3,3 milioni
+    if (Math.abs(e) >= 1e6) return num(e / 1e6, e < 2e6 ? 2 : 1) + ' milioni';
+    return Math.abs(e) >= 1 ? num(e, e >= 50 ? 0 : 1).replace(/,0$/, '') : sig(e);
+  }
+  function efficienzaBreve(e) { return Math.abs(e) >= 1e6 ? efficienza(e) : num(e, e < 10 && e % 1 ? 1 : 0); }
+  function hashrate(th) {
+    if (th >= 1) return sig(th) + ' TH/s';
+    if (th >= 1e-3) return sig(th * 1e3) + ' GH/s';
+    if (th >= 1e-6) return sig(th * 1e6) + ' MH/s';
+    return sig(th * 1e9) + ' kH/s';
   }
   function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return '&#' + c.charCodeAt(0) + ';'; }); }
   function $(id) { return document.getElementById(id); }
@@ -507,6 +593,7 @@ parent_url: /
   // ---------------------------------------------------------------- input
   function valoreMostrato(f, v) {
     if (f.t === 'pct') return String(+(v * 100).toFixed(6));
+    if (v !== 0 && Math.abs(v) < 1e-6) return v.toFixed(12).replace(/0+$/, ''); // niente 3e-7 nel campo
     return String(v);
   }
   function campoHTML(f) {
@@ -749,106 +836,188 @@ parent_url: /
         .concat([['Totale', num(r.scenari_k_sats[0], 1), num(r.scenari_k_sats[1], 1), num(r.scenari_k_sats[2], 1)]]));
   }
 
-  function costiCalore(r) {
-    var guadagno = function (eff) { return r.hashprice / (0.024 * eff) * S.prezzo_btc / SATS; };
-    var voci = [];
-    MACCHINE.forEach(function (m) {
-      if (m[0] === 'NerdMiner' || m[0] === 'La mia macchina') return;
-      var sel = m[0] === S.macchina, eff = sel ? S.watt / S.hash : m[2] / m[1];
-      voci.push({ n: m[0], v: S.prezzo_rete - guadagno(eff), c: sel ? 'mh-fsel' : 'mh-fbar' });
-    });
-    if (S.macchina === 'NerdMiner' || S.macchina === 'La mia macchina') {
-      voci.push({ n: S.macchina, v: S.prezzo_rete - guadagno(S.watt / S.hash), c: 'mh-fsel' });
-    }
-    voci.push({ n: 'Stufetta elettrica', v: S.prezzo_rete, c: 'mh-fref', s: 'Stufetta elettrica' });
-    voci.push({ n: 'Caldaia a gas', v: S.prezzo_gas / S.rend_caldaia, c: 'mh-fref', s: 'Caldaia a gas' });
-    voci.push({ n: 'Pompa di calore', v: S.prezzo_rete / S.cop_pdc, c: 'mh-fref', s: 'Pompa di calore' });
-    voci.sort(function (a, b) { return b.v - a.v; });
-    return voci;
-  }
-  function graficoCalore(r) {
-    var el = $('mh-ch-calore'), W = larghezza(el), voci = costiCalore(r).filter(function (v) { return isFinite(v.v); });
-    var rowH = 30, lw = Math.min(160, Math.round(W * 0.42)), pad = { l: lw, r: 64, t: 6, b: 28 };
+  // barre orizzontali. voci: { n: etichetta, v: valore, c: classe, d: decimali, forte }; sopra: etichette sopra le barre
+  function barre(el, voci, sopra, unita) {
+    var W = larghezza(el), rowH = sopra ? 46 : 30;
+    var lw = sopra ? 0 : Math.min(160, Math.round(W * 0.42)), pad = { l: sopra ? 2 : lw, r: 70, t: 6, b: 28 };
     var H = pad.t + pad.b + voci.length * rowH;
     var lo = 0, hi = 0;
     voci.forEach(function (v) { lo = Math.min(lo, v.v); hi = Math.max(hi, v.v); });
-    var tx = passi(lo, hi || 0.1, 4);
+    var tx = passi(lo, hi || 0.1, W > 520 ? 5 : 4);
     var x = function (v) { return pad.l + (v - tx.lo) / (tx.hi - tx.lo) * (W - pad.l - pad.r); };
     var b = '';
     tx.t.forEach(function (v) {
       b += L(x(v), pad.t, x(v), H - pad.b, v === 0 ? 'mh-zero' : 'mh-grid-l') + T(x(v), H - pad.b + 16, num(v, dec(tx.step)), 'middle');
     });
     voci.forEach(function (v, i) {
-      var yy = pad.t + i * rowH + 5, x0 = x(Math.min(0, v.v)), x1 = x(Math.max(0, v.v));
-      var forte = v.c === 'mh-fsel' || v.s === S.sostituisce ? 'mh-t-strong' : '';
-      b += T(pad.l - 8, yy + 15, v.n, 'end', forte);
-      b += '<rect class="' + v.c + '" x="' + x0.toFixed(1) + '" y="' + yy + '" width="' + Math.max(1, x1 - x0).toFixed(1) + '" height="' + (rowH - 10) + '" rx="3"/>';
-      b += T(x1 + 6, yy + 15, num(v.v, 3) + ' €', 'start', forte);
+      var hb = sopra ? 18 : rowH - 10, yy = pad.t + i * rowH + (sopra ? rowH - hb - 4 : 5);
+      var x0 = x(Math.min(0, v.v)), x1 = x(Math.max(0, v.v)), forte = v.forte ? 'mh-t-strong' : '';
+      if (sopra) b += T(x(tx.lo) + 2, yy - 6, v.n, 'start', forte);
+      else b += T(pad.l - 8, yy + 15, v.n, 'end', forte);
+      b += '<rect class="' + v.c + '" x="' + x0.toFixed(1) + '" y="' + yy + '" width="' + Math.max(1, x1 - x0).toFixed(1) + '" height="' + hb + '" rx="3"/>';
+      b += T(x1 + 6, yy + hb / 2 + 4, num(v.v, v.d === undefined ? 3 : v.d) + ' ' + unita, 'start', forte);
     });
     el.innerHTML = svg(W, H, b);
+  }
+
+  // come nella slide "Ci scaldo casa?": S9, Bitaxe Gamma e S23 Hyd, più la macchina scelta
+  var MACCHINE_CALORE = ['Antminer S9', 'Bitaxe Gamma', 'Antminer S23 Hyd'];
+  function costiCalore(r) {
+    var guadagno = function (eff) { return r.hashprice / (0.024 * eff) * S.prezzo_btc / SATS; };
+    var voci = [];
+    MACCHINE.forEach(function (m) {
+      var sel = m[0] === S.macchina;
+      if (!sel && MACCHINE_CALORE.indexOf(m[0]) < 0) return;
+      var eff = sel ? S.watt / S.hash : m[2] / m[1];
+      voci.push({ n: m[0], v: S.prezzo_rete - guadagno(eff), c: sel ? 'mh-fsel' : 'mh-fbar', forte: sel });
+    });
+    voci.push({ n: 'Stufetta elettrica', v: S.prezzo_rete, c: 'mh-fref', forte: S.sostituisce === 'Stufetta elettrica' });
+    voci.push({ n: 'Caldaia a gas', v: S.prezzo_gas / S.rend_caldaia, c: 'mh-fref', forte: S.sostituisce === 'Caldaia a gas' });
+    voci.push({ n: 'Pompa di calore', v: S.prezzo_rete / S.cop_pdc, c: 'mh-fref', forte: S.sostituisce === 'Pompa di calore' });
+    voci.sort(function (a, b) { return b.v - a.v; });
+    return voci.filter(function (v) { return isFinite(v.v); });
+  }
+  function graficoCalore(r) {
+    var el = $('mh-ch-calore'), voci = costiCalore(r);
+    barre(el, voci, false, '€');
     el.setAttribute('aria-label', 'Grafico a barre del costo di 1 kWh di calore in euro: ' + voci.map(function (v) {
       return v.n + ' ' + num(v.v, 3);
     }).join('; ') + '.');
     $('mh-tb-calore').innerHTML = tabella(['Fonte di calore', 'Costo di 1 kWh [€]'], voci.map(function (v) { return [v.n, num(v.v, 3)]; }));
   }
 
+  // come nella slide "E con un S21 sui pannelli?"
+  function graficoKwh(r) {
+    var el = $('mh-ch-kwh'), anni = testoAnni();
+    var voci = [
+      { n: S.macchina + ', solo corrente e hashprice di oggi', v: r.pareggio_eur_kwh, c: 'mh-fpos' },
+      { n: S.macchina + ' in ' + anni + ', halving e hardware compresi', v: r.kwh_rende_eur, c: 'mh-fpos2', forte: true },
+      { n: 'GSE: prezzo minimo garantito', v: S.minimo_gse, c: 'mh-fgse', d: 4 },
+      { n: 'corrente comprata dalla rete', v: S.prezzo_rete, c: 'mh-frete' }
+    ].filter(function (v) { return v.v !== null && isFinite(v.v); });
+    barre(el, voci, true, '€');
+    el.setAttribute('aria-label', 'Grafico a barre di quanto vale 1 kWh in euro: ' + voci.map(function (v) {
+      return v.n + ' ' + num(v.v, v.d || 3);
+    }).join('; ') + '.');
+    $('mh-tb-kwh').innerHTML = tabella(['Voce', 'Valore di 1 kWh [€]'], voci.map(function (v) { return [v.n, num(v.v, v.d || 3)]; }));
+  }
+
+  // come nella slide "Minare o comprare?": x in sats/kWh, y logaritmica in J/TH
   function graficoPareggio(r) {
-    var el = $('mh-ch-pareggio'), W = larghezza(el), H = Math.round(Math.min(360, Math.max(250, W * 0.58)));
-    var pad = { l: 58, r: 14, t: 10, b: 38 };
-    var xmax = Math.max(0.4, S.prezzo_kwh * 1.15), Y0 = 0, Y1 = 5; // log10: da 1 a 100.000 J/TH
-    var curva = function (c) { return r.hashprice / (0.024 * c / S.prezzo_btc * SATS); };
-    var x = function (v) { return pad.l + v / xmax * (W - pad.l - pad.r); };
+    var el = $('mh-ch-pareggio'), W = larghezza(el), H = Math.round(Math.min(400, Math.max(270, W * 0.62)));
+    var pad = { l: 50, r: 14, t: 34, b: 40 };
+    var P0 = S.prezzo_btc, K = r.hashprice * 1000 / 24;              // pareggio: c · e = K
+    var casa = S.prezzo_kwh / P0 * SATS, eff = r.efficienza;
+    var xmax = Math.max(520, casa * 1.12);
+    var ylo = Math.min(6, eff / 1.6), yhi = Math.max(150, eff * 1.6);
+    var L0 = Math.log(ylo) / Math.LN10, L1 = Math.log(yhi) / Math.LN10;
+    var x0 = pad.l, x1 = W - pad.r, yT = pad.t, yB = H - pad.b;
+    var x = function (c) { return x0 + c / xmax * (x1 - x0); };
     var y = function (e) {
-      var l = Math.log(Math.max(Math.pow(10, Y0), Math.min(Math.pow(10, Y1), e))) / Math.LN10;
-      return pad.t + (Y1 - l) / (Y1 - Y0) * (H - pad.t - pad.b);
+      var l = Math.log(Math.min(yhi, Math.max(ylo, e))) / Math.LN10;
+      return yT + (L1 - l) / (L1 - L0) * (yB - yT);
     };
-    var b = '', e;
-    for (e = Y0; e <= Y1; e++) b += L(pad.l, y(Math.pow(10, e)), W - pad.r, y(Math.pow(10, e)), 'mh-grid-l') + T(pad.l - 6, y(Math.pow(10, e)) + 4, num(Math.pow(10, e), 0), 'end');
-    var tx = passi(0, xmax, W > 520 ? 8 : 4);
-    tx.t.forEach(function (v) { if (v <= xmax + 1e-9) b += T(x(v), H - pad.b + 16, num(v, dec(tx.step)), 'middle'); });
-    b += T((pad.l + W - pad.r) / 2, H - 4, 'prezzo del kWh [€]', 'middle');
-    b += T(pad.l + 4, pad.t + 12, 'J/TH (scala logaritmica)', 'start');
-    var pts = [], N = 160;
-    for (var i = 1; i <= N; i++) { var c = xmax * i / N; pts.push([x(c), y(curva(c))]); }
-    var path = pts.map(function (p, j) { return (j ? 'L' : 'M') + p[0].toFixed(1) + ' ' + p[1].toFixed(1); }).join('');
-    b += '<path class="mh-farea" d="M' + x(0).toFixed(1) + ' ' + pts[0][1].toFixed(1) + 'L' + path.slice(1) + 'L' + x(xmax).toFixed(1) + ' ' + y(1).toFixed(1) + 'L' + x(0).toFixed(1) + ' ' + y(1).toFixed(1) + 'Z"/>';
-    b += '<path class="mh-l mh-c-curva" d="' + path + '"/>';
-    b += T(x(xmax) - 6, y(1) - 8, 'qui la corrente si ripaga', 'end');
-    var eff = r.efficienza, px = x(Math.min(S.prezzo_kwh, xmax)), py = y(eff);
-    b += '<circle class="mh-dot" cx="' + px.toFixed(1) + '" cy="' + py.toFixed(1) + '" r="6"/>';
-    b += T(px + (px > W * 0.6 ? -10 : 10), py - 10, S.macchina + ', ' + sig(eff) + ' J/TH', px > W * 0.6 ? 'end' : 'start', 'mh-t-strong');
+    // la curva va da dove esce in alto (K / yhi) a dove esce in basso o a destra
+    var cmin = K / yhi, cmax = Math.min(xmax, K / ylo), pts = [], N = 120, i;
+    for (i = 0; i <= N; i++) { var c = cmin * Math.pow(cmax / cmin, i / N); pts.push(x(c).toFixed(1) + ' ' + y(K / c).toFixed(1)); }
+    var xf = x(cmax).toFixed(1), b = '';
+    b += '<path class="mh-fverde" d="M' + x0 + ' ' + yB + 'L' + x0 + ' ' + yT + 'L' + pts.join('L') + 'L' + xf + ' ' + yB + 'Z"/>';
+    b += '<path class="mh-frosso" d="M' + pts.join('L') + (cmax < xmax ? 'L' + x1 + ' ' + yB : '') + 'L' + x1 + ' ' + yT + 'Z"/>';
+    // assi
+    var dec10 = L1 - L0 > 3, yt = [];
+    for (var p = Math.floor(L0); p <= Math.ceil(L1); p++) {
+      (dec10 ? [1] : [1, 2, 5]).forEach(function (m) { var v = m * Math.pow(10, p); if (v >= ylo && v <= yhi) yt.push(v); });
+    }
+    yt.forEach(function (v) { b += L(x0, y(v), x1, y(v), 'mh-grid-l') + T(x0 - 6, y(v) + 4, efficienzaBreve(v), 'end'); });
+    var tx = passi(0, xmax, W > 520 ? 5 : 4);
+    tx.t.forEach(function (v) { if (v <= xmax + 1e-9) b += T(x(v), yB + 16, num(v, 0), 'middle'); });
+    var te = passi(0, xmax * P0 / SATS, W > 520 ? 4 : 3);
+    te.t.forEach(function (v) {
+      if (v > 0 && v * SATS / P0 <= xmax) b += L(x(v * SATS / P0), yT - 4, x(v * SATS / P0), yT, 'mh-zero') + T(x(v * SATS / P0), yT - 8, num(v, dec(te.step)), 'middle');
+    });
+    b += T(x1, yT - 22, '[€/kWh]', 'end');
+    b += T((x0 + x1) / 2, H - 4, 'costo della corrente [sats/kWh]', 'middle');
+    b += T(x0, yT - 22, 'efficienza [J/TH]', 'start');
+    // grandi miner
+    b += '<rect class="mh-fgrandi" x="' + x(GRANDI_MINER[0]).toFixed(1) + '" y="' + yT + '" width="' + (x(GRANDI_MINER[1]) - x(GRANDI_MINER[0])).toFixed(1) + '" height="' + (yB - yT) + '"/>';
+    var gx = (x(GRANDI_MINER[0]) + x(GRANDI_MINER[1])) / 2 + 4, gy = yT + (yB - yT) * 0.62;
+    b += '<text x="' + gx.toFixed(1) + '" y="' + gy.toFixed(1) + '" transform="rotate(-90 ' + gx.toFixed(1) + ' ' + gy.toFixed(1) + ')" text-anchor="middle">grandi miner</text>';
+    // curva
+    b += '<path class="mh-l mh-c-curva" d="M' + pts.join('L') + '"/>';
+    b += T(x(Math.max(K / 38, GRANDI_MINER[1])) + 14, y(38) + 4, 'pareggio', 'start', 'mh-t-strong');
+    var stretto = W < 480;   // su telefono etichette corte, negli angoli in basso
+    b += T(x0 + 8, yB - 8, stretto ? 'minare' : 'minare rende di più', 'start', 'mh-t-verde');
+    b += stretto ? T(x1 - 8, yB - 8, 'comprare', 'end', 'mh-t-rosso') : T(x1 - 8, yT + (yB - yT) * 0.42, 'comprare rende di più', 'end', 'mh-t-rosso');
+    // macchine: le righe della slide, più la macchina scelta se non è già una di quelle
+    var righe = RIGHE_PAREGGIO.map(function (m) { return { n: m[0], e: m[1], sel: Math.abs(Math.log(eff / m[1])) < Math.log(1.08) }; });
+    if (!righe.some(function (m) { return m.sel; })) righe.push({ n: S.macchina, e: eff, sel: true });
+    var lx = x(Math.min(200, xmax * 0.38));
+    righe.forEach(function (m) {
+      var fuori = m.e > yhi || m.e < ylo;
+      b += L(x0, y(m.e), x1, y(m.e), m.sel ? 'mh-dash-sel' : 'mh-dash');
+      b += T(lx, y(m.e) - 4, m.n + '   ' + efficienzaBreve(m.e) + (m.n === 'S9' ? ' J/TH' : '') + (fuori ? ' (fuori scala)' : ''), 'start', m.sel ? 'mh-t-sel' : '');
+    });
+    // il tuo kWh
+    var cx = x(Math.min(casa, xmax));
+    b += L(cx, yT, cx, yB, 'mh-casa');
+    var etichetta = S.prezzo_kwh === DEF.prezzo_kwh ? 'casa in Italia' : 'il tuo kWh', ry = yT + (yB - yT) * 0.62;
+    b += '<text class="mh-t-rosso" x="' + (cx - 6).toFixed(1) + '" y="' + ry.toFixed(1) + '" transform="rotate(-90 ' + (cx - 6).toFixed(1) + ' ' + ry.toFixed(1) + ')" text-anchor="middle">' + etichetta + '</text>';
+    righe.forEach(function (m) {
+      b += '<circle class="' + (m.sel ? 'mh-dot' : 'mh-dot-casa') + '" cx="' + cx.toFixed(1) + '" cy="' + y(m.e).toFixed(1) + '" r="' + (m.sel ? 6 : 3.5) + '"/>';
+    });
     el.innerHTML = svg(W, H, b);
-    var ok = S.prezzo_kwh === 0 || eff <= curva(S.prezzo_kwh);
-    el.setAttribute('aria-label', 'Curva dell\'efficienza di pareggio al variare del prezzo del kWh. La tua macchina, ' + sig(eff) + ' J/TH a ' +
-      num(S.prezzo_kwh, 3) + ' €/kWh, sta ' + (ok ? 'sotto la curva: la corrente si ripaga.' : 'sopra la curva: la corrente non si ripaga.'));
+    var costo = 0.024 * eff * casa;
+    el.setAttribute('aria-label', 'Mappa del pareggio: efficienza contro costo della corrente. ' + S.macchina + ', ' + efficienza(eff) + ' J/TH a ' +
+      num(casa, 0) + ' sats/kWh: 1 TH costa ' + num(costo, 0) + ' sats al giorno e ne rende ' + num(r.hashprice, 0) + '. ' +
+      (costo <= r.hashprice ? 'Minare rende di più.' : 'Comprare rende di più.'));
     var rows = [];
-    for (var cc = 0.05; cc <= Math.max(0.4, xmax) + 1e-9; cc += 0.05) rows.push([num(cc, 2), sig(curva(cc))]);
-    $('mh-tb-pareggio').innerHTML = tabella(['Prezzo del kWh [€]', 'Efficienza di pareggio [J/TH]'], rows);
+    for (var cc = 50; cc <= 500; cc += 50) rows.push([num(cc, 0), num(cc * P0 / SATS, 3), sig(K / cc)]);
+    $('mh-tb-pareggio').innerHTML = tabella(['Corrente [sats/kWh]', 'Corrente [€/kWh]', 'Efficienza di pareggio [J/TH]'], rows);
   }
 
   // ---------------------------------------------------------------- risultati
+  function testoAnni() { return S.durata === 1 ? '1 anno' : num(S.durata, S.durata % 1 ? 1 : 0) + ' anni'; }
+  function linkScenario() { var q = codifica(); return location.origin + location.pathname + (q ? '?' + q : ''); }
+  function mailto(r) {
+    return 'mailto:' + EMAIL + '?subject=' + encodeURIComponent('Controesempio: minare a casa') + '&body=' +
+      encodeURIComponent('Ciao Giulio,\n\necco le mie condizioni: ' + linkScenario() + '\n\nCon queste il saldo è ' +
+        sgn(r.contatore_k_sats.saldo, 1) + ' migliaia di sats in ' + testoAnni() + '.\n');
+  }
+
   function aggiornaContatore(r) {
-    var c = r.contatore_k_sats, neg = c.saldo < 0;
+    var c = r.contatore_k_sats, neg = c.saldo < 0, solo0 = S.modalita === 'Solo (nessun blocco trovato)';
     $('mh-saldo').textContent = num(c.saldo, 1);
     $('mh-saldo').className = 'mh-big ' + (neg ? 'mh-neg' : 'mh-pos');
-    $('mh-saldo-sub').textContent = 'migliaia di sats in ' + num(S.durata, S.durata % 1 ? 1 : 0) + (S.durata === 1 ? ' anno' : ' anni');
+    $('mh-saldo-sub').textContent = 'migliaia di sats in ' + testoAnni();
     $('mh-verdict').textContent = neg ? 'No.' : 'Sì?';
     $('mh-verdict').className = 'mh-verdict ' + (neg ? 'mh-neg' : 'mh-pos');
-    var voci = [['Corrente', c.corrente], ['Hardware', c.hardware], ['Incassato', c.incassato], ['Calore', c.calore], ['Fine vita', c.fine_vita]];
-    $('mh-rows').innerHTML = voci.map(function (v) {
-      return '<dt>' + v[0] + '</dt><dd>' + sgn(v[1], 1) + ' k</dd>';
-    }).join('') +
-      '<dt class="mh-tot">Saldo</dt><dd class="mh-tot ' + (neg ? 'mh-neg' : 'mh-pos') + '">' + sgn(c.saldo, 1) + ' k sats</dd>' +
-      '<dt>Saldo in euro</dt><dd>' + sgn(r.saldo_eur, 0) + ' €</dd>' +
-      '<dt>' + (neg ? 'Costo all\'anno' : 'Guadagno all\'anno') + '</dt><dd>' + num(Math.abs(r.costo_hobby_eur_anno), 0) + ' €</dd>';
+    // come il riquadro delle slide: una barra per voce, lunga quanto il valore
+    var max = Math.max(Math.abs(c.corrente), Math.abs(c.hardware), Math.abs(r.incassato_atteso_k), Math.abs(c.calore), Math.abs(c.fine_vita)) || 1;
+    var w = function (v) { return Math.min(100, Math.abs(v) / max * 100).toFixed(1) + '%'; };
+    var riga = function (nome, testo, barra, cls) {
+      return '<div class="mh-row' + (cls ? ' ' + cls : '') + '"><dt>' + nome + '</dt><dd><span class="mh-track">' + (barra || '') +
+        '</span><span class="mh-val">' + testo + '</span></dd></div>';
+    };
+    var bar = function (v, cls) { return v ? '<i class="' + cls + '" style="width:' + w(v) + '"></i>' : ''; };
+    var h = '';
+    h += riga('Corrente', S.prezzo_kwh === 0 ? '0 (gratis)' : sgn(c.corrente, 1) + ' k', bar(c.corrente, 'mh-b-corr'));
+    h += riga('Hardware', sgn(c.hardware, 1) + ' k', bar(c.hardware, 'mh-b-hw'));
+    h += solo0 ? riga('Incassato', '<b>reale 0</b> (atteso ' + sgn(r.incassato_atteso_k, 1) + ' k)', bar(r.incassato_atteso_k, 'mh-b-att'), 'mh-wrap') :
+      riga('Incassato', sgn(c.incassato, 1) + ' k', bar(c.incassato, 'mh-b-inc'));
+    h += riga('Calore', S.calore_si ? sgn(c.calore, 1) + ' k' : 'non contato', S.calore_si ? bar(c.calore, 'mh-b-cal') : '');
+    if (S.valore_residuo > 0) h += riga('Fine vita', sgn(c.fine_vita, 1) + ' k', bar(c.fine_vita, 'mh-b-fine'));
+    h += riga('Saldo', '<b class="' + (neg ? 'mh-neg' : 'mh-pos') + '">' + sgn(c.saldo, 1) + ' k sats</b>', '', 'mh-tot');
+    h += riga('In euro', sgn(r.saldo_eur, 0) + ' €');
+    h += riga(neg ? 'All\'anno' : 'Guadagno', num(Math.abs(r.costo_hobby_eur_anno), 0) + ' €' + (neg ? '' : ' l\'anno'));
+    $('mh-rows').innerHTML = h;
     var perche;
     if (neg) {
-      perche = 'Con queste condizioni perdi ' + num(-c.saldo * 1000, 0) + ' sats, circa ' + num(r.costo_hobby_eur_anno, 0) + " € l'anno." +
-        (r.spendi_per_sats !== null ? ' Per ogni sat incassato ne spendi ' + num(r.spendi_per_sats, 1) + '.' : ' E non incassi niente.');
+      perche = esc('Con queste condizioni perdi ' + num(-c.saldo * 1000, 0) + ' sats, circa ' + num(r.costo_hobby_eur_anno, 0) + " € l'anno: è il prezzo del biglietto." +
+        (r.spendi_per_sats !== null ? ' Per ogni sat incassato ne spendi ' + num(r.spendi_per_sats, 1) + '.' : ' E non incassi niente.'));
     } else {
-      perche = 'Con queste condizioni il saldo è positivo. Sono realistiche, a casa tua? Se sì, raccontalo su Home Mining Italia.';
+      perche = 'Con queste condizioni il saldo è positivo. Sono realistiche, a casa tua? Se sì, <a href="' + esc(mailto(r)) + '">mandamelo</a>.';
     }
-    $('mh-why').textContent = perche;
+    $('mh-why').innerHTML = perche;
     $('mh-bar-saldo').textContent = 'Saldo ' + sgn(c.saldo, 1) + ' k sats';
     $('mh-bar-saldo').className = neg ? 'mh-neg' : 'mh-pos';
     $('mh-bar-verdict').textContent = neg ? 'No.' : 'Sì?';
@@ -858,9 +1027,17 @@ parent_url: /
   function card(titolo, righe) {
     return '<div class="mh-card"><h3>' + esc(titolo) + '</h3>' + righe.map(function (r) { return '<p>' + r + '</p>'; }).join('') + '</div>';
   }
+  // il calore utile: come nella slide "Quanto di quel calore serve davvero?"
+  function testoCalore(r) {
+    var rc = S.calore_si ? r : simulate(Object.assign(params(S), { calore_si: true }));
+    var quota = r.kwh ? rc.calore_kwh / r.kwh : 0;
+    return 'In ' + testoAnni() + ' il miner produce <b>' + num(r.kwh, 0) + ' kWh</b> di calore. Nel periodo di riscaldamento ne servono <b>' +
+      num(rc.calore_kwh, 0) + ' kWh</b>: valgono <b>' + sgn(rc.contatore_k_sats.calore, 1) + ' k sats</b>' + (S.calore_si ? '.' : ', se li conti.') +
+      '<span class="mh-hbar" role="img" aria-label="' + num(quota * 100, 0) + '% del calore è utile"><i style="width:' + (quota * 100).toFixed(1) + '%"></i></span>';
+  }
   function aggiornaCards(r) {
-    var anni = S.durata === 1 ? '1 anno' : num(S.durata, S.durata % 1 ? 1 : 0) + ' anni';
-    var rende = r.kwh_rende_eur, gse = S.minimo_gse;
+    var anni = testoAnni(), rende = r.kwh_rende_eur, gse = S.minimo_gse;
+    var casa = S.prezzo_kwh / S.prezzo_btc * SATS, costo = 0.024 * r.efficienza * casa;
     var cards = [
       card('La rete oggi', [
         'Hashrate di rete: <b>' + num(r.hashrate_rete_eh, 0) + ' EH/s</b>',
@@ -868,9 +1045,10 @@ parent_url: /
         'Prossimo halving: blocco <b>' + num(r.halving_blocco, 0) + '</b>, circa il <b>' + dataIt(r.halving_data) + '</b>'
       ]),
       card('Il pareggio', [
-        'Con la corrente a ' + num(S.prezzo_kwh, 3) + ' €/kWh servirebbe un\'efficienza di <b>' + (r.pareggio_j_th === null ? 'qualsiasi' : sig(r.pareggio_j_th) + ' J/TH') +
-          '</b>. La tua macchina: <b>' + sig(r.efficienza) + ' J/TH</b>.',
-        'Con questa macchina il kWh dovrebbe costare al massimo <b>' + num(r.pareggio_eur_kwh, 3) + ' €</b>.',
+        S.macchina + ' al tuo prezzo: 0,024 · ' + efficienza(r.efficienza) + ' · ' + num(casa, 0) + ' ≈ <b>' + num(costo, 0) + '</b> ' +
+          (costo > r.hashprice ? '&gt;' : '≤') + ' ' + num(r.hashprice, 0) + ' sats. ' +
+          (casa > 0 ? 'Per ogni TH spendi circa <b>' + num(costo / r.hashprice, 1) + ' volte</b> quello che incassi.' : 'La corrente è gratis: resta da ripagare l\'hardware.'),
+        'Con la corrente a ' + num(S.prezzo_kwh, 3) + ' €/kWh servirebbe un\'efficienza di <b>' + (r.pareggio_j_th === null ? 'qualsiasi' : sig(r.pareggio_j_th) + ' J/TH') + '</b>.',
         'Oppure BTC dovrebbe valere <b>' + num(r.btc_per_corrente_oggi, 0) + ' €</b> oggi' +
           (r.btc_per_corrente_durata !== null ? ', <b>' + num(r.btc_per_corrente_durata, 0) + ' €</b> sulla durata.' : '.')
       ]),
@@ -880,11 +1058,12 @@ parent_url: /
           rende < gse ? 'conviene vendere la corrente.' : 'qui conviene minare.')
       ]),
       card('In solo', [
-        'Almeno un blocco in ' + anni + ': <b>' + (r.solo_uno_su === null ? 'mai' : '1 su ' + num(r.solo_uno_su, 0)) + '</b>' +
-          (r.solo_prob ? ' (' + (r.solo_prob < 1e-6 ? 'meno di 0,0001' : num(r.solo_prob * 100, r.solo_prob < 0.001 ? 4 : 2)) + '%)' : ''),
-        'In media un blocco ogni <b>' + (r.solo_anni_per_blocco === null ? '—' : num(r.solo_anni_per_blocco, 0)) + ' anni</b>.',
-        'Il premio di un blocco: <b>' + num(r.premio_blocco, 3) + ' BTC</b>.'
+        'Ogni blocco è tuo con probabilità <b>1 su ' + grande(r.hashrate_rete_eh * 1e6 / S.hash) + '</b>.',
+        'Almeno un blocco in ' + anni + ': <b>' + (r.solo_uno_su === null ? 'mai' : '1 su ' + grande(r.solo_uno_su)) + '</b>' +
+          (r.solo_prob ? ' (' + (r.solo_prob < 1e-6 ? 'meno di 0,0001' : num(r.solo_prob * 100, r.solo_prob < 0.001 ? 4 : 2)) + '%)' : '') + '.',
+        'In media un blocco ogni <b>' + (r.solo_anni_per_blocco === null ? '—' : grande(r.solo_anni_per_blocco, true)) + ' anni</b>. Il premio: <b>' + num(r.premio_blocco, 3) + ' BTC</b>.'
       ]),
+      card('Il calore', [testoCalore(r)]),
       card('Contratto e consumi', [
         'Il miner chiede <b>' + num(S.watt / 1000, S.watt < 100 ? 3 : 2) + ' kW</b> su ' + num(S.contratto_kw, 1) + ' kW: <b class="' + (r.contratto_ok ? 'mh-pos' : 'mh-neg') + '">' +
           (r.contratto_ok ? 'ok' : 'il contatore stacca') + '</b>.',
@@ -892,16 +1071,28 @@ parent_url: /
       ])
     ];
     $('mh-cards').innerHTML = cards.join('');
-    $('mh-tb-euro').innerHTML = tabella(['Anno', 'Corrente [€]', 'Incassato [€]', 'Calore [€]', 'Saldo [€]'], r.anni.map(function (a) {
-      return [a.anno, num(-a.corr_eur, 0), num(a.inc_eur, 0), num(a.cal_eur, 0), num(a.saldo_eur, 0)];
-    }));
-    $('mh-eff').innerHTML = 'Efficienza: <b>' + sig(r.efficienza) + ' J/TH</b>. ' + esc(riga(S.macchina, MACCHINE)[4]) +
-      (riga(S.macchina, MACCHINE)[3] === 0 && S.prezzo_hw === 0 ? '. Prezzo non nel talk: inseriscilo tu.' : '.');
+    // come la slide di riserva "il contatore anno per anno"
+    var c = r.contatore_k_sats, cum = c.hardware, righe = [['0 (acquisto)', '', '', '', num(c.hardware, 1), num(cum, 1)]];
+    r.anni.forEach(function (a) {
+      cum += (a.inc + a.cal_sats - a.corr_sats) / 1000;
+      righe.push([a.anno, num(-a.corr_sats / 1000, 1), sgn(a.inc / 1000, 1), S.calore_si ? sgn(a.cal_sats / 1000, 1) : '—', '', num(cum, 1)]);
+    });
+    if (c.fine_vita) righe.push(['fine vita', '', '', '', sgn(c.fine_vita, 1), num(cum + c.fine_vita, 1)]);
+    $('mh-tb-sats').innerHTML = tabella(['Anno', 'Corrente', 'Incassato', 'Calore', 'Hardware', 'Saldo cumulato'], righe);
+    // come la slide "E se compro un S21 usato?"
+    $('mh-tb-euro').innerHTML = tabella(['Anno', 'Corrente [€]', 'Hardware (÷ ' + anni + ') [€]', 'Incassato [€]', 'Calore [€]', 'Saldo [€]', 'Corrente per ogni € incassato'],
+      r.anni.map(function (a) {
+        return [a.anno, num(-a.corr_eur, 0), num(-a.hw_eur, 0), num(a.inc_eur, 0), num(a.cal_eur, 0), num(a.saldo_eur, 0), a.inc_eur ? num(a.corr_eur / a.inc_eur, 1) + ' €' : '—'];
+      }));
+    var m = riga(S.macchina, MACCHINE);
+    $('mh-eff').innerHTML = 'Hashrate <b>' + hashrate(S.hash) + '</b>, efficienza <b>' + efficienza(r.efficienza) + ' J/TH</b>. ' + esc(m[4]) +
+      (m[3] === 0 && S.prezzo_hw === 0 ? '. Prezzo non nel talk: inseriscilo tu.' : '.');
     $('mh-rete-out').innerHTML = 'Hashprice oggi: <b>' + num(r.hashprice, 1) + ' sats/TH/giorno</b>. Halving circa il <b>' + dataIt(r.halving_data) + '</b>.';
     var z = params(S).zona;
-    $('mh-zona-out').innerHTML = 'Riscaldamento dal <b>' + z[0] + '/' + z[1] + '</b> al <b>' + z[2] + '/' + z[3] + '</b>, <b>' + num(z[4], 0) +
-      ' h</b> al giorno. ' + (S.calore_si ? 'Il calore vale <b>' + num(r.contatore_k_sats.calore, 1) + ' k sats</b>.' : 'Il calore non è conteggiato.');
+    $('mh-zona-out').innerHTML = 'Riscaldamento dal <b>' + z[0] + '/' + z[1] + '</b> al <b>' + z[2] + '/' + z[3] + '</b>, al massimo <b>' + num(z[4], 0) +
+      ' h</b> al giorno. ' + testoCalore(r);
     $('mh-fv-out').innerHTML = '1 kWh dato al miner rende <b>' + (rende === null ? '—' : num(rende, 3) + ' €') + '</b> contro <b>' + num(gse, 4) + ' €</b> del minimo garantito.';
+    $('mh-mail').href = mailto(r);
   }
 
   var ultimo = null, frame = 0;
@@ -915,6 +1106,7 @@ parent_url: /
     graficoAnni(r);
     graficoCalore(r);
     graficoPareggio(r);
+    graficoKwh(r);
     scriviURL();
   }
   function aggiorna() {
@@ -1009,7 +1201,7 @@ parent_url: /
   var rt = null;
   window.addEventListener('resize', function () {
     clearTimeout(rt);
-    rt = setTimeout(function () { if (ultimo) { graficoMesi(ultimo); graficoAnni(ultimo); graficoCalore(ultimo); graficoPareggio(ultimo); } }, 150);
+    rt = setTimeout(function () { if (ultimo) { graficoMesi(ultimo); graficoAnni(ultimo); graficoCalore(ultimo); graficoPareggio(ultimo); graficoKwh(ultimo); } }, 150);
   });
   if (window.IntersectionObserver) {
     new IntersectionObserver(function (en) {
