@@ -91,6 +91,7 @@ Each local page includes a direct link to the official Telegram channel and a re
 <div class="card-grid">
   <div class="card"><h3><a href="/gruppi/cagliari.html">Cagliari</a></h3><p>Bitcoin-only community in Sardinia.</p></div>
   <div class="card"><h3><a href="/gruppi/nuoro.html">Nuoro</a></h3><p>Bitcoin-only meetup in Nuoro.</p></div>
+  <div class="card"><h3><a href="/gruppi/sassari.html">Sassari</a></h3><p>Bitcoin-only meetup in Sassari.</p></div>
 </div>
 
 ## Trentino
@@ -102,7 +103,7 @@ Each local page includes a direct link to the official Telegram channel and a re
 
 ## Campania
 
-<div class="card-grid"><div class="card"><h3><a href="/gruppi/napoli.html">Napoli</a></h3><p>Local group in Campania.</p></div></div>
+<div class="card-grid"><div class="card"><h3><a href="/gruppi/napoli.html">Napoli</a></h3><p>Local group in Campania.</p></div><div class="card"><h3><a href="/gruppi/caserta.html">Caserta</a></h3><p>Bitcoin-only meetup in Caserta.</p></div></div>
 
 ## Umbria
 

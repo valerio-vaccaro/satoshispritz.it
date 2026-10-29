@@ -93,6 +93,7 @@ Ogni pagina locale contiene un riferimento diretto al canale ufficiale Telegram 
 <div class="card-grid">
   <div class="card"><h3><a href="/gruppi/cagliari.html">Cagliari</a></h3><p>Community Bitcoin-only in Sardegna.</p></div>
   <div class="card"><h3><a href="/gruppi/nuoro.html">Nuoro</a></h3><p>Meetup Bitcoin-only a Nuoro.</p></div>
+  <div class="card"><h3><a href="/gruppi/sassari.html">Sassari</a></h3><p>Meetup Bitcoin-only a Sassari.</p></div>
 </div>
 
 ## Trentino
@@ -106,6 +107,7 @@ Ogni pagina locale contiene un riferimento diretto al canale ufficiale Telegram 
 
 <div class="card-grid">
   <div class="card"><h3><a href="/gruppi/napoli.html">Napoli</a></h3><p>Gruppo locale in Campania.</p></div>
+  <div class="card"><h3><a href="/gruppi/caserta.html">Caserta</a></h3><p>Meetup Bitcoin-only a Caserta.</p></div>
 </div>
 
 ## Umbria

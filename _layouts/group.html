@@ -10,7 +10,7 @@ layout: default
 <div class="group-meta">
   <p><strong>Citta:</strong> {{ page.city }}</p>
   <p><strong>Regione:</strong> {{ page.region }}</p>
-  <p><strong>Canale Telegram:</strong> <a href="{{ page.telegram_url }}">{{ page.telegram_label | default: page.telegram_url }}</a></p>
+  {% if page.telegram_url %}<p><strong>Canale Telegram:</strong> <a href="{{ page.telegram_url }}">{{ page.telegram_label | default: page.telegram_url }}</a></p>{% else %}<p><strong>Informazioni sul gruppo:</strong> <a href="https://t.me/SatoshiSpritz">contatta il coordinamento</a> per il link ufficiale.</p>{% endif %}
   {% if page.website_url %}<p><strong>Sito web:</strong> <a href="{{ page.website_url }}">{{ page.website_url }}</a></p>{% endif %}
   {% if page.x_url %}<p><strong>Profilo X:</strong> <a href="{{ page.x_url }}">{{ page.x_url }}</a></p>{% endif %}
 </div>

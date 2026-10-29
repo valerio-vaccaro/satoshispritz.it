@@ -43,12 +43,14 @@ group,0740,Siena,SatoshiSpritzToscanaSud,https://t.me/SatoshiSpritzToscanaSud,,,
 header,0800,Sardegna,,,,,,,,,,
 group,0810,Cagliari,SatoshiSpritzCagliari,https://t.me/SatoshiSpritzCagliari,,,,,,,39.21531191,9.11061631
 group,0820,Nuoro,SatoshiSpritzNuoro,https://t.me/satoshispritznuoro,,,,,,,40.31949,9.31394
+group,0830,Sassari,,,,,,,,,40.7259,8.5557
 header,0900,Trentino,,,,,,,,,,
 group,0910,Rovereto,SatoshiSpritzRoveretoeTrento,https://t.me/SatoshiSpritzRovereto,,,,,,,45.88648404,11.04517514
 group,0920,Trento,SatoshiSpritzRoveretoeTrento,https://t.me/SatoshiSpritzRovereto,,,,,,,46.065088,11.123858
 group,0930,Cles,SatoshiSpritzCles,https://t.me/SatoshiSpritzCles,,,,,,,46.365271,11.033176
 header,1000,Campania,,,,,,,,,,
 group,1010,Napoli,SatoshiSpritzNapoli,https://t.me/SatoshiSpritzNapoli,,,,,,,40.8517746,14.2681244
+group,1020,Caserta,,,,,,,,,41.0742,14.3324
 header,1100,Umbria,,,,,,,,,,
 group,1110,Umbria,SatoshiSpritzUmbria,https://t.me/satoshispritzumbria,@satoshiumbria,https://x.com/satoshiumbria,,,,,43.110717,12.390828
 header,1200,Liguria,,,,,,,,,,
